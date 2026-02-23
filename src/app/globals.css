@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-industrial-blue: #1E40AF;
+  --color-industrial-blue-dark: #1E3A8A;
+  --color-slate-grey: #334155;
+  --color-slate-grey-light: #64748B;
+  
+  --radius-industrial: 8px;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #334155;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

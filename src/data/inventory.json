@@ -1,0 +1,180 @@
+{
+  "inventory": [
+    {
+      "id": "hercules-vertical-turret-milling",
+      "name": "HERCULES Vertical Turret Milling Machine",
+      "category": "Metalworking Machinery",
+      "subCategory": "Milling Machines",
+      "brand": "Hercules/Pentagon",
+      "price": 325000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "type": "Vertical Turret",
+        "power": "3HP / 5HP",
+        "tableSize": "1270 x 254 mm",
+        "spindle": "R8 / ISO 30",
+        "speeds": "Variable"
+      },
+      "image": "/assets/products/hercules-vertical-turret-milling-machinery-1000x1000.jpeg",
+      "featured": true
+    },
+    {
+      "id": "gear-head-heavy-duty-lathe",
+      "name": "All Geared Heavy Duty Lathe Machine",
+      "category": "Metalworking Machinery",
+      "subCategory": "Lathe Machines",
+      "brand": "Pentagon",
+      "price": 450000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "centerHeight": "250mm",
+        "admitBetweenCenters": "1500mm",
+        "spindleBore": "80mm",
+        "bedWidth": "400mm"
+      },
+      "image": "/assets/products/gear-head-heavy-duty-lathe-1000x1000.jpeg",
+      "featured": true
+    },
+    {
+      "id": "hydraulic-rock-breaker-pb680",
+      "name": "PENTAGON Hydraulic Rock Breaker PB680/SB40",
+      "category": "Industrial Equipment",
+      "subCategory": "Hydraulic Attachments",
+      "brand": "Pentagon",
+      "price": 205000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "chiselDiameter": "68mm",
+        "operatingPressure": "110-140 bar",
+        "impactRate": "500-900 bpm",
+        "carrierWeight": "4.0 - 7.0 ton"
+      },
+      "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "sino-sds-2ms-dro",
+      "name": "SINO SDS-2MS Digital Readout System",
+      "category": "Precision & Measurement",
+      "subCategory": "Digital Readout Systems",
+      "brand": "Sino",
+      "price": 18500,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "axes": "2 Axis",
+        "resolution": "0.1um, 0.5um, 1um, 5um, 10um",
+        "display": "LED High Brightness",
+        "functions": "Bolt Hole, Linear, Arc"
+      },
+      "image": "/assets/products/sino-sds-2ms-digital-readout-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "delos-dro-system",
+      "name": "DELOS High Precision Digital Readout System",
+      "category": "Precision & Measurement",
+      "subCategory": "Digital Readout Systems",
+      "brand": "Delos / Delox",
+      "price": 22000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "axes": "3 Axis",
+        "compatibleScales": "Glass Linear Scales",
+        "warranty": "1 Year"
+      },
+      "image": "/assets/products/delos-digital-readout-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "itaka-m1tr-milling",
+      "name": "TAIWAN Vertical Turret M1TR Milling Machine (ITAKA)",
+      "category": "Metalworking Machinery",
+      "subCategory": "Milling Machines",
+      "brand": "Itaka",
+      "price": 385000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "origin": "Taiwan",
+        "spindleMotor": "3HP",
+        "table": "10\" x 50\"",
+        "type": "M1TR"
+      },
+      "image": "/assets/products/taiwan-vertical-turret-m1tr-milling-machine-itaka-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "band-saw-gh4220",
+      "name": "Horizontal Band Saw Machine GH4220",
+      "category": "Metalworking Machinery",
+      "subCategory": "Sawing & Cutting",
+      "brand": "Pentagon",
+      "price": 185000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "capacity": "200mm",
+        "bladeSize": "3505 x 27 x 0.9 mm",
+        "motor": "2.2 KW"
+      },
+      "image": "/assets/products/band-saw-machine-gh4220-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "radial-drill-machine",
+      "name": "PENTAGON Radial Drilling Machine",
+      "category": "Fabrication & Forming",
+      "subCategory": "Drilling & Boring",
+      "brand": "Pentagon",
+      "price": 275000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "drillingCapacity": "38mm / 50mm",
+        "armLength": "1000mm",
+        "spindleTaper": "MT4"
+      },
+      "image": "/assets/products/radial-drill-machines-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "surface-grinder-saddle",
+      "name": "High Precision Saddle Type Surface Grinder",
+      "category": "Metalworking Machinery",
+      "subCategory": "Grinding & Finishing",
+      "brand": "Pentagon",
+      "price": 315000,
+      "gst": "18%",
+      "moq": "1 Set",
+      "specs": {
+        "grindingArea": "450 x 150 mm",
+        "spindleSpeed": "2850 rpm",
+        "tableTravel": "500 mm"
+      },
+      "image": "/assets/products/saddle-type-surface-grinder-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "universal-dividing-head",
+      "name": "Universal Dividing Head for Milling",
+      "category": "Tooling & Accessories",
+      "subCategory": "Workholding & Tooling",
+      "brand": "Pentagon / Apex",
+      "price": 42000,
+      "gst": "18%",
+      "moq": "1 Piece",
+      "specs": {
+        "centerHeight": "128mm / 150mm",
+        "indexingRatio": "40:1",
+        "swivel": "360 degrees"
+      },
+      "image": "/assets/products/universal-dividing-head-1000x1000.png",
+      "featured": false
+    }
+  ]
+}
