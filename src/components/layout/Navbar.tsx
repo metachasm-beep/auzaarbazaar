@@ -51,7 +51,7 @@ export default function Navbar() {
                                     </div>
                                 </div>
                             </div>
-                            <Link href="#erp" className="text-sm font-medium text-slate-grey hover:text-industrial-blue transition-colors">ERP Services</Link>
+                            <Link href="#partner" className="text-sm font-medium text-slate-grey hover:text-industrial-blue transition-colors">Partner With Us</Link>
                             <Link href="#contact" className="text-sm font-medium text-slate-grey hover:text-industrial-blue transition-colors">Contact</Link>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <div className="mt-4 border-t border-slate-100 pt-4">
-                        <Link href="#erp" className="block px-3 py-3 text-base font-medium text-industrial-blue">ERP Services</Link>
+                        <Link href="#partner" className="block px-3 py-3 text-base font-medium text-industrial-blue">Partner With Us</Link>
                     </div>
                 </div>
             )}

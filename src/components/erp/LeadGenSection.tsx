@@ -1,9 +1,9 @@
 import React from 'react';
-import { Mail, Phone, Building2, Layers } from 'lucide-react';
+import { Target, TrendingUp, Handshake, Users } from 'lucide-react';
 
 export default function LeadGenSection() {
     return (
-        <section id="erp" className="py-24 bg-white relative overflow-hidden">
+        <section id="partner" className="py-24 bg-white relative overflow-hidden">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="relative rounded-3xl bg-slate-900 px-8 py-16 shadow-2xl lg:px-16 overflow-hidden">
                     {/* Decorative background */}
@@ -12,17 +12,18 @@ export default function LeadGenSection() {
                     <div className="relative grid lg:grid-cols-2 gap-16 items-center">
                         <div>
                             <h2 className="text-3xl font-bold tracking-tight text-white mb-6">
-                                Request a Custom <span className="text-industrial-blue">ERP Solution</span>
+                                Sell More With <span className="text-industrial-blue">AuzaarBazaar</span>
                             </h2>
                             <p className="text-lg text-slate-300 mb-10">
-                                Ready to digitize your workshop? Fill out the form below and our implementation experts will contact you for a technical assessment.
+                                We market, manage inquiries, and close sales on your behalf. You pay only when we bring you confirmed orders. No ad spend, no digital management, no extra hiring needed.
                             </p>
 
                             <ul className="space-y-6">
                                 {[
-                                    { icon: Layers, text: "Centralized Inventory & Procurement" },
-                                    { icon: Building2, text: "Shop Floor Management Modules" },
-                                    { icon: Mail, text: "Automated GST & Compliance Reports" }
+                                    { icon: Target, text: "Sales Without the Overhead" },
+                                    { icon: TrendingUp, text: "Faster Response, Higher Conversion" },
+                                    { icon: Users, text: "Smart Matchmaking Across Brands" },
+                                    { icon: Handshake, text: "Customer Experience Excellence" }
                                 ].map((item, idx) => (
                                     <li key={idx} className="flex items-center gap-4 text-white/80">
                                         <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10">
@@ -48,23 +49,24 @@ export default function LeadGenSection() {
                                 </div>
 
                                 <div className="space-y-2">
-                                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Company Name</label>
+                                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Manufacturer / Brand Name</label>
                                     <input type="text" className="w-full rounded-industrial border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:border-industrial-blue focus:ring-1 focus:ring-industrial-blue outline-none transition-all" placeholder="Enter your business name" />
                                 </div>
 
                                 <div className="space-y-2">
-                                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Machine Count (Approx)</label>
+                                    <label className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Primary Product Category</label>
                                     <select className="w-full rounded-industrial border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:border-industrial-blue focus:ring-1 focus:ring-industrial-blue outline-none transition-all">
-                                        <option>1-5 Machines</option>
-                                        <option>5-20 Machines</option>
-                                        <option>20-100 Machines</option>
-                                        <option>100+ Machines</option>
+                                        <option>Metalworking Machinery</option>
+                                        <option>Fabrication & Forming</option>
+                                        <option>Precision & Measurement</option>
+                                        <option>Tooling & Accessories</option>
+                                        <option>Industrial Spares</option>
                                     </select>
                                 </div>
 
                                 <div className="pt-4">
                                     <button type="submit" className="w-full rounded-industrial bg-industrial-blue py-3.5 text-sm font-bold uppercase tracking-widest text-white hover:bg-industrial-blue-dark transition-all shadow-lg shadow-industrial-blue/20">
-                                        Schedule Free Consultation
+                                        Submit Partnership Inquiry
                                     </button>
                                 </div>
                             </form>

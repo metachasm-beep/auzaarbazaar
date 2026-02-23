@@ -59,15 +59,15 @@ export default function Home() {
                 auzaar<span className="text-white">bazaar</span>
               </span>
               <p className="mt-4 text-slate-400 max-w-xs">
-                Your premier destination for high-precision machine tools, industrial spares, and expert ERP solutions.
+                Your premier destination for high-precision machine tools and an exclusive online sales enablement partner for top industrial manufacturers.
               </p>
             </div>
             <div>
               <h4 className="text-sm font-bold uppercase tracking-widest text-white mb-6">Quick Links</h4>
               <ul className="space-y-4 text-slate-400 text-sm">
-                <li><a href="#" className="hover:text-industrial-blue">Inventory</a></li>
-                <li><a href="#" className="hover:text-industrial-blue">ERP Services</a></li>
-                <li><a href="#" className="hover:text-industrial-blue">About Us</a></li>
+                <li><a href="#inventory" className="hover:text-industrial-blue">Inventory</a></li>
+                <li><a href="#partner" className="hover:text-industrial-blue">Partner With Us</a></li>
+                <li><a href="#about" className="hover:text-industrial-blue">About Us</a></li>
               </ul>
             </div>
             <div>
