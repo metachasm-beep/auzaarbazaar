@@ -11,6 +11,7 @@ interface ProductCardProps {
         category: string;
         brand: string;
         price: number;
+        gst: string;
         image: string;
         specs: Record<string, any>;
     };
