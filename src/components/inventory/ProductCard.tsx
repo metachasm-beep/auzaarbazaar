@@ -21,12 +21,13 @@ export default function ProductCard({ product }: ProductCardProps) {
             <div className="relative aspect-square w-full overflow-hidden bg-slate-50">
                 <div className="absolute inset-0 flex items-center justify-center p-8 grayscale group-hover:grayscale-0 transition-all duration-500">
                     <div className="relative w-full h-full">
-                        {/* Using a placeholder-like div if images aren't locally available yet */}
-                        <div className="absolute inset-0 border-2 border-dashed border-slate-200 rounded-md flex flex-col items-center justify-center gap-2">
-                            <span className="text-[10px] uppercase tracking-widest text-slate-400 font-bold">Machine Image</span>
-                            <span className="text-[10px] text-slate-300 text-center px-4">{product.name}</span>
-                        </div>
-                        {/* Note: In a real app with static assets, we'd use <Image src={product.image} ... /> */}
+                        <Image
+                            src={product.image || '/assets/products/placeholder.jpg'}
+                            alt={product.name}
+                            fill
+                            className="object-cover transition-transform duration-700 group-hover:scale-105"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                     </div>
                 </div>
                 <div className="absolute top-3 left-3">

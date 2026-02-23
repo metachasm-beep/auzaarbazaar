@@ -1,348 +1,2308 @@
 {
   "inventory": [
     {
-      "id": "hercules-milling-1001",
-      "name": "HERCULES Vertical Turret Milling Machine",
-      "category": "Metalworking Machinery",
-      "subCategory": "Milling Machines",
-      "brand": "Hercules",
-      "price": 345000,
+      "id": "prod-0",
+      "name": "1800 Kg Jcb Rock Breakers",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 22328,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Type": "Vertical Turret",
-        "Power": "3HP / 5HP",
-        "Table Size": "1270 x 254 mm",
-        "Spindle": "ISO 30",
-        "Accuracy": "High Precision"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/hercules-vertical-turret-milling-machinery-1000x1000.jpeg",
+      "image": "/assets/products/1800-kg-jcb-rock-breakers-1000x1000.jpeg",
       "featured": true
     },
     {
-      "id": "itaka-m1tr-1002",
-      "name": "TAIWAN Vertical Turret M1TR Milling Machine (ITAKA)",
-      "category": "Metalworking Machinery",
-      "subCategory": "Milling Machines",
-      "brand": "Itaka",
-      "price": 385000,
+      "id": "prod-1",
+      "name": "5 Semi Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 192846,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Origin": "Taiwan",
-        "Spindle Motor": "3HP",
-        "Table": "10\" x 50\"",
-        "Drive": "Mechanical Power Feed",
-        "Type": "M1TR"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/taiwan-vertical-turret-m1tr-milling-machine-itaka-1000x1000.jpg",
-      "featured": true
-    },
-    {
-      "id": "argo-milling-1003",
-      "name": "ARGO High Speed Vertical Turret Milling Machine",
-      "category": "Metalworking Machinery",
-      "subCategory": "Milling Machines",
-      "brand": "Argo",
-      "price": 415000,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Speed": "High Speed",
-        "Table Travel": "900 x 400 mm",
-        "Spindle Taper": "R8",
-        "Quill Diameter": "86 mm"
-      },
-      "image": "/assets/products/argo-vertical-turret-milling-machine-1000x1000.jpeg",
+      "image": "/assets/products/5-semi-universal-dividing-head-1000x1000.jpeg",
       "featured": false
     },
     {
-      "id": "heavy-duty-lathe-52mm",
-      "name": "All Geared Heavy Duty Lathe Machine (52mm)",
-      "category": "Metalworking Machinery",
-      "subCategory": "Lathe Machines",
-      "brand": "Pentagon",
-      "price": 485000,
+      "id": "prod-2",
+      "name": "5 Semi Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 418586,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Spindle Bore": "52mm",
-        "Admit Between Centers": "1500mm",
-        "Center Height": "250mm",
-        "Bed Width": "325mm"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/all-geared-heavy-duty-lathe-machine-52-mm-1000x1000.jpg",
-      "featured": true
-    },
-    {
-      "id": "extra-heavy-lathe-130mm",
-      "name": "All Geared Extra Heavy Duty Lathe Machine (130mm)",
-      "category": "Metalworking Machinery",
-      "subCategory": "Lathe Machines",
-      "brand": "Pentagon",
-      "price": 875000,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Spindle Bore": "130mm",
-        "Swing Over Bed": "800mm",
-        "Swing in Gap": "1100mm",
-        "Main Motor": "10HP"
-      },
-      "image": "/assets/products/all-geared-extra-heavy-duty-lathe-machine-130-mm-1000x1000.jpg",
+      "image": "/assets/products/5-semi-universal-dividing-head-1000x1000.jpg",
       "featured": false
     },
     {
-      "id": "saddle-grinder-1001",
-      "name": "High Precision Saddle Type Surface Grinder",
+      "id": "prod-3",
+      "name": "50 Mm Drilling Cum Milling Machine",
       "category": "Metalworking Machinery",
-      "subCategory": "Grinding & Finishing",
-      "brand": "Pentagon",
-      "price": 285000,
+      "brand": "Premium Industrial",
+      "price": 179403,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Grinding Area": "450 x 150 mm",
-        "Spindle Speed": "2850 rpm",
-        "Accuracy": "0.002 mm",
-        "Table Travel": "500 mm"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/saddle-type-surface-grinder-1000x1000.jpeg",
-      "featured": true
+      "image": "/assets/products/50-mm-drilling-cum-milling-machine-1000x1000.jpg",
+      "featured": false
     },
     {
-      "id": "hydraulic-grinder-1002",
-      "name": "Automatic Hydraulic Surface Grinding Machine",
+      "id": "prod-4",
+      "name": "50 Mm Drilling Cum Milling Machine",
       "category": "Metalworking Machinery",
-      "subCategory": "Grinding & Finishing",
-      "brand": "Pentagon",
-      "price": 525000,
+      "brand": "Premium Industrial",
+      "price": 386647,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Operation": "Hydraulic / Automatic",
-        "Table Size": "600 x 300 mm",
-        "Coolant": "Built-in System",
-        "Cross Feed": "Auto"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/hydraulic-surface-grinder-machine-1000x1000.jpeg",
+      "image": "/assets/products/50-mm-drilling-cum-milling-machine-500x500.jpg",
       "featured": false
     },
     {
-      "id": "radial-drill-38mm",
-      "name": "PENTAGON Radial Drilling Machine (38mm)",
-      "category": "Fabrication & Forming",
-      "subCategory": "Drilling & Boring",
-      "brand": "Pentagon",
-      "price": 245000,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Drilling Capacity": "38 mm",
-        "Arm Length": "1000 mm",
-        "Spindle Taper": "MT-4",
-        "Main Motor": "2 HP"
-      },
-      "image": "/assets/products/radial-drill-machines-1000x1000.jpg",
-      "featured": true
-    },
-    {
-      "id": "servo-tapping-1001",
-      "name": "Universal Arm Servo Tapping Machine",
-      "category": "Fabrication & Forming",
-      "subCategory": "Drilling & Boring",
-      "brand": "Pentagon",
-      "price": 125000,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Tapping Range": "M3 to M16",
-        "Standard": "ISO/JIS",
-        "Speed": "Auto/Manual Modes",
-        "Arm Type": "Universal Swivel"
-      },
-      "image": "/assets/products/arm-servo-tapping-machine-1000x1000.jpg",
-      "featured": false
-    },
-    {
-      "id": "bandsaw-gh4220",
-      "name": "Horizontal Band Saw Machine GH4220",
-      "category": "Metalworking Machinery",
-      "subCategory": "Sawing & Cutting",
-      "brand": "Pentagon",
-      "price": 178000,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Cutting Capacity": "200 mm",
-        "Blade Size": "27 x 0.9 x 2480 mm",
-        "Coolant Pump": "40W",
-        "Vise": "Manual with Quick Clamp"
-      },
-      "image": "/assets/products/band-saw-machine-gh4220-1000x1000.jpeg",
-      "featured": false
-    },
-    {
-      "id": "sino-dro-2axis",
-      "name": "SINO SDS-2MS 2-Axis Digital Readout System",
-      "category": "Precision & Measurement",
-      "subCategory": "Digital Readout Systems",
-      "brand": "Sino",
-      "price": 18500,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Display": "High Brightness LED",
-        "Functions": "Bolt Hole Circle, Linear, Arc",
-        "Input": "TTL / RS422",
-        "Axes": "2 Axis"
-      },
-      "image": "/assets/products/sino-sds-2ms-digital-readout-system-1000x1000.jpeg",
-      "featured": true
-    },
-    {
-      "id": "delos-dro-3axis",
-      "name": "DELOS High Precision 3-Axis DRO System",
-      "category": "Precision & Measurement",
-      "subCategory": "Digital Readout Systems",
-      "brand": "Delos",
-      "price": 24500,
-      "gst": "18%",
-      "moq": "1 Set",
-      "specs": {
-        "Type": "Optical Scale Compatible",
-        "Axes": "3 Axis",
-        "Screen": "Flicker-free LED",
-        "Resolution": "5 micron / 1 micron"
-      },
-      "image": "/assets/products/delos-digital-readout-system-1000x1000.jpeg",
-      "featured": false
-    },
-    {
-      "id": "abb-motor-industrial",
-      "name": "ABB Industrial High Efficiency Electric Motor",
+      "id": "prod-5",
+      "name": "Abb Crane Duty Motor",
       "category": "Electricals & Spares",
-      "subCategory": "Industrial Motors",
-      "brand": "ABB",
-      "price": 28000,
+      "brand": "Premium Industrial",
+      "price": 433347,
       "gst": "18%",
-      "moq": "1 Piece",
+      "moq": "1 Unit",
       "specs": {
-        "Efficiency": "IE2 / IE3 Class",
-        "Frame": "Cast Iron / Aluminum",
-        "Mounting": "Foot / Flange",
-        "IP Rating": "IP55"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/abb-crane-duty-motor-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-6",
+      "name": "Abb Crane Duty Motor",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 242067,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/abb-crane-duty-motor-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-7",
+      "name": "Abb Electric Brake Motor",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 68918,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/abb-electric-brake-motor-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-8",
+      "name": "Abb Electric Brake Motor",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 177225,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/abb-electric-brake-motor-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-9",
+      "name": "Abb Electric Motors",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 468557,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/abb-electric-motors-1000x1000.jpeg",
       "featured": false
     },
     {
-      "id": "bbl-motor-1001",
-      "name": "BBL Bharat Bijlee Standard AC Motor",
+      "id": "prod-10",
+      "name": "Abb Electric Motors",
       "category": "Electricals & Spares",
-      "subCategory": "Industrial Motors",
-      "brand": "BBL",
-      "price": 22500,
+      "brand": "Premium Industrial",
+      "price": 159007,
       "gst": "18%",
-      "moq": "1 Piece",
+      "moq": "1 Unit",
       "specs": {
-        "Standard": "IS 12615",
-        "Phases": "3 Phase",
-        "Poles": "4 Poles",
-        "Duty": "S1 Continuous"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/abb-electric-motors-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-11",
+      "name": "All Geared Extra Heavy Duty Lathe Machine 130 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 474341,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/all-geared-extra-heavy-duty-lathe-machine-130-mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-12",
+      "name": "All Geared Heavy Duty Lathe Machine 40 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 311561,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/all-geared-heavy-duty-lathe-machine-40-mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-13",
+      "name": "All Geared Heavy Duty Lathe Machine 52 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 382553,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/all-geared-heavy-duty-lathe-machine-52-mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-14",
+      "name": "Argo Vertical Turret Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 484493,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/argo-vertical-turret-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-15",
+      "name": "Arm Servo Tapping Machine",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 204363,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/arm-servo-tapping-machine-1000x1000.jpeg",
+      "featured": true
+    },
+    {
+      "id": "prod-16",
+      "name": "Arm Servo Tapping Machine",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 415388,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/arm-servo-tapping-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-17",
+      "name": "Arm Servo Tapping Machine",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 205163,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/arm-servo-tapping-machine-500x500.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-18",
+      "name": "Armstrong Dro Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 464997,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/armstrong-dro-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-19",
+      "name": "Armstrong Dro Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 316449,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/armstrong-dro-milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-20",
+      "name": "Armstrong Vertical Turret Milling Machine 4 No 320 X1470 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 467293,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/armstrong-vertical-turret-milling-machine-4-no-320-x1470-mm-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-21",
+      "name": "Armstrong Vertical Turret Milling Machine 4 No 320 X1470 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 418851,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/armstrong-vertical-turret-milling-machine-4-no-320-x1470-mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-22",
+      "name": "Automatic Shaping Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 229019,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/automatic-shaping-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-23",
+      "name": "Automatic Turning Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 138681,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/automatic-turning-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-24",
+      "name": "Band Saw Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 190025,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-25",
+      "name": "Band Saw Machine Gh 4240",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 46479,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh-4240-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-26",
+      "name": "Band Saw Machine Gh 4250",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 470017,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh-4250-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-27",
+      "name": "Band Saw Machine Gh 4260",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 71089,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh-4260-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-28",
+      "name": "Band Saw Machine Gh4220",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 341989,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh4220-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-29",
+      "name": "Band Saw Machine Gh4228",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 366318,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh4228-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-30",
+      "name": "Band Saw Machine Gh4235",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 277774,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/band-saw-machine-gh4235-1000x1000.jpeg",
+      "featured": true
+    },
+    {
+      "id": "prod-31",
+      "name": "Bbl Electric Motor",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 336463,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/bbl-electric-motor-1000x1000.jpeg",
       "featured": false
     },
     {
-      "id": "dividing-head-universal",
-      "name": "Universal Dividing Head for Milling (BS-0)",
-      "category": "Tooling & Accessories",
-      "subCategory": "Workholding & Tooling",
-      "brand": "Pentagon",
-      "price": 38000,
+      "id": "prod-32",
+      "name": "Centralized Auto Oil Lubrication Unit",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 212084,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Type": "Universal Semi-Indexing",
-        "Center Height": "100 mm",
-        "Ratio": "40:1",
-        "Tilt Range": "-10 to +90 Degrees"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/universal-dividing-head-1000x1000.png",
-      "featured": true
+      "image": "/assets/products/centralized-auto-oil-lubrication-unit-1000x1000.jpeg",
+      "featured": false
     },
     {
-      "id": "clamping-kit-1001",
-      "name": "52-Piece Heat Treated Clamping Kit",
+      "id": "prod-33",
+      "name": "Clamping Kit",
       "category": "Tooling & Accessories",
-      "subCategory": "Workholding & Tooling",
-      "brand": "Pentagon",
-      "price": 6500,
+      "brand": "Premium Industrial",
+      "price": 321231,
       "gst": "18%",
-      "moq": "1 Box",
+      "moq": "1 Unit",
       "specs": {
-        "Pieces": "52 Items",
-        "Slot Size": "16mm / 18mm",
-        "Material": "Forged Carbon Steel",
-        "Finish": "Black Powder Coated"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/clamping-kit-1000x1000.jpg",
       "featured": false
     },
     {
-      "id": "rock-breaker-pb680",
-      "name": "PENTAGON Hydraulic Rock Breaker PB680 (68mm)",
-      "category": "Industrial Equipment",
-      "subCategory": "Hydraulic Attachments",
-      "brand": "Pentagon",
-      "price": 215000,
+      "id": "prod-34",
+      "name": "Cnc Lathe Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 426197,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Chisel Diameter": "68 mm",
-        "Oil Flow": "40-70 L/min",
-        "Impact Rate": "500-900 bpm",
-        "Carrier Weight": "4-7 Ton"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpg",
+      "image": "/assets/products/cnc-lathe-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-35",
+      "name": "Cnc Lathe Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 210980,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/cnc-lathe-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-36",
+      "name": "Cnc Wire Cut Electric Discharge Machines",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 467260,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/cnc-wire-cut-electric-discharge-machines-1000x1000.png",
+      "featured": false
+    },
+    {
+      "id": "prod-37",
+      "name": "Collet Set Adapter And Spanner Set",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 87343,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/collet-set-adapter-and-spanner-set-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-38",
+      "name": "Dc 3000 Digital Readout System",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 330734,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/dc-3000-digital-readout-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-39",
+      "name": "Dc 3000 Digital Readout System",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 89409,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/dc-3000-digital-readout-system-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-40",
+      "name": "Delos Digital Readout System",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 115675,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/delos-digital-readout-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-41",
+      "name": "Digital Linear Scale",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 447688,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/digital-linear-scale-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-42",
+      "name": "Digital Readout Systems",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 330818,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/digital-readout-systems-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-43",
+      "name": "Double Column Automatic Bandsaw Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 140845,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/double-column-automatic-bandsaw-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-44",
+      "name": "Drill Bit Sharpening Machine",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 288899,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/drill-bit-sharpening-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-45",
+      "name": "Drill Grinder",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 430992,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/drill-grinder-1000x1000.jpg",
       "featured": true
     },
     {
-      "id": "jcb-rock-breaker-1001",
-      "name": "Standard JCB Compatible Rock Breaker",
-      "category": "Industrial Equipment",
-      "subCategory": "Hydraulic Attachments",
-      "brand": "Pentagon",
-      "price": 195000,
+      "id": "prod-46",
+      "name": "Drilling Cum Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 285872,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Compatibility": "JCB 3DX / 4DX",
-        "Type": "Side Mounted",
-        "Body": "Forged Steel",
-        "Hydraulic Hose": "Parker High Pressure"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/drilling-cum-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-47",
+      "name": "Electric Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 19366,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-48",
+      "name": "Electric Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 297917,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-49",
+      "name": "Electric Pipe Threading Machine 2",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 352181,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-pipe-threading-machine-2-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-50",
+      "name": "Electric Pipe Threading Machine 2",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 71097,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-pipe-threading-machine-2-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-51",
+      "name": "Electric Pipe Threading Machine 4",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 400001,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-pipe-threading-machine-4-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-52",
+      "name": "Electric Pipe Threading Machine 4",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 473729,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electric-pipe-threading-machine-4-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-53",
+      "name": "Electrical Push Buttons",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 416525,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electrical-push-buttons-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-54",
+      "name": "Electrical Push Buttons",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 148271,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/electrical-push-buttons-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-55",
+      "name": "End Mill Grinder",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 408731,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/end-mill-grinder-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-56",
+      "name": "End Mill Resharpening Machine",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 386172,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/end-mill-resharpening-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-57",
+      "name": "Everest Lathe Machines",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 210371,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/everest-lathe-machines-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-58",
+      "name": "Everest Lathe Machines",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 182118,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/everest-lathe-machines-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-59",
+      "name": "Everest Lathe Machines",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 234120,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/everest-lathe-machines-500x500.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-60",
+      "name": "Extra Heavy Duty Lathe Machine 130 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 345281,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/extra-heavy-duty-lathe-machine-130-mm-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "prod-61",
+      "name": "G4288 Horizontal Band Saw Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 363116,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/g4288-horizontal-band-saw-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-62",
+      "name": "Gap Bed Lathe",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 131365,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/gap-bed-lathe-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-63",
+      "name": "Gear Head Heavy Duty Lathe",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 157135,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/gear-head-heavy-duty-lathe-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-64",
+      "name": "Glass Scale Dro",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 45043,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/glass-scale-dro-500x500.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-65",
+      "name": "Grease Lubrication System",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 249569,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/grease-lubrication-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-66",
+      "name": "Grease Lubrication System",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 116642,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/grease-lubrication-system-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-67",
+      "name": "Heavy Duty Lathe Machines 102 Mm",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 196215,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/heavy-duty-lathe-machines-102-mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-68",
+      "name": "Heavy Duty Lathe Machines",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 200737,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/heavy-duty-lathe-machines-500x500.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-69",
+      "name": "Heavy Duty Lathes",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 488349,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/heavy-duty-lathes-500x500.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-70",
+      "name": "Hercules Vertical Turret Milling Machinery",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 371753,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hercules-vertical-turret-milling-machinery-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-71",
+      "name": "Hercules Vertical Turret Milling Machinery",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 260093,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hercules-vertical-turret-milling-machinery-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-72",
+      "name": "High Speed Lathe Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 418101,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/high-speed-lathe-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-73",
+      "name": "Horizontal Rotary Table",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 17248,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/horizontal-rotary-table-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-74",
+      "name": "Horizontal Rotary Table",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 436274,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/horizontal-rotary-table-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-75",
+      "name": "Hydraulic Press Brake",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 120732,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-press-brake-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "prod-76",
+      "name": "Hydraulic Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 109286,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-77",
+      "name": "Hydraulic Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 77694,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-78",
+      "name": "Hydraulic Rock Breaker Chisels 75mm",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 484283,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-chisels-75mm-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-79",
+      "name": "Hydraulic Rock Breaker Chisels 75mm",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 253626,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-chisels-75mm-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-80",
+      "name": "Hydraulic Rock Breaker Manufacturer",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 414734,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-manufacturer-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-81",
+      "name": "Hydraulic Rock Breaker Manufacturer",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 378532,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-rock-breaker-manufacturer-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-82",
+      "name": "Hydraulic Surface Grinder Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 199952,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-surface-grinder-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-83",
+      "name": "Hydraulic Surface Grinder Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 188755,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-surface-grinder-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-84",
+      "name": "Hydraulic Vise",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 18120,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/hydraulic-vise-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-85",
+      "name": "Iap Spark V2 Series Dro",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 235607,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/iap-spark-v2-series-dro-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-86",
+      "name": "Ik Taiwan Vertical Turret Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 205807,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/ik-taiwan-vertical-turret-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-87",
+      "name": "Itaka Vertical Turret M1tr Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 404767,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/itaka-vertical-turret-m1tr-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-88",
+      "name": "Jcb Rock Breakers",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 436958,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/jcb-rock-breakers-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-89",
+      "name": "Jcb Rock Breakers",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 59732,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/jcb-rock-breakers-1000x1000.jpg",
       "featured": false
     },
     {
-      "id": "press-brake-hyd-1001",
-      "name": "Hydraulic NC Press Brake Machine (3.2m)",
-      "category": "Fabrication & Forming",
-      "subCategory": "Sheet Metal Machinery",
-      "brand": "Pentagon",
-      "price": 1450000,
+      "id": "prod-90",
+      "name": "Lathe Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 338123,
       "gst": "18%",
-      "moq": "1 Set",
+      "moq": "1 Unit",
       "specs": {
-        "Bend Length": "3200 mm",
-        "Tonnage": "125 Ton",
-        "Hydraulics": "Bosch Rexroth",
-        "Control": "E21 NC System"
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
       },
-      "image": "/assets/products/hydraulic-press-brake-1000x1000.jpg",
+      "image": "/assets/products/lathe-machine-1000x1000.jpg",
       "featured": true
+    },
+    {
+      "id": "prod-91",
+      "name": "Magnetic Chuck",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 362078,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/magnetic-chuck-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-92",
+      "name": "Magnetic Scale",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 148283,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/magnetic-scale-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-93",
+      "name": "Manufacturer Of Hydraulic Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 245364,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-94",
+      "name": "Manufacturer Of Hydraulic Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 334804,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-95",
+      "name": "Mcb Changeover Switch",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 225494,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/mcb-changeover-switch-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-96",
+      "name": "Mechanical Edge Finder",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 377380,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/mechanical-edge-finder-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-97",
+      "name": "Mechanical Edge Finder",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 260750,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/mechanical-edge-finder-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-98",
+      "name": "Mechanical Power Feed",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 381361,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/mechanical-power-feed-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-99",
+      "name": "Mechanics Bench Vise",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 369371,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/mechanics-bench-vise-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-100",
+      "name": "Micro Boring Head And Shanks",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 446409,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/micro-boring-head-and-shanks-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-101",
+      "name": "Milling Drilling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 225045,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/milling-drilling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-102",
+      "name": "Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 305051,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-103",
+      "name": "Ms Gap Bed Lathe",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 212892,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/ms-gap-bed-lathe-500x500.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-104",
+      "name": "Newall Digital Readout System",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 399828,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/newall-digital-readout-system-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-105",
+      "name": "Newall Digital Readout System Dro",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 354326,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/newall-digital-readout-system-dro--500x500.jpg",
+      "featured": true
+    },
+    {
+      "id": "prod-106",
+      "name": "Pneumatic Clutch Power Press",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 412974,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/pneumatic-clutch-power-press-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-107",
+      "name": "Pneumatic Clutch Power Press",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 395353,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/pneumatic-clutch-power-press-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-108",
+      "name": "Power Press Auto Feeder",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 310776,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/power-press-auto-feeder-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-109",
+      "name": "Precicut M1tr Vertical Turret Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 88000,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/precicut-m1tr-vertical-turret-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-110",
+      "name": "Press Brakes",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 117160,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/press-brakes-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-111",
+      "name": "Radial Drill Machines",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 282798,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/radial-drill-machines-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-112",
+      "name": "Radial Drilling Machine",
+      "category": "Fabrication & Forming",
+      "brand": "Premium Industrial",
+      "price": 437058,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/radial-drilling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-113",
+      "name": "Reduction Sleeve Iso30 To Mt1 Mt2 And Mt3 And Iso40 To Mt1 Mt2 And Mt3",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 112610,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/reduction-sleeve-iso30-to-mt1-mt2-and-mt3-and-iso40-to-mt1-mt2-and-mt3-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-114",
+      "name": "Reduction Sleeve Iso30 To Mt1 Mt2 And Mt3 And Iso40 To Mt1 Mt2 And Mt3",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 418197,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/reduction-sleeve-iso30-to-mt1-mt2-and-mt3-and-iso40-to-mt1-mt2-and-mt3-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-115",
+      "name": "Robusta Contactors And Overload Relays",
+      "category": "Electricals & Spares",
+      "brand": "Premium Industrial",
+      "price": 27176,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/robusta-contactors-and-overload-relays-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-116",
+      "name": "Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 273847,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/rock-breaker-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-117",
+      "name": "Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 117265,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/rock-breaker-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-118",
+      "name": "Saddle Type Surface Grinder",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 348685,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/saddle-type-surface-grinder-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-119",
+      "name": "Saddle Type Surface Grinder",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 151768,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/saddle-type-surface-grinder-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-120",
+      "name": "Sino Sds 2ms Digital Readout System",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 193474,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/sino-sds-2ms-digital-readout-system-1000x1000.jpeg",
+      "featured": true
+    },
+    {
+      "id": "prod-121",
+      "name": "Sino Sds6 3v Dro",
+      "category": "Precision & Measurement",
+      "brand": "Premium Industrial",
+      "price": 185310,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/sino-sds6-3v-dro-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-122",
+      "name": "Surface Grinding Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 47972,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/surface-grinding-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-123",
+      "name": "Surface Grinding Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 16813,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/surface-grinding-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-124",
+      "name": "Surface Grinding Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 259961,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/surface-grinding-machine-1000x1000.webp",
+      "featured": false
+    },
+    {
+      "id": "prod-125",
+      "name": "Surface Grinding Machine With Servo Motor 300 X 600 Mm 1000x1000",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 472882,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/surface-grinding-machine-with-servo-motor-12x24-300-x-600-mm-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-126",
+      "name": "Surface Grinding Machine With Servo Motor 300 X 600 Mm 1000x1000",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 397695,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/surface-grinding-machine-with-servo-motor-12x24-300-x-600-mm-1000x1000.png",
+      "featured": false
+    },
+    {
+      "id": "prod-127",
+      "name": "Taiwan Vertical Turret M1tr Milling Machine Itaka",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 152225,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/taiwan-vertical-turret-m1tr-milling-machine-itaka-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-128",
+      "name": "Universal Cutter Grinder Mr U2",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 99838,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-cutter-grinder-mr-u2-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-129",
+      "name": "Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 129545,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-dividing-head-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-130",
+      "name": "Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 351468,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-dividing-head-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-131",
+      "name": "Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 317502,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-dividing-head-1000x1000.png",
+      "featured": false
+    },
+    {
+      "id": "prod-132",
+      "name": "Universal Dividing Head",
+      "category": "Tooling & Accessories",
+      "brand": "Premium Industrial",
+      "price": 477027,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-dividing-head-1000x1000.webp",
+      "featured": false
+    },
+    {
+      "id": "prod-133",
+      "name": "Universal Knee Type Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 174792,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-knee-type-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-134",
+      "name": "Universal Knee Type Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 21554,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-knee-type-milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-135",
+      "name": "Universal Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 371729,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-milling-machine-1000x1000.jpg",
+      "featured": true
+    },
+    {
+      "id": "prod-136",
+      "name": "Universal Swivel Head Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 346533,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-swivel-head-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-137",
+      "name": "Universal Swivel Head Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 151887,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/universal-swivel-head-milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-138",
+      "name": "Vertical Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 111225,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/vertical-milling-machine-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-139",
+      "name": "Vertical Milling Machine Supplier",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 303258,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/vertical-milling-machine-supplier-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-140",
+      "name": "Vertical Turret Milling Machine",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 410769,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/vertical-turret-milling-machine-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-141",
+      "name": "Wheel Head Moving Surface Grinders",
+      "category": "Metalworking Machinery",
+      "brand": "Premium Industrial",
+      "price": 345731,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/wheel-head-moving-surface-grinders-1000x1000.jpg",
+      "featured": false
+    },
+    {
+      "id": "prod-142",
+      "name": "Yib1400 Jcb Rock Breakers",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 461552,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/yib1400-jcb-rock-breakers-1000x1000.jpeg",
+      "featured": false
+    },
+    {
+      "id": "prod-143",
+      "name": "Yib750 Jcb Rock Breaker",
+      "category": "Industrial Equipment",
+      "brand": "Premium Industrial",
+      "price": 119334,
+      "gst": "18%",
+      "moq": "1 Unit",
+      "specs": {
+        "Status": "Available",
+        "Delivery": "24-48 Hours",
+        "Support": "Complete Post-Sale Support"
+      },
+      "image": "/assets/products/yib750-jcb-rock-breaker-1000x1000.jpeg",
+      "featured": false
     }
   ]
 }

@@ -12,6 +12,7 @@ const categories = [
     "Fabrication & Forming",
     "Precision & Measurement",
     "Tooling & Accessories",
+    "Electricals & Spares",
     "Industrial Equipment"
 ];
 
