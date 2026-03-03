@@ -5,8 +5,8 @@
   "scripts": {
     "postinstall": "prisma generate",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "npx next build",
+    "start": "npx next start",
     "lint": "eslint"
   },
   "dependencies": {
