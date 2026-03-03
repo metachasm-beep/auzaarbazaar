@@ -3,8 +3,8 @@ services:
     name: auzaarbazaar
     runtime: node
     plan: free
-    buildCommand: npm run build
-    startCommand: npm start
+    buildCommand: npm install && ./node_modules/.bin/next build
+    startCommand: ./node_modules/.bin/next start
     envVars:
       - key: NODE_VERSION
         value: "20"
