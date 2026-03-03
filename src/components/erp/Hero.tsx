@@ -1,93 +1,92 @@
 import React from 'react';
-import { ArrowRight, BarChart3, TrendingUp, Handshake } from 'lucide-react';
+import { Search, Tag, ShieldCheck, Factory, Briefcase, Zap } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <section className="relative overflow-hidden bg-white pt-16 pb-24 lg:pt-24 lg:pb-32">
+        <section className="relative overflow-hidden bg-white pt-16 pb-24 lg:pt-32 lg:pb-32">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="lg:grid lg:grid-cols-12 lg:gap-16">
-                    <div className="flex flex-col justify-center lg:col-span-6">
-                        <div className="inline-flex items-center gap-2 rounded-full bg-industrial-blue/5 px-4 py-1.5 text-sm font-semibold text-industrial-blue mb-6 w-fit">
-                            <Handshake size={16} />
-                            <span>Online Sales Enablement Partner</span>
+                <div className="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+
+                    {/* Left Column Text Content */}
+                    <div className="flex flex-col justify-center lg:col-span-7 z-10">
+                        <div className="inline-flex items-center gap-2 rounded-full bg-electric-blue/10 px-4 py-1.5 text-sm font-semibold text-electric-blue mb-6 w-fit border border-electric-blue/20">
+                            <Briefcase size={16} />
+                            <span>B2B Industrial Procurement</span>
                         </div>
-                        <h1 className="text-4xl font-bold tracking-tight text-slate-grey sm:text-6xl mb-6">
-                            You Build. We Sell. <br /><span className="text-industrial-blue">Together, We Grow.</span>
+                        <h1 className="text-4xl sm:text-5xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight text-steel-blue mb-6 leading-[1.1]">
+                            India’s Trusted <span className="text-electric-blue">Industrial Equipment Marketplace</span>
                         </h1>
-                        <h2 className="text-lg leading-8 text-slate-grey-light mb-10 max-w-xl font-normal">
-                            Not a dealer. Not a generic marketplace. We are India's most trusted industrial equipment sales platform, empowering top manufacturers to grow online without distractions.
+                        <h2 className="text-lg leading-8 text-industrial-grey-light mb-10 max-w-2xl font-normal">
+                            Buy, sell, and source verified machinery with confidence. AuzaarBazaar connects manufacturers, suppliers, and buyers across India through a secure and transparent procurement platform.
                         </h2>
-                        <div className="flex flex-wrap gap-4">
-                            <a href="#partner" className="inline-flex items-center gap-2 rounded-industrial bg-industrial-blue px-6 py-3.5 text-sm font-semibold text-white shadow-xl hover:bg-industrial-blue-dark transition-all transform hover:-translate-y-0.5">
-                                Partner With Us
-                                <ArrowRight size={18} />
+
+                        <div className="flex flex-col sm:flex-row gap-4 mb-12">
+                            <a href="#inventory" className="inline-flex justify-center items-center gap-2 rounded-industrial bg-safety-orange px-8 py-4 text-base font-bold text-white shadow-xl shadow-safety-orange/20 hover:bg-safety-orange-hover transition-all transform hover:-translate-y-0.5">
+                                <Search size={20} />
+                                Browse Machinery
                             </a>
-                            <a href="#inventory" className="inline-flex items-center gap-2 rounded-industrial border-2 border-slate-200 bg-transparent px-6 py-3.5 text-sm font-semibold text-slate-grey hover:bg-slate-50 transition-all">
-                                View Our Collection
+                            <a href="#partner" className="inline-flex justify-center items-center gap-2 rounded-industrial border-2 border-industrial-grey-light/20 bg-transparent px-8 py-4 text-base font-bold text-steel-blue hover:bg-light-graphite transition-all">
+                                <Tag size={20} />
+                                List Your Equipment
                             </a>
                         </div>
 
-                        <div className="mt-12 grid grid-cols-3 gap-8 border-t border-slate-100 pt-10">
-                            <div>
-                                <p className="text-2xl font-bold text-slate-grey">Zero</p>
-                                <p className="text-xs text-slate-grey-light uppercase tracking-wider font-semibold">Overhead & Ad Spend</p>
+                        {/* Trust Bar Row */}
+                        <div className="flex flex-wrap items-center gap-x-6 gap-y-3 pt-6 border-t border-industrial-grey-light/10 text-sm font-semibold text-industrial-grey">
+                            <div className="flex items-center gap-1.5">
+                                <ShieldCheck size={16} className="text-electric-blue" />
+                                GST Verified Suppliers
                             </div>
-                            <div>
-                                <p className="text-2xl font-bold text-slate-grey">&lt;60m</p>
-                                <p className="text-xs text-slate-grey-light uppercase tracking-wider font-semibold">Inquiry Response</p>
+                            <div className="flex items-center gap-1.5">
+                                <Factory size={16} className="text-electric-blue" />
+                                Industrial Buyers Across India
                             </div>
-                            <div>
-                                <p className="text-2xl font-bold text-slate-grey">100%</p>
-                                <p className="text-xs text-slate-grey-light uppercase tracking-wider font-semibold">Prepaid Orders</p>
+                            <div className="flex items-center gap-1.5">
+                                <ShieldCheck size={16} className="text-electric-blue" />
+                                Secure Inquiry System
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                                <Zap size={16} className="text-electric-blue" />
+                                RFQ Enabled
                             </div>
                         </div>
                     </div>
 
-                    <div className="mt-16 lg:mt-0 lg:col-span-6 relative">
-                        <div className="relative rounded-2xl bg-slate-50 p-8 shadow-2xl border border-slate-200 overflow-hidden group">
-                            {/* Decorative industrial background element */}
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-industrial-blue/5 rounded-full -mr-32 -mt-32 blur-3xl group-hover:bg-industrial-blue/10 transition-all"></div>
+                    {/* Right Column / Decorative Image */}
+                    <div className="mt-16 lg:mt-0 lg:col-span-5 relative hidden lg:block">
+                        <div className="relative rounded-2xl bg-steel-blue p-8 shadow-2xl overflow-hidden aspect-[4/5] flex flex-col justify-end">
+                            {/* Decorative industrial background pattern/gradient */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-steel-blue-dark via-steel-blue to-steel-blue/40 z-10"></div>
+                            <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-electric-blue/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
 
-                            <div className="relative grid grid-cols-2 gap-4">
+                            {/* Floating Stats Card Overlay */}
+                            <div className="absolute top-8 left-8 z-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-lg">
+                                <div className="text-white text-3xl font-bold tracking-tight">1,200+</div>
+                                <div className="text-white/70 text-xs font-bold uppercase tracking-widest mt-1">Machines Listed</div>
+                            </div>
+                            <div className="absolute top-36 right-4 z-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-lg text-right">
+                                <div className="text-white text-3xl font-bold tracking-tight">300+</div>
+                                <div className="text-white/70 text-xs font-bold uppercase tracking-widest mt-1">Verified Suppliers</div>
+                            </div>
+
+                            <div className="relative z-20 mb-4 mt-auto">
                                 <div className="space-y-4">
-                                    <div className="h-48 rounded-xl bg-white p-4 shadow-sm border border-slate-100 flex flex-col justify-between">
-                                        <TrendingUp className="text-industrial-blue" size={32} />
-                                        <div>
-                                            <div className="h-2 w-16 bg-slate-100 rounded mb-2"></div>
-                                            <div className="text-xs font-bold text-slate-grey mb-1">Higher Conversion</div>
-                                            <div className="h-2 w-24 bg-industrial-blue/20 rounded"></div>
+                                    <div className="h-16 w-full rounded-xl bg-white p-3 shadow-md border border-white/20 flex items-center justify-between">
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] uppercase font-bold text-steel-blue tracking-widest">Live RFQ Feed</span>
+                                            <span className="text-sm font-semibold text-industrial-grey mt-0.5">Hydraulic Press 20 Ton Needed</span>
                                         </div>
+                                        <span className="bg-electric-blue/10 text-electric-blue text-[10px] font-bold px-2 py-1 flex items-center gap-1 rounded uppercase">New</span>
                                     </div>
-                                    <div className="h-32 rounded-xl bg-industrial-blue p-4 shadow-sm flex items-end">
-                                        <div className="w-full">
-                                            <div className="text-white/80 text-[10px] uppercase font-bold tracking-widest mb-1">Insights</div>
-                                            <div className="h-4 w-20 bg-white/60 rounded"></div>
+                                    <div className="h-16 w-[90%] rounded-xl bg-white p-3 shadow-md border border-white/20 flex items-center justify-between opacity-80">
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] uppercase font-bold text-steel-blue tracking-widest">Verified Supplier</span>
+                                            <span className="text-sm font-semibold text-industrial-grey mt-0.5">Accurate Machine Tools</span>
                                         </div>
-                                    </div>
-                                </div>
-                                <div className="space-y-4 pt-8">
-                                    <div className="h-32 rounded-xl bg-slate-800 p-4 shadow-sm flex flex-col justify-between">
-                                        <BarChart3 className="text-white/80" size={24} />
-                                        <div>
-                                            <div className="text-white/80 text-[10px] uppercase font-bold tracking-widest mb-1">Market Reach</div>
-                                            <div className="h-2 w-16 bg-white/20 rounded"></div>
-                                        </div>
-                                    </div>
-                                    <div className="h-48 rounded-xl bg-white p-4 shadow-sm border border-slate-100 flex items-center justify-center">
-                                        <div className="w-full space-y-3">
-                                            {[1, 2, 3, 4].map(i => (
-                                                <div key={i} className="h-2 bg-slate-50 rounded flex justify-between px-2 items-center">
-                                                    <div className="w-1/2 h-1 bg-slate-200 rounded"></div>
-                                                    <div className="w-4 h-1 bg-industrial-blue/30 rounded"></div>
-                                                </div>
-                                            ))}
-                                            <div className="w-full mt-4 text-center text-[10px] text-slate-400 font-medium">Monthly KPI Reports</div>
-                                        </div>
+                                        <ShieldCheck size={16} className="text-safety-orange" />
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-50/80 via-transparent to-transparent"></div>
                         </div>
                     </div>
                 </div>

@@ -1,11 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-industrial-blue: #1E40AF;
-  --color-industrial-blue-dark: #1E3A8A;
-  --color-slate-grey: #334155;
-  --color-slate-grey-light: #64748B;
-  
+  /* AuzaarBazaar Design System extracted from OVERALL DASHBOARD DESIGN SYSTEM.docx */
+  --color-steel-blue: #0F172A;
+  --color-steel-blue-dark: #020617;
+  --color-electric-blue: #2563EB;
+  --color-electric-blue-hover: #1D4ED8;
+  --color-industrial-grey: #334155;
+  --color-industrial-grey-light: #64748B;
+  --color-safety-orange: #F97316;
+  --color-safety-orange-hover: #EA580C;
+  --color-light-graphite: #F8FAFC;
+
   --radius-industrial: 8px;
 }
 
@@ -17,5 +23,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }

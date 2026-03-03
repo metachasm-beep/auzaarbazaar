@@ -1,0 +1,360 @@
+OVERALL DASHBOARD DESIGN SYSTEM
+
+Layout Framework
+
+Left Sidebar (Fixed – 260px width)
+
+Top Header Bar (Sticky – 72px height)
+
+Main Content Area (Scrollable)
+
+Right Utility Panel (Optional future – filters/AI insights)
+
+Color theme:Dark industrial sidebarLight main contentBlue accentsOrange for action buttons
+
+BUYER DASHBOARD
+
+
+
+1️⃣ Buyer Sidebar Structure
+
+🏠 Overview🔎 Browse Machinery📨 My Inquiries📑 RFQs⭐ Saved Machines📊 Comparisons📦 Orders (Future)💬 Messages📍 Industrial Hubs⚙ Settings
+
+2️⃣ Buyer Overview Page (Home)
+
+Top Row – KPI Cards (4 Columns)
+
+Card Style: White background, subtle shadow
+
+Total Inquiries Sent
+
+Active RFQs
+
+Supplier Responses
+
+Saved Machines
+
+
+
+Middle Section – Activity Feed
+
+Left (70% width):Recent Activity Timeline
+
+RFQ sent
+
+Supplier responded
+
+Price updated
+
+Message received
+
+Right (30% width):Quick Actions Panel:
+
+Post New RFQ
+
+Browse Categories
+
+Compare Saved Machines
+
+
+
+Bottom Section – Suggested Machines
+
+AI-based recommendations:“Machines similar to your inquiries”
+
+Horizontal scroll cards.
+
+3️⃣ RFQ Management Interface
+
+Layout:
+
+Top: RFQ Status Tabs
+
+Draft
+
+Active
+
+Negotiating
+
+Closed
+
+Each RFQ Card shows:
+
+Title
+
+Budget range
+
+Location
+
+Suppliers responded
+
+Lowest quote
+
+Status badge
+
+Click → opens detail page.
+
+
+
+RFQ Detail Page Layout
+
+Two column split:
+
+Left:
+
+RFQ Description
+
+Technical specs
+
+Attachments
+
+Right:
+
+Supplier quotes list (stacked cards)
+
+Each supplier card:
+
+Company name
+
+Verification badge
+
+Quote amount
+
+Lead time
+
+Warranty
+
+Chat button
+
+Accept / Counter button
+
+4️⃣ Inquiry & Messaging System
+
+Layout similar to Slack:
+
+Left:Conversation list
+
+Right:Chat window
+
+Features:
+
+Quote summary pinned at top
+
+Attachment support
+
+Timestamp tracking
+
+Supplier response time indicator
+
+5️⃣ Comparison Tool (Buyer Power Feature)
+
+
+
+Layout:
+
+Horizontal table:Columns = MachinesRows = Specifications
+
+Sticky first column.
+
+CTA at bottom:Request Quote for Selected
+
+This builds platform differentiation.
+
+
+
+SELLER DASHBOARD
+
+
+
+1️⃣ Seller Sidebar Structure
+
+🏠 Overview📦 My Listings➕ Add Equipment📨 Buyer Inquiries📑 RFQ Responses📊 Analytics⭐ Featured Upgrades💬 Messages🏷 Verification Status⚙ Settings
+
+
+
+2️⃣ Seller Overview Page
+
+KPI Cards Row
+
+Total Listings
+
+Active Inquiries
+
+RFQ Invites
+
+Conversion Rate
+
+Profile Views
+
+Add trend arrows (↑ ↓)
+
+
+
+Middle Section – Performance Chart
+
+Graph:Inquiries over last 30 days.
+
+Below:Top performing machine listings.
+
+
+
+Right Side Panel:
+
+Profile Strength Meter:
+
+GST Verified
+
+Documents uploaded
+
+Factory photos added
+
+Response time score
+
+Gamify trust.
+
+3️⃣ My Listings Page
+
+Grid layout of machine cards.
+
+Each card:
+
+Machine photo
+
+Price
+
+Status (Active / Draft / Paused)
+
+Views
+
+Inquiries
+
+Edit button
+
+Top right:
+
+Add New Listing (Primary CTA)
+
+4️⃣ Add Equipment Form (Critical UX)
+
+Multi-step process:
+
+Step 1: Basic InfoStep 2: Technical SpecsStep 3: Pricing & WarrantyStep 4: Upload Photos / VideoStep 5: Verification Documents
+
+Right side preview panel:Live listing preview.
+
+5️⃣ Buyer Inquiries Panel
+
+Table layout:
+
+Columns:
+
+Buyer Name
+
+Location
+
+Machine
+
+Message preview
+
+Date
+
+Status
+
+Reply button
+
+Filter:Unread / High priority / Negotiation stage
+
+6️⃣ RFQ Response Interface
+
+Similar to Buyer RFQ but reversed.
+
+Seller sees:
+
+Buyer requirement
+
+Budget
+
+Location
+
+Attachments
+
+Right panel:Submit quote form:
+
+Price
+
+Lead time
+
+Warranty
+
+Additional notes
+
+Attach technical sheet
+
+7️⃣ Analytics Page
+
+
+
+
+
+
+
+Metrics:
+
+Listing views
+
+Inquiry rate
+
+RFQ win rate
+
+Avg response time
+
+Region demand heatmap
+
+Premium feature possibility:Advanced analytics behind subscription.
+
+VERIFICATION STATUS PANEL
+
+Dedicated page:
+
+Checklist:
+
+GST verified
+
+ISO certificate uploaded
+
+Factory video uploaded
+
+Years in business
+
+On-site verification (future)
+
+Badge levels:BasicVerifiedTrusted SupplierPremium Industrial Partner
+
+This increases monetization.
+
+UX & MICRO INTERACTIONS
+
+Add:
+
+Hover tooltips explaining industrial terms
+
+Loading skeletons
+
+Smooth page transitions
+
+Sticky action buttons
+
+Notification bell with unread count
+
+Real-time updates (future)
+
+Mobile Adaptation Strategy
+
+Sidebar collapses to bottom nav.
+
+Top 4 mobile actions:HomeRFQMessagesProfile
+
+Industrial buyers still use desktop mostly — optimize desktop first.
+
+
+

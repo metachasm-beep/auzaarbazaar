@@ -1,0 +1,556 @@
+Relational schema (Postgres-friendly) to support the Buyer + Seller dashboards
+
+
+
+I’m keeping it normalized where it matters, and using JSONB only where specs differ by category.
+
+Core principles
+
+One org can have many users (seller teams, buyer procurement teams).
+
+A user can belong to multiple orgs with roles (owner/admin/member).
+
+Buyers and sellers are both “orgs” with different org_type.
+
+Listings belong to seller orgs.
+
+RFQs belong to buyer orgs and can be broadcast to many seller orgs.
+
+Chat is per “thread” anchored to either an RFQ or a Listing inquiry.
+
+Verification is per seller org (and optionally per listing).
+
+Tables
+
+1) Identity & access
+
+orgs
+
+id (uuid pk)
+
+org_type (enum: 'buyer','seller','both')
+
+name
+
+gstin (nullable, unique index where not null)
+
+website (nullable)
+
+phone (nullable)
+
+address_line1, address_line2, city, state, pincode, country
+
+created_at, updated_at
+
+users
+
+id (uuid pk)
+
+email (citext unique)
+
+phone (nullable)
+
+full_name
+
+password_hash (or external auth id)
+
+is_active (bool)
+
+created_at, updated_at
+
+org_memberships
+
+id (uuid pk)
+
+org_id (fk orgs)
+
+user_id (fk users)
+
+role (enum: 'owner','admin','member','viewer')
+
+created_at
+
+Unique: (org_id, user_id)
+
+2) Marketplace catalog
+
+categories
+
+id (uuid pk)
+
+parent_id (fk categories, nullable)
+
+name
+
+slug (unique)
+
+created_at
+
+category_attributes (for structured specs)
+
+id (uuid pk)
+
+category_id (fk categories)
+
+key (e.g., power_hp)
+
+label (e.g., “Power (HP)”)
+
+data_type (enum: 'text','number','boolean','select','multi_select')
+
+unit (nullable) (e.g., HP, kW)
+
+options (jsonb nullable) for select/multi_select
+
+is_filterable (bool)
+
+is_required (bool)
+
+Unique: (category_id, key)
+
+3) Seller listings (equipment)
+
+listings
+
+id (uuid pk)
+
+seller_org_id (fk orgs)
+
+category_id (fk categories)
+
+title
+
+description
+
+condition (enum: 'new','used','refurbished')
+
+price_amount (numeric, nullable) (nullable for “price on request”)
+
+price_currency (default 'INR')
+
+price_type (enum: 'fixed','negotiable','on_request')
+
+quantity (int default 1)
+
+location_city, location_state, location_pincode
+
+lead_time_days (nullable int)
+
+warranty_months (nullable int)
+
+gst_invoice_available (bool default false)
+
+status (enum: 'draft','active','paused','sold','archived')
+
+published_at (nullable)
+
+created_at, updated_at
+
+listing_specs (category-driven specs)
+
+listing_id (fk listings)
+
+attribute_id (fk category_attributes)
+
+value_text (nullable)
+
+value_num (nullable numeric)
+
+value_bool (nullable bool)
+
+value_json (nullable jsonb) (for multi_select etc.)
+
+PK: (listing_id, attribute_id)
+
+listing_media
+
+id (uuid pk)
+
+listing_id (fk listings)
+
+media_type (enum: 'image','video','doc')
+
+url
+
+sort_order (int default 0)
+
+created_at
+
+Indexes:
+
+listings(seller_org_id, status)
+
+listings(category_id, status)
+
+listings(location_state, location_city)
+
+listing_specs(attribute_id, value_num) for numeric filters (optional partial indexes)
+
+4) Buyer intent: Inquiries (listing-based)
+
+inquiries
+
+id (uuid pk)
+
+buyer_org_id (fk orgs)
+
+listing_id (fk listings)
+
+subject
+
+message
+
+quantity (nullable)
+
+target_budget_amount (nullable numeric)
+
+status (enum: 'sent','replied','negotiating','closed','lost','spam')
+
+created_at, updated_at
+
+This powers: Buyer “My Inquiries” + Seller “Buyer Inquiries”.
+
+
+
+5) RFQ system (broadcast + targeted)
+
+rfqs
+
+id (uuid pk)
+
+buyer_org_id (fk orgs)
+
+category_id (fk categories)
+
+title
+
+description
+
+budget_min (nullable numeric)
+
+budget_max (nullable numeric)
+
+currency (default 'INR')
+
+delivery_city, delivery_state, delivery_pincode
+
+required_by_date (nullable date)
+
+status (enum: 'draft','active','negotiating','closed','cancelled')
+
+created_at, updated_at
+
+rfq_requirements (structured requirements, same attribute system)
+
+rfq_id (fk rfqs)
+
+attribute_id (fk category_attributes)
+
+value_text/value_num/value_bool/value_json (same pattern)
+
+PK: (rfq_id, attribute_id)
+
+rfq_targets (who received the RFQ)
+
+id (uuid pk)
+
+rfq_id (fk rfqs)
+
+seller_org_id (fk orgs)
+
+target_type (enum: 'broadcast','manual','system_match')
+
+status (enum: 'invited','viewed','quoted','declined')
+
+invited_at, viewed_at
+
+Unique: (rfq_id, seller_org_id)
+
+quotes (seller responses to RFQ)
+
+id (uuid pk)
+
+rfq_id (fk rfqs)
+
+seller_org_id (fk orgs)
+
+amount (numeric)
+
+currency (default 'INR')
+
+lead_time_days (nullable int)
+
+warranty_months (nullable int)
+
+notes (nullable)
+
+status (enum: 'submitted','revised','accepted','rejected','withdrawn')
+
+created_at, updated_at
+
+Unique: (rfq_id, seller_org_id) (one active quote per seller; revisions handled by status/history)
+
+quote_line_items (optional; when quote has multiple components)
+
+id (uuid pk)
+
+quote_id (fk quotes)
+
+label
+
+amount (numeric)
+
+sort_order (int)
+
+6) Messaging (works for inquiry + RFQ negotiation)
+
+Use threads so chat is unified.
+
+message_threads
+
+id (uuid pk)
+
+thread_type (enum: 'inquiry','rfq','order')
+
+inquiry_id (nullable fk inquiries)
+
+rfq_id (nullable fk rfqs)
+
+buyer_org_id (fk orgs)
+
+seller_org_id (fk orgs)
+
+last_message_at
+
+Unique constraints:
+
+For inquiry threads: (inquiry_id) unique where inquiry_id not null
+
+For rfq threads: (rfq_id, seller_org_id) unique (one thread per seller per RFQ)
+
+messages
+
+id (uuid pk)
+
+thread_id (fk message_threads)
+
+sender_user_id (fk users)
+
+sender_org_id (fk orgs) (denormalized convenience)
+
+message_type (enum: 'text','attachment','system')
+
+body (text nullable)
+
+created_at
+
+message_attachments
+
+id (uuid pk)
+
+message_id (fk messages)
+
+url
+
+file_name
+
+mime_type
+
+file_size_bytes
+
+created_at
+
+thread_read_receipts
+
+thread_id (fk message_threads)
+
+user_id (fk users)
+
+last_read_at
+
+PK: (thread_id, user_id)
+
+This powers the Inbox UI, unread counts, response time analytics.
+
+7) Saved items + comparisons (buyer features)
+
+saved_listings
+
+buyer_org_id (fk orgs)
+
+listing_id (fk listings)
+
+created_at
+
+PK: (buyer_org_id, listing_id)
+
+comparison_sets
+
+id (uuid pk)
+
+buyer_org_id (fk orgs)
+
+name
+
+created_at
+
+comparison_set_items
+
+comparison_set_id (fk comparison_sets)
+
+listing_id (fk listings)
+
+created_at
+
+PK: (comparison_set_id, listing_id)
+
+
+
+8) Verification & trust
+
+org_verifications
+
+id (uuid pk)
+
+org_id (fk orgs) (seller org primarily)
+
+verification_type (enum: 'gst','iso','factory_visit','bank','phone','email')
+
+status (enum: 'pending','verified','rejected','expired')
+
+reference_id (nullable) (certificate number etc.)
+
+verified_at (nullable)
+
+expires_at (nullable)
+
+notes (nullable)
+
+created_at
+
+org_documents
+
+id (uuid pk)
+
+org_id (fk orgs)
+
+doc_type (enum: 'gst_certificate','iso_certificate','company_profile','bank_cheque','other')
+
+url
+
+created_at
+
+Optional: listing_verifications if you later want “inspected listing”.
+
+
+
+9) Analytics (dashboards: views, conversion, response time)
+
+Keep it simple and scalable:
+
+events
+
+id (uuid pk)
+
+event_type (enum: 'listing_view','listing_click_whatsapp','inquiry_created','rfq_created','rfq_viewed','quote_submitted','message_sent')
+
+org_id (nullable fk orgs) (actor org)
+
+user_id (nullable fk users)
+
+listing_id (nullable fk listings)
+
+rfq_id (nullable fk rfqs)
+
+thread_id (nullable fk message_threads)
+
+meta (jsonb) (utm, device, referrer)
+
+created_at
+
+Create materialized views / rollups later:
+
+seller listing views last 30d
+
+inquiry conversion rate
+
+median response time per org
+
+
+
+10) Orders & escrow (future-ready, optional now)
+
+If you plan transactions later, add:
+
+orders
+
+id (uuid pk)
+
+order_type (enum: 'listing','rfq')
+
+buyer_org_id
+
+seller_org_id
+
+listing_id (nullable)
+
+rfq_id (nullable)
+
+quote_id (nullable)
+
+amount, currency
+
+status (enum: 'created','paid','in_escrow','shipped','delivered','completed','cancelled','disputed')
+
+created_at, updated_at
+
+payments
+
+id (uuid pk)
+
+order_id
+
+provider (text) (Razorpay etc.)
+
+provider_payment_id
+
+amount, currency
+
+status (enum: 'initiated','success','failed','refunded')
+
+created_at
+
+Key indexes you’ll want
+
+messages(thread_id, created_at desc)
+
+message_threads(buyer_org_id, last_message_at desc)
+
+message_threads(seller_org_id, last_message_at desc)
+
+inquiries(buyer_org_id, created_at desc)
+
+inquiries(listing_id, created_at desc)
+
+rfq_targets(seller_org_id, invited_at desc)
+
+quotes(rfq_id, amount) (for “lowest quote”)
+
+events(listing_id, created_at) and events(org_id, created_at)
+
+Notes on filtering specs (important)
+
+You’ll have two levels:
+
+Fixed columns in listings for common filters (condition, location, warranty, lead_time, price).
+
+Category-specific filters via category_attributes + listing_specs.
+
+This gives you:
+
+Fast queries for common filters
+
+Flexible specs without schema churn
+
+
+

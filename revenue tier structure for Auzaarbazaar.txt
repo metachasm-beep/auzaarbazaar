@@ -1,0 +1,286 @@
+Core principle
+
+Keep V1 free enough to seed inventory + buyers.
+
+Charge for visibility, trust, workflow automation, and speed.
+
+Price in INR/month, billed monthly + discounted annual.
+
+
+
+Seller Plans (primary revenue)
+
+0) Free Seller
+
+₹0Best for onboarding suppliers.
+
+Includes:
+
+5 active listings
+
+Basic company profile
+
+Receive inquiries + basic chat
+
+Basic analytics (views + inquiries count)
+
+Standard support
+
+Limits:
+
+No “Verified” badge
+
+No RFQ priority
+
+No featured placement
+
+Limited media (e.g., 5 images/listing)
+
+
+
+1) Seller Starter
+
+₹2,999 / monthFor small dealers and local suppliers.
+
+Includes:
+
+25 active listings
+
+Up to 20 images/listing + 3 documents (catalog/spec sheets)
+
+RFQ access (can respond to relevant RFQs)
+
+Lead management (status tags, notes)
+
+Basic performance analytics (views, inquiry rate)
+
+Add-ons:
+
+Extra listings pack (₹999 per +25 listings)
+
+
+
+2) Seller Pro
+
+₹7,999 / month (your main sweet spot)For serious suppliers/manufacturers.
+
+Includes everything in Starter, plus:
+
+150 active listings
+
+“Verified Supplier” eligibility (GST + KYC checks)
+
+RFQ priority access (see RFQs earlier / higher relevance)
+
+Team seats: 5 users
+
+Response-time badge + messaging templates
+
+Advanced analytics (category demand, location heatmap, conversion rate)
+
+Featured listing credits: e.g., 10 credits/month
+
+Add-ons:
+
+Additional team seat: ₹499/seat/month
+
+Extra featured credits pack
+
+
+
+3) Seller Enterprise
+
+₹24,999 / month (high-margin)For large manufacturers, importers, multi-branch suppliers.
+
+Includes everything in Pro, plus:
+
+Unlimited listings (fair use)
+
+Team seats: 20+
+
+Dedicated account manager
+
+API/CSV bulk upload + catalog sync
+
+RFQ “exclusive leads” (limited distribution)
+
+Brand page (company storefront)
+
+Priority placement in industrial hub pages
+
+SLA support
+
+Seller Add-ons (high leverage, easy upsell)
+
+These should be purchasable even by Free/Starter.
+
+Featured Listing Boost
+
+₹499 per listing / 7 days (category top slots)
+
+₹1,499 per listing / 30 days
+
+Verified Badge
+
+One-time verification fee: ₹2,999–₹9,999 (tiered)
+
+GST Verified (₹2,999)
+
+Factory/On-site Verified (₹9,999) (later, huge trust moat)
+
+RFQ Packs
+
+If seller is Free: allow RFQ response packs
+
+₹999 for 10 RFQ responses
+
+Industrial Hub Sponsorship
+
+Sponsor “Rajkot Machine Tools” page: ₹15k–₹50k/month depending on traffic.
+
+
+
+Buyer Plans (monetize procurement teams)
+
+Most buyers won’t pay at first. So:
+
+Keep Buyer Free strong.
+
+Charge for workflow, team collaboration, and sourcing intelligence.
+
+0) Buyer Free
+
+₹0
+
+Browse listings + filters
+
+Send inquiries
+
+Save listings + basic comparison (up to 3)
+
+Post 1 RFQ/month
+
+Basic inbox
+
+
+
+1) Buyer Team
+
+₹1,999 / monthFor small factories/procurement teams.
+
+5 team seats
+
+10 RFQs/month
+
+Shortlist pipeline (stages: reviewing/quoted/negotiating)
+
+Quote comparison board
+
+Supplier response time visibility
+
+Export quotes to CSV/PDF
+
+
+
+2) Buyer Pro
+
+₹5,999 / monthFor high-frequency buyers.
+
+15 seats
+
+Unlimited RFQs (fair use)
+
+Priority supplier routing (matched sellers first)
+
+RFQ templates + reusable spec sheets
+
+“Preferred suppliers” list + vendor scoring
+
+Advanced filters (capacity/power/lead time/warranty)
+
+
+
+3) Buyer Enterprise
+
+₹19,999 / month
+
+Custom onboarding + procurement workflows
+
+Approval flows (Requester → Manager → Purchase)
+
+ERP-friendly exports + API access
+
+Dedicated support + SLA
+
+
+
+Transaction Monetization (Phase 2/3)
+
+Once you add escrow/orders:
+
+Success fee (only when transaction happens)
+
+Choose one:
+
+0.75%–1.5% platform fee (cap at ₹50k)or
+
+Flat fee by ticket size (e.g., ₹2,999 for <₹5L, ₹7,999 for ₹5–25L, etc.)
+
+Escrow fee
+
+Pass-through + small markup, or
+
+0.25% escrow handling
+
+This is where revenue scales without subscription pressure.
+
+
+
+The “Most Profitable” Packaging Strategy
+
+Your best packaging isn’t “more features.” It’s more outcomes:
+
+Outcome bundles you should advertise
+
+More visibility → Featured, Hub placement
+
+More trust → Verified badges + certificates
+
+More speed → RFQ priority + response-time boosts
+
+More control → Team seats + workflows + exports
+
+More insight → Analytics + demand heatmaps
+
+
+
+What to put on the Pricing Page
+
+Use 2 tabs:
+
+For Sellers
+
+For Buyers
+
+Show:
+
+Monthly price + “Save 20% yearly”
+
+One highlighted plan (Seller Pro)
+
+A comparison table with checkmarks
+
+Add-ons section (Featured, Verified, RFQ packs)
+
+
+
+Recommended “Day 1” launch offer (India-friendly)
+
+Seller Starter: ₹2,999 but “first 50 sellers get ₹1,999 for 3 months”
+
+Verified badge: free for first X sellers (creates trust inventory)
+
+Featured credits: bundle into Pro to nudge upgrades
+
+
+
