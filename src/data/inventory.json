@@ -2,14 +2,14 @@
   "inventory": [
     {
       "id": "prod-0",
-      "name": "Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD",
-      "category": "Rock Breaker & Chisel",
+      "name": "1800 Kg Jcb Rock Breakers",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 7200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLOILS1029",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -19,14 +19,14 @@
     },
     {
       "id": "prod-1",
-      "name": "Semi Universal Dividing Head/Indexing head Set model BS1 with 6\" Chuck, Tailstock Dividing Plates and other std accessories",
+      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 65000,
+      "price": 68000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1104",
+        "Model": "MCHACCPENT1617",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -53,14 +53,14 @@
     },
     {
       "id": "prod-3",
-      "name": "Spindle Draw Bar for Drilling cum Milling Machine suitable for model ZX50C Thread M14 x 1.5 Pitch",
+      "name": "Spring for ZX50C Drilling and Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 1600,
+      "price": 3250,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCSPIN1420",
+        "Model": "MCHACCSPRI1231",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -70,14 +70,14 @@
     },
     {
       "id": "prod-4",
-      "name": "Spindle Draw Bar for Drilling cum Milling Machine suitable for model ZX50C Thread M14 x 1.5 Pitch",
-      "category": "Machine Accessories",
+      "name": "Pillar Drill Machine 19 mm max drilling capacity with suitable milling table",
+      "category": "Drilling & Tapping Machine",
       "brand": "Premium Industrial",
-      "price": 1600,
+      "price": 48000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCSPIN1420",
+        "Model": "DRLTAPMACPILL1024",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -87,14 +87,14 @@
     },
     {
       "id": "prod-5",
-      "name": "/LIBRA/BALAJI Brand heavy duty Bench Grinder with 1 HP motor, 415V and 50Hz and Wheel Size 250 mm with speed 2800 rpm",
-      "category": "Grinding Machines",
+      "name": "Abb Crane Duty Motor",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 21800,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACPENT1145",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -104,14 +104,14 @@
     },
     {
       "id": "prod-6",
-      "name": "/LIBRA/BALAJI Brand heavy duty Bench Grinder with 1 HP motor, 415V and 50Hz and Wheel Size 250 mm with speed 2800 rpm",
-      "category": "Grinding Machines",
+      "name": "Abb Crane Duty Motor",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 21800,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACPENT1145",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -121,14 +121,14 @@
     },
     {
       "id": "prod-7",
-      "name": "1Ton Electric Chain Hoist 440V with 1Ton Motor Trolley 01S",
-      "category": "Material Handling",
+      "name": "Abb Electric Brake Motor",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 48000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MATHANDELEC1117",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -138,14 +138,14 @@
     },
     {
       "id": "prod-8",
-      "name": "1Ton Electric Chain Hoist 440V with 1Ton Motor Trolley 01S",
-      "category": "Material Handling",
+      "name": "Abb Electric Brake Motor",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 48000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MATHANDELEC1117",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -155,14 +155,14 @@
     },
     {
       "id": "prod-9",
-      "name": "1.5 Ton Semi Electric Stacker",
-      "category": "Material Handling",
+      "name": "Abb Electric Motors",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 165000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MATHANDPENT1055",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -172,14 +172,14 @@
     },
     {
       "id": "prod-10",
-      "name": "1.5 Ton Semi Electric Stacker",
-      "category": "Material Handling",
+      "name": "Abb Electric Motors",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 165000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MATHANDPENT1055",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -206,14 +206,14 @@
     },
     {
       "id": "prod-12",
-      "name": "Quick change Tool Post for All geared Heavy duty lathe machine model ST 410x1000",
+      "name": "Heavy Duty Norton Gear Box for Lathe Machine",
       "category": "Lathe Machine",
       "brand": "Premium Industrial",
-      "price": 15000,
+      "price": 29500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEQUIC1160",
+        "Model": "LATHEHEAV1056",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -223,14 +223,14 @@
     },
     {
       "id": "prod-13",
-      "name": "Quick change Tool Post for All geared Heavy duty lathe machine model ST 410x1000",
+      "name": "verified Brand All geared medium Duty Lathe Machine model 1370/4'-6\" with center height 215mm Spindle Bore 52 mm along with all standard accessories",
       "category": "Lathe Machine",
       "brand": "Premium Industrial",
-      "price": 15000,
+      "price": 235000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEQUIC1160",
+        "Model": "LATHEPENT1199",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -240,14 +240,14 @@
     },
     {
       "id": "prod-14",
-      "name": "TAIWAN Make ARGO Vertical Turret Milling Machine Model 4S Bed Size 1270x254 mm with ISO30 Spindle with Stepper motor and with mentioned standard and optional accessories",
-      "category": "Milling Machine",
+      "name": "Spindle Pulley for Turret Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 650000,
+      "price": 6600,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHTAIW1291",
+        "Model": "MCHACCSPIN1089",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -257,14 +257,14 @@
     },
     {
       "id": "prod-15",
-      "name": "Flexi arm type Servo Electrical Tapping Machine size - M3 to M16 with all standard accessories",
+      "name": "Flexi arm tapping machine spindle adaptor",
       "category": "Drilling & Tapping Machine",
       "brand": "Premium Industrial",
-      "price": 135000,
+      "price": 8800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DRLTAPMACPENT1049",
+        "Model": "DRLTAPMACFLEX1080",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -274,14 +274,14 @@
     },
     {
       "id": "prod-16",
-      "name": "Flexi arm type Servo Electrical Tapping Machine size - M3 to M16 with all standard accessories",
+      "name": "Flexi arm tapping machine Plastic motor cover",
       "category": "Drilling & Tapping Machine",
       "brand": "Premium Industrial",
-      "price": 135000,
+      "price": 3800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DRLTAPMACPENT1049",
+        "Model": "DRLTAPMACFLEX1079",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -291,14 +291,14 @@
     },
     {
       "id": "prod-17",
-      "name": "Flexi arm type Servo Electrical Tapping Machine size - M3 to M16 with all standard accessories",
-      "category": "Drilling & Tapping Machine",
+      "name": "PCB Controller card for Flexi Arm Tapping Machine M6-M36",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 135000,
+      "price": 18600,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DRLTAPMACPENT1049",
+        "Model": "MCHACCPCBC1658",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -308,14 +308,14 @@
     },
     {
       "id": "prod-18",
-      "name": "MITR/DRO Milling/RAM Turret milling machine/Bridgeport/ARGO spare part: Table GIB or wedge for X axis longitudinal table",
+      "name": "Milling Machine Micrometer Scale",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 4200,
+      "price": 2200,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMITR1266",
+        "Model": "MCHACCMILL1712",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -325,14 +325,14 @@
     },
     {
       "id": "prod-19",
-      "name": "MITR/DRO Milling/RAM Turret milling machine/Bridgeport/ARGO spare part: Table GIB or wedge for X axis longitudinal table",
+      "name": "Gear for Universal Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 4200,
+      "price": 5500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMITR1266",
+        "Model": "MCHACCGEAR1444",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -342,14 +342,14 @@
     },
     {
       "id": "prod-20",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Head for Ram Turret Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 125000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "MCHACCHEAD1445",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -359,14 +359,14 @@
     },
     {
       "id": "prod-21",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Armstrong Vertical Turret Milling Machine 4 No 320 X1470 Mm",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -393,14 +393,14 @@
     },
     {
       "id": "prod-23",
-      "name": "Automatic Pipe Bending machine model PWG-26",
+      "name": "Automatic Pipe Bending machine model PWG-38",
       "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 117600,
+      "price": 150000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "SHTMETPENT1104",
+        "Model": "SHTMETPENT1105",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -444,14 +444,14 @@
     },
     {
       "id": "prod-26",
-      "name": "Wood working vertical band saw machine model PVBS 24",
+      "name": "Wood working vertical band saw machine model PVBS 12",
       "category": "Wood Machinery",
       "brand": "Premium Industrial",
-      "price": 145000,
+      "price": 65000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1051",
+        "Model": "WOODMACHWOOD1096",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -461,14 +461,14 @@
     },
     {
       "id": "prod-27",
-      "name": "Wood working vertical band saw machine model PVBS 24",
-      "category": "Wood Machinery",
+      "name": "Band Saw Machine Gh 4260",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 145000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1051",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -478,14 +478,14 @@
     },
     {
       "id": "prod-28",
-      "name": "Wood working vertical band saw machine model PVBS 24",
-      "category": "Wood Machinery",
+      "name": "Band Saw Machine Gh4220",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 145000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1051",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -495,14 +495,14 @@
     },
     {
       "id": "prod-29",
-      "name": "Wood working vertical band saw machine model PVBS 18",
-      "category": "Wood Machinery",
+      "name": "Band Saw Machine Gh4228",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 108000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1050",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -512,14 +512,14 @@
     },
     {
       "id": "prod-30",
-      "name": "Hydraulic metal cutting band saw double column type machine model PDB350/GH4235 with max cutting capacity 350 mm round dia",
-      "category": "Metal Cutting & Sawing",
+      "name": "Band Saw Machine Gh4235",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 430000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MECUTSAWHYDR1049",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -529,14 +529,14 @@
     },
     {
       "id": "prod-31",
-      "name": "1Ton Electric Chain Hoist 440V with 1Ton Motor Trolley 01S",
-      "category": "Material Handling",
+      "name": "Bbl Electric Motor",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 48000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MATHANDELEC1117",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -546,14 +546,14 @@
     },
     {
       "id": "prod-32",
-      "name": "Centralized Lubrication Pump hand operated suitable for various range of machines model P-900",
-      "category": "Machine Accessories",
+      "name": "Centralized Auto Oil Lubrication Unit",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2400,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCCENT1137",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -563,14 +563,14 @@
     },
     {
       "id": "prod-33",
-      "name": "Clamping Kit set size M12, 58 Pcs Each set contains parts: 6 T-slot nuts, 6 flange nuts, 4 coupling nuts, 6 step-pressure gauge, 12 triangular horn, 24 pairs of side bolts",
-      "category": "Machine Accessories",
+      "name": "Clamping Kit",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 4800,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCCLAM1490",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -580,14 +580,14 @@
     },
     {
       "id": "prod-34",
-      "name": "Flat Bed CNC Lathe Machine model ST-660 x 1000 with Manual Chuck 300 mm \u00d8, Variable Speed Spindle Motor AC 11 Kw, X & Y Axis Servo Motors, Siemens 808D CNC system with Manual Tail Stock, 4 Station Indexing Turret, Spindle Nose A2-8",
-      "category": "Lathe Machine",
+      "name": "Packing Charges (Ganni Packing) for Lathe Machine",
+      "category": "Miscellaneous",
       "brand": "Premium Industrial",
-      "price": 1650000,
+      "price": 2000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEFLAT1147",
+        "Model": "LATHEPACK1060",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -597,14 +597,14 @@
     },
     {
       "id": "prod-35",
-      "name": "Flat Bed CNC Lathe Machine model ST-660 x 1000 with Manual Chuck 300 mm \u00d8, Variable Speed Spindle Motor AC 11 Kw, X & Y Axis Servo Motors, Siemens 808D CNC system with Manual Tail Stock, 4 Station Indexing Turret, Spindle Nose A2-8",
-      "category": "Lathe Machine",
+      "name": "DW89CNCX2A-1S CNC Pipe Bending Machine",
+      "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 1650000,
+      "price": 3785000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEFLAT1147",
+        "Model": "PIPEMACHPENT1001",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -614,14 +614,14 @@
     },
     {
       "id": "prod-36",
-      "name": "CNC EDM Wire Cut Machine Fast Speed Type , X-Y-Z travel 1000*1400*1000mm , Model : PDK77100",
-      "category": "ZNC & Wirecut EDM",
+      "name": "Cnc Wire Cut Electric Discharge Machines",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2850000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "ZNCWEDMCNCE1023",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -648,14 +648,14 @@
     },
     {
       "id": "prod-38",
-      "name": "Extension Cable for Digital Readout (DRO)",
-      "category": "DRO & Linear Scale",
+      "name": "Dc 3000 Digital Readout System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLEXTE1010",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -665,14 +665,14 @@
     },
     {
       "id": "prod-39",
-      "name": "Extension Cable for Digital Readout (DRO)",
-      "category": "DRO & Linear Scale",
+      "name": "Dc 3000 Digital Readout System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLEXTE1010",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -699,14 +699,14 @@
     },
     {
       "id": "prod-41",
-      "name": "SINO Brand single Linear Scale Size 1500 mm with 0.005 mm resolution",
-      "category": "DRO & Linear Scale",
+      "name": "Digital Linear Scale",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 36000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLSINO1140",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -716,14 +716,14 @@
     },
     {
       "id": "prod-42",
-      "name": "Extension Cable for Digital Readout (DRO)",
-      "category": "DRO & Linear Scale",
+      "name": "Digital Readout Systems",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLEXTE1010",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -733,14 +733,14 @@
     },
     {
       "id": "prod-43",
-      "name": "Fully Automatic PLC display CNC Double Column Metal Cutting Band Saw Machine Model GZK4228 with Max Cutting dia capacity 280 mm round",
-      "category": "Metal Cutting & Sawing",
+      "name": "Double Column Automatic Bandsaw Machine",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 780000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MECUTSAWPENT1060",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -767,14 +767,14 @@
     },
     {
       "id": "prod-45",
-      "name": "Grinding wheel for Drill Bit grinder 13C/20C/26C HSS CBN",
-      "category": "Grinding Machines",
+      "name": "Drill Grinder",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 7800,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACGRIN1236",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -784,14 +784,14 @@
     },
     {
       "id": "prod-46",
-      "name": "Spindle Draw Bar for Drilling cum Milling Machine suitable for model ZX50C Thread M14 x 1.5 Pitch",
+      "name": "Milling Table for Drilling Machine Size 18 x 8 Inch",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 1600,
+      "price": 36000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCSPIN1420",
+        "Model": "MCHACCMILL1189",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -801,14 +801,14 @@
     },
     {
       "id": "prod-47",
-      "name": "V Belt Motor Pulley in Milling Machine",
+      "name": "Halogen Machine Lamp Adjustable for Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 700,
+      "price": 7800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCVBEL1255",
+        "Model": "MCHACCHALO1006",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -818,14 +818,14 @@
     },
     {
       "id": "prod-48",
-      "name": "V Belt Motor Pulley in Milling Machine",
+      "name": "Spider Handle for Bridgeport milling machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 700,
+      "price": 950,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCVBEL1255",
+        "Model": "MCHACCSPID1097",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -852,14 +852,14 @@
     },
     {
       "id": "prod-50",
-      "name": "Electric Pipe Threading Machine model Z1T-R2-50 size 1/2\"-2\" with all standard accessories",
+      "name": "Electric Pipe Threading Machine model Z1T-B3-80 size 1/2\"-3\" with all standard accessories",
       "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 59000,
+      "price": 79000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "PIPEMACHPENT1002",
+        "Model": "PIPEMACHPENT1003",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -886,14 +886,14 @@
     },
     {
       "id": "prod-52",
-      "name": "Electric Pipe Threading Machine model Z1T-R4-100 size 1/2\"-4\" with all standard accessories",
+      "name": "Electric Pipe Threading Machine model Z1T-B6-150 size 2.1/2'-6\" with all standard accessories",
       "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 91000,
+      "price": 198000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "PIPEMACHPENT1004",
+        "Model": "PIPEMACHPENT1012",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -903,14 +903,14 @@
     },
     {
       "id": "prod-53",
-      "name": "3 Hp Electrical Motor, Switch and Belt for Lathe Machine",
-      "category": "Lathe Machine",
+      "name": "Electrical Push Buttons",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 14500,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEHPEL1031",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -920,14 +920,14 @@
     },
     {
       "id": "prod-54",
-      "name": "3 Hp Electrical Motor, Switch and Belt for Lathe Machine",
-      "category": "Lathe Machine",
+      "name": "Electrical Push Buttons",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 14500,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEHPEL1031",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -937,14 +937,14 @@
     },
     {
       "id": "prod-55",
-      "name": "Semi Automatic End Mill Cutter Grinder Machine Model MR-AE30 suitable to grind 4-20 mm size end mills with Grinding wheel, Standard size with Nine pcs. ER32 collets: 4, 6, 8, 10, 12, 14, 16, 18, and 20 mm",
-      "category": "Grinding Machines",
+      "name": "End Mill Cutters - Size 10 mm",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 440000,
+      "price": 950,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACPENT1247",
+        "Model": "MCHACCENDM1369",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -954,14 +954,14 @@
     },
     {
       "id": "prod-56",
-      "name": "Semi Automatic End Mill Cutter Grinder Machine Model MR-AE30 suitable to grind 4-20 mm size end mills with Grinding wheel, Standard size with Nine pcs. ER32 collets: 4, 6, 8, 10, 12, 14, 16, 18, and 20 mm",
-      "category": "Grinding Machines",
+      "name": "End Mill Cutters - Size 12 mm",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 440000,
+      "price": 1400,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACPENT1247",
+        "Model": "MCHACCENDM1370",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -971,14 +971,14 @@
     },
     {
       "id": "prod-57",
-      "name": "/Everest brand heavy duty Lathe Machine model PE8x12x 60 with 8 feet bed length 300 mm/12\" center height and 14\" bed width 60 mm spindle bore along with full norton gear box and all standard accessories and complete with 5 hp electrical motor, starter, V belt and 12\" DOG Chuck 4 jaw type",
-      "category": "Lathe Machine",
+      "name": "Everest Lathe Machines",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 415000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEPENT1244",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -988,14 +988,14 @@
     },
     {
       "id": "prod-58",
-      "name": "/Everest brand heavy duty Lathe Machine model PE8x12x 60 with 8 feet bed length 300 mm/12\" center height and 14\" bed width 60 mm spindle bore along with full norton gear box and all standard accessories and complete with 5 hp electrical motor, starter, V belt and 12\" DOG Chuck 4 jaw type",
-      "category": "Lathe Machine",
+      "name": "Everest Lathe Machines",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 415000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEPENT1244",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1005,14 +1005,14 @@
     },
     {
       "id": "prod-59",
-      "name": "/Everest brand heavy duty Lathe Machine model PE8x12x 60 with 8 feet bed length 300 mm/12\" center height and 14\" bed width 60 mm spindle bore along with full norton gear box and all standard accessories and complete with 5 hp electrical motor, starter, V belt and 12\" DOG Chuck 4 jaw type",
-      "category": "Lathe Machine",
+      "name": "Everest Lathe Machines",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 415000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEPENT1244",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1039,14 +1039,14 @@
     },
     {
       "id": "prod-61",
-      "name": "Wood working vertical band saw machine model PVBS 18",
-      "category": "Wood Machinery",
+      "name": "G4288 Horizontal Band Saw Machine",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 108000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1050",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1056,14 +1056,14 @@
     },
     {
       "id": "prod-62",
-      "name": "Wood turning lathe 6 feet bed length Height of Centers 8\" without Electrical",
-      "category": "Wood Machinery",
+      "name": "Gap Bed Lathe",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 28700,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1092",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1073,14 +1073,14 @@
     },
     {
       "id": "prod-63",
-      "name": "20\u2019 Heavy Duty Planner Bed Type V- Belt Driven Lathe Machine, Width of Bed 28\u201d, Height of center 24\u201d Spindle Bore 125 mm, ABC 3500 mm, Semi Norton Gear Box, 6 Speeds In Head Stock, Steel Gears and 3pcs. V-Belt in Head stock",
+      "name": "Medium Duty Norton Gear Box for Lathe Machine",
       "category": "Lathe Machine",
       "brand": "Premium Industrial",
-      "price": 1145000,
+      "price": 16800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEHEAV1141",
+        "Model": "LATHEMEDI1055",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1090,14 +1090,14 @@
     },
     {
       "id": "prod-64",
-      "name": "SINO glass type Liner scale KA-300 size from 100 mm to 970 mm any size with resolution 0.001 mm",
-      "category": "DRO & Linear Scale",
+      "name": "Glass Scale Dro",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 16800,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLSINO1133",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1107,14 +1107,14 @@
     },
     {
       "id": "prod-65",
-      "name": "Hand Operated Grease Lubrication Pump model MGP-600-2 DISCHARGE \u2013 2gm/STROKE PRESSURE \u2013 60kg/cmsq",
-      "category": "Machine Accessories",
+      "name": "Grease Lubrication System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2900,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCHAND1415",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1124,14 +1124,14 @@
     },
     {
       "id": "prod-66",
-      "name": "Hand Operated Grease Lubrication Pump model MGP-600-2 DISCHARGE \u2013 2gm/STROKE PRESSURE \u2013 60kg/cmsq",
-      "category": "Machine Accessories",
+      "name": "Grease Lubrication System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2900,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCHAND1415",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1141,14 +1141,14 @@
     },
     {
       "id": "prod-67",
-      "name": "Heavy Duty Norton Gear Box for Lathe Machine",
-      "category": "Lathe Machine",
+      "name": "Heavy Duty Lathe Machines 102 Mm",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 29500,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEHEAV1056",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1158,14 +1158,14 @@
     },
     {
       "id": "prod-68",
-      "name": "Heavy Duty Norton Gear Box for Lathe Machine",
-      "category": "Lathe Machine",
+      "name": "Heavy Duty Lathe Machines",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 29500,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "LATHEHEAV1056",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1175,14 +1175,14 @@
     },
     {
       "id": "prod-69",
-      "name": "Body Heavy Duty Fly Press 1 no Wheel",
-      "category": "Metal Forming Machine",
+      "name": "Unique Heavy Duty G Clamp Taparia Type U408HD 6\"",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 9000,
+      "price": 805,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "METFORMACPENT1128",
+        "Model": "MCHACCUNIQ1507",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1192,14 +1192,14 @@
     },
     {
       "id": "prod-70",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Ram Turret Milling Motor (Spindle Motor)",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 28000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "MCHACCRAMT1088",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1209,14 +1209,14 @@
     },
     {
       "id": "prod-71",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Hercules Vertical Turret Milling Machinery",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1260,14 +1260,14 @@
     },
     {
       "id": "prod-74",
-      "name": "APEX Make Horizontal Rotary Milling Table 200mm dia",
+      "name": "APEX Universal /HV Rotary Milling Table Horizontal & Vertical 200mm",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 14505,
+      "price": 17190,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCAPEX1497",
+        "Model": "MCHACCAPEX1010",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1277,14 +1277,14 @@
     },
     {
       "id": "prod-75",
-      "name": "Hydraulic Press Brake Machine Rear Cylinder Type 40T x 2500",
+      "name": "Hydraulic Press Brake Machine Rear Cylinder Type 40T -2540 x 2",
       "category": "Sheet Metal Machinery",
       "brand": "Premium Industrial",
-      "price": 520000,
+      "price": 584000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "SHTMETHYDR1223",
+        "Model": "SHTMETHYDR1178",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1294,14 +1294,14 @@
     },
     {
       "id": "prod-76",
-      "name": "Side Bolt SB40 Hydraulic Rock Breaker",
+      "name": "THROUGH BOLT/Tie Bolt - Hydraulic Rock Breaker",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 1500,
+      "price": 5000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLSIDE1014",
+        "Model": "RCKBRKCHLCOUP1013",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1328,14 +1328,14 @@
     },
     {
       "id": "prod-78",
-      "name": "Hydraulic Rock breaker model PB1550 suitable for chisel dia 155 mm",
+      "name": "Filing Adaptor for Hydraulic Rock Breaker",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 985000,
+      "price": 1800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "ROCKBRKHYDR1006",
+        "Model": "RCKBRKCHLFILI1032",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1345,14 +1345,14 @@
     },
     {
       "id": "prod-79",
-      "name": "Hydraulic Rock breaker model PB1550 suitable for chisel dia 155 mm",
+      "name": "Foot Pedal for Hydraulic Rock Breaker",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 985000,
+      "price": 1000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "ROCKBRKHYDR1006",
+        "Model": "RCKBRKCHLFOOT1049",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1362,14 +1362,14 @@
     },
     {
       "id": "prod-80",
-      "name": "Side Bolt SB40 Hydraulic Rock Breaker",
+      "name": "THROUGH BOLT/Tie Bolt - SB43 Hydraulic Rock Breaker",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 1500,
+      "price": 5500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLSIDE1014",
+        "Model": "RCKBRKCHLTHRO1053",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1379,14 +1379,14 @@
     },
     {
       "id": "prod-81",
-      "name": "Side Bolt SB40 Hydraulic Rock Breaker",
+      "name": "Hydraulic Rock Breaker Nitrogen Housing Charging Valve",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 1500,
+      "price": 5800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLSIDE1014",
+        "Model": "RCKBRKCHLHYDR1055",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1396,14 +1396,14 @@
     },
     {
       "id": "prod-82",
-      "name": "NPN And PNP Proximity Sensors for Hydraulic Surface grinder Machine",
+      "name": "Labour Charges for Surface Grinder Machine",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
       "price": 3000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACNPNA1217",
+        "Model": "GRINDMACLABO1011",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1413,14 +1413,14 @@
     },
     {
       "id": "prod-83",
-      "name": "NPN And PNP Proximity Sensors for Hydraulic Surface grinder Machine",
+      "name": "Timing chain for Surface Grinder Machine",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
-      "price": 3000,
+      "price": 1200,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACNPNA1217",
+        "Model": "GRINDMACTIMI1209",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1430,14 +1430,14 @@
     },
     {
       "id": "prod-84",
-      "name": "Box nut for Hydraulic Vise Cylinder locking",
+      "name": "Lead Screw for Hydraulic Vise Cylinder locking",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
       "price": 4800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCBOXN1718",
+        "Model": "MCHACCLEAD1484",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1464,14 +1464,14 @@
     },
     {
       "id": "prod-86",
-      "name": "ITAKA TAIWAN Vertical Turret Milling Machine Round head Top Brake Bed Size 1370x254 mm with R8/ISO30 Spindle and with mentioned standard and optional accessories",
-      "category": "Milling Machine",
+      "name": "Timer Belt for Ram Turret Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 605000,
+      "price": 1500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1264",
+        "Model": "MCHACCTIME1064",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1481,14 +1481,14 @@
     },
     {
       "id": "prod-87",
-      "name": "ITAKA TAIWAN Vertical Turret Milling Machine Round head Top Brake Bed Size 1370x254 mm with R8/ISO30 Spindle and with mentioned standard and optional accessories",
-      "category": "Milling Machine",
+      "name": "Motor Pulley for Ram Turret Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 605000,
+      "price": 6400,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1264",
+        "Model": "MCHACCMOTO1093",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1498,14 +1498,14 @@
     },
     {
       "id": "prod-88",
-      "name": "Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD",
-      "category": "Rock Breaker & Chisel",
+      "name": "Jcb Rock Breakers",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 7200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLOILS1029",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1515,14 +1515,14 @@
     },
     {
       "id": "prod-89",
-      "name": "Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD",
-      "category": "Rock Breaker & Chisel",
+      "name": "Jcb Rock Breakers",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 7200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLOILS1029",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1566,14 +1566,14 @@
     },
     {
       "id": "prod-92",
-      "name": "METAL BRAND Magnetic Sensor Suitable For Optical Scale with 0.005 mm resolution along with connecting cable and and other fitting accessories",
-      "category": "DRO & Linear Scale",
+      "name": "Magnetic Scale",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 11200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLMAGN1057",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1583,14 +1583,14 @@
     },
     {
       "id": "prod-93",
-      "name": "Filing Adaptor for Hydraulic Rock Breaker",
+      "name": "Oil Seal Kit for Hydraulic Rock Breaker SB40",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 1800,
+      "price": 3500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLFILI1032",
+        "Model": "RCKBRKCHLSEAL1024",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1600,14 +1600,14 @@
     },
     {
       "id": "prod-94",
-      "name": "Filing Adaptor for Hydraulic Rock Breaker",
+      "name": "Oil Seal Kit for Hydraulic Rock Breaker SB43",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 1800,
+      "price": 4000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLFILI1032",
+        "Model": "RCKBRKCHLOILS1051",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1617,14 +1617,14 @@
     },
     {
       "id": "prod-95",
-      "name": "Flexi arm tapping machine Plastic handle with out R/F switch model M6-M36",
-      "category": "Drilling & Tapping Machine",
+      "name": "Mcb Changeover Switch",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2500,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DRLTAPMACFLEX1078",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1651,14 +1651,14 @@
     },
     {
       "id": "prod-97",
-      "name": "Mechanical type Edge finder (Gold) / Edge sensor 10 mm shank dia",
-      "category": "Machine Accessories",
+      "name": "Mechanical Edge Finder",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1100,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1028",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1668,14 +1668,14 @@
     },
     {
       "id": "prod-98",
-      "name": "Manu Make Over Crank Mechanical Power Shearing Machine Model : PMMOCMSM15258",
-      "category": "Sheet Metal Machinery",
+      "name": "Mechanical Power Feed",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 765000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "SHTMETOVER1167",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1685,14 +1685,14 @@
     },
     {
       "id": "prod-99",
-      "name": "Apex Mechanics Bench Vice (Fixed Base), Size - 250 mm,Model 741",
-      "category": "Machine Accessories",
+      "name": "Mechanics Bench Vise",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 24582,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCUNIQ1431",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1702,14 +1702,14 @@
     },
     {
       "id": "prod-100",
-      "name": "Micro boring head Model F-18 with R8 Shank and Alley keys",
+      "name": "MICRO BORING HEAD 3 INCH 75MM",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 7200,
+      "price": 5600,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMICR1335",
+        "Model": "MCHACCMICR1397",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1719,14 +1719,14 @@
     },
     {
       "id": "prod-101",
-      "name": "Milling Table for Drilling Machine Size 18 x 8 Inch",
+      "name": "Milling Table for Drilling Machine Table Size 20 x 12 Inch",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 36000,
+      "price": 39500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMILL1189",
+        "Model": "MCHACCMILL1190",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1736,14 +1736,14 @@
     },
     {
       "id": "prod-102",
-      "name": "Milling Machine Micrometer Scale",
+      "name": "V Belt Motor Pulley in Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 2200,
+      "price": 700,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMILL1712",
+        "Model": "MCHACCVBEL1255",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1753,14 +1753,14 @@
     },
     {
       "id": "prod-103",
-      "name": "Wood turning lathe 6 feet bed length Height of Centers 8\" without Electrical",
-      "category": "Wood Machinery",
+      "name": "Ms Gap Bed Lathe",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 28700,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "WOODMACHWOOD1092",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1770,14 +1770,14 @@
     },
     {
       "id": "prod-104",
-      "name": "Extension Cable for Digital Readout (DRO)",
-      "category": "DRO & Linear Scale",
+      "name": "Newall Digital Readout System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLEXTE1010",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1787,14 +1787,14 @@
     },
     {
       "id": "prod-105",
-      "name": "Extension Cable for Digital Readout (DRO)",
-      "category": "DRO & Linear Scale",
+      "name": "Newall Digital Readout System Dro ",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLEXTE1010",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1804,14 +1804,14 @@
     },
     {
       "id": "prod-106",
-      "name": "\"RHINOPOWER\" premium series of J D MANKOO international power press machine pillar type 300 Ton pneumatic clutch extra heavy duty with All Gunmetal Bushes, Automatic Lubrication system, complete with 30 HP 3 phase 1440 RPM",
-      "category": "Metal Forming Machine",
+      "name": "Pneumatic Clutch Power Press",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 3304000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "METFORMACRHIN1111",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1821,14 +1821,14 @@
     },
     {
       "id": "prod-107",
-      "name": "\"RHINOPOWER\" premium series of J D MANKOO international power press machine pillar type 300 Ton pneumatic clutch extra heavy duty with All Gunmetal Bushes, Automatic Lubrication system, complete with 30 HP 3 phase 1440 RPM",
-      "category": "Metal Forming Machine",
+      "name": "Pneumatic Clutch Power Press",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 3304000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "METFORMACRHIN1111",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1838,14 +1838,14 @@
     },
     {
       "id": "prod-108",
-      "name": "Milling auto table power feeder for traverse axis model APF-500Y with fitting screw, cable lead screw adapter and clamps and limit switch set",
+      "name": "Brake Magnet for Power Feeder",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 27000,
+      "price": 4650,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1086",
+        "Model": "MCHACCBRAK1228",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1855,14 +1855,14 @@
     },
     {
       "id": "prod-109",
-      "name": "ITAKA TAIWAN Vertical Turret Milling Machine Round head Top Brake Bed Size 1370x254 mm with R8/ISO30 Spindle and with mentioned standard and optional accessories",
-      "category": "Milling Machine",
+      "name": "Elevating Knee Crank Mill Handle Turret Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 605000,
+      "price": 2500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1264",
+        "Model": "MCHACCELEV1095",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1872,14 +1872,14 @@
     },
     {
       "id": "prod-110",
-      "name": "brand hand press brake model PHP-2500 x 3mm",
-      "category": "Manual Sheet Metal Machines",
+      "name": "Press Brakes",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 175000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "SHTMETPENT1248",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1923,14 +1923,14 @@
     },
     {
       "id": "prod-113",
-      "name": "MT3-MT2 Morse Taper Reduction Sleeve for Milling Machine ,Lathe machine",
+      "name": "R8 To MT2 Reduction Sleeve for Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 950,
+      "price": 2250,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMTMT1417",
+        "Model": "MCHACCRTOM1313",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1940,14 +1940,14 @@
     },
     {
       "id": "prod-114",
-      "name": "MT3-MT2 Morse Taper Reduction Sleeve for Milling Machine ,Lathe machine",
+      "name": "R8 To MT3 Reduction Sleeve for Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 950,
+      "price": 2450,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCMTMT1417",
+        "Model": "MCHACCRTOM1317",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1957,14 +1957,14 @@
     },
     {
       "id": "prod-115",
-      "name": "Thermal Overload Relays Direct Mounting TR2-D09312 (Current 5.5-8 A)",
-      "category": "Machine Accessories",
+      "name": "Robusta Contactors And Overload Relays",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1210,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCTHER1442",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -1974,14 +1974,14 @@
     },
     {
       "id": "prod-116",
-      "name": "Bush Pad for Rock Breaker SB40",
+      "name": "H-Wedge Chisel M135x1300 for Rock Breaker",
       "category": "Rock Breaker & Chisel",
       "brand": "Premium Industrial",
-      "price": 3500,
+      "price": 25000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLBUSH1043",
+        "Model": "RCKBRKCHLDEMH1009",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2008,14 +2008,14 @@
     },
     {
       "id": "prod-118",
-      "name": "Wheel head moving type surface grinder model M7132 with table size 1250X320 mm",
-      "category": "Grinding Machines",
+      "name": "Saddle Type Surface Grinder",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2150000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACWHEE1218",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2025,14 +2025,14 @@
     },
     {
       "id": "prod-119",
-      "name": "Wheel head moving type surface grinder model M7132 with table size 1250X320 mm",
-      "category": "Grinding Machines",
+      "name": "Saddle Type Surface Grinder",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 2150000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACWHEE1218",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2042,14 +2042,14 @@
     },
     {
       "id": "prod-120",
-      "name": "SINO 2 Axis Digital Readout Set -Display with 700 * 1600 mm Linear Glass Scales, 5 micron resolution",
-      "category": "DRO & Linear Scale",
+      "name": "Sino Sds 2Ms Digital Readout System",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 38000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLSINO1069",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2059,14 +2059,14 @@
     },
     {
       "id": "prod-121",
-      "name": "3 Axis EDM DRO Display SINO BRAND with mounting stand, power cable, fitting bracket, stand and all standard accessories",
-      "category": "DRO & Linear Scale",
+      "name": "Sino Sds6 3V Dro",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 17600,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "DROLISCLAXIS1111",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2076,14 +2076,14 @@
     },
     {
       "id": "prod-122",
-      "name": "Grinding wheel standard grade for Surface Grinding machine model MY4080 size of wheel 350x40x127 mm",
+      "name": "Grinding wheel for Surface Grinding",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
-      "price": 7600,
+      "price": 2500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACGRIN1228",
+        "Model": "GRINDMACGRIN1227",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2093,14 +2093,14 @@
     },
     {
       "id": "prod-123",
-      "name": "Grinding wheel standard grade for Surface Grinding machine model MY4080 size of wheel 350x40x127 mm",
-      "category": "Grinding Machines",
+      "name": "Halogen Machine Lamp Adjustable for Milling Machine, Radial Drilling Machine, Surface grinding Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 7600,
+      "price": 5200,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACGRIN1228",
+        "Model": "MCHACCHALO1585",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2110,14 +2110,14 @@
     },
     {
       "id": "prod-124",
-      "name": "Grinding wheel standard grade for Surface Grinding machine model MY4080 size of wheel 350x40x127 mm",
-      "category": "Grinding Machines",
+      "name": "Blade grinding machine model PABG-13",
+      "category": "Wood Machinery",
       "brand": "Premium Industrial",
-      "price": 7600,
+      "price": 25668,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACGRIN1228",
+        "Model": "WOODMACHBLAD1065",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2127,7 +2127,7 @@
     },
     {
       "id": "prod-125",
-      "name": "/SGMT Make PLC based servo drive and ball screw based automatic surface grinding Machine 12\u201dx24\u201d (600 x 300 mm) table size with all mentioned standard accessories",
+      "name": "/SGMT Make PLC based servo drive and ball screw based automatic surface grinding Machine 12”x24” (600 x 300 mm) table size with all mentioned standard accessories",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
       "price": 515000,
@@ -2144,14 +2144,14 @@
     },
     {
       "id": "prod-126",
-      "name": "/SGMT Make PLC based servo drive and ball screw based automatic surface grinding Machine 12\u201dx24\u201d (600 x 300 mm) table size with all mentioned standard accessories",
+      "name": "/SGMT Make Hydraulic Surface Grinder Machine 12”x24” (600 x 300 mm) table size with all mentioned standard accessories",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
-      "price": 515000,
+      "price": 635000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACPENT1187",
+        "Model": "MCHTOOLAUTO1031",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2161,14 +2161,14 @@
     },
     {
       "id": "prod-127",
-      "name": "ITAKA TAIWAN Vertical Turret Milling Machine Round head Top Brake Bed Size 1370x254 mm with R8/ISO30 Spindle and with mentioned standard and optional accessories",
-      "category": "Milling Machine",
+      "name": "Control Transformer for Turret Milling Machine Panel Board",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 605000,
+      "price": 6600,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1264",
+        "Model": "MCHACCCONT1198",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2178,14 +2178,14 @@
     },
     {
       "id": "prod-128",
-      "name": "Universal Tool And Cutter Grinder Model PTCG-250",
+      "name": "Universal Cutter Grinder model AR-U2 with all standard accessories mentioned",
       "category": "Grinding Machines",
       "brand": "Premium Industrial",
-      "price": 225000,
+      "price": 67500,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "GRINDMACUNIV1099",
+        "Model": "GRINDMACPENT1241",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2195,14 +2195,14 @@
     },
     {
       "id": "prod-129",
-      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "name": "BRAND GMW Universal Dividing Head model PI-4\" With Indexing Equipment only",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 68000,
+      "price": 31000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1617",
+        "Model": "MCHACCPENT1180",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2212,14 +2212,14 @@
     },
     {
       "id": "prod-130",
-      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "name": "BRAND GMW Universal Dividing Head model PI-6\" With Indexing Equipment only",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 68000,
+      "price": 43200,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1617",
+        "Model": "MCHACCPENT1182",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2229,14 +2229,14 @@
     },
     {
       "id": "prod-131",
-      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
-      "category": "Machine Accessories",
+      "name": "Universal Dividing Head",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 68000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1617",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2246,14 +2246,14 @@
     },
     {
       "id": "prod-132",
-      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
-      "category": "Machine Accessories",
+      "name": "Universal Dividing Head",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 68000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCPENT1617",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2280,14 +2280,14 @@
     },
     {
       "id": "prod-134",
-      "name": "Spare for milling machine X/Y/Z Axis lead screw for universal knee type milling machine model X6036 suitable for table size 1370x360 mm",
-      "category": "Machine Accessories",
+      "name": "Universal Knee Type Milling Machine",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 17600,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCSPAR1430",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2297,14 +2297,14 @@
     },
     {
       "id": "prod-135",
-      "name": "Gear for Universal Milling Machine",
+      "name": "Break Shoe - for Variable Speed Milling Machine",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 5500,
+      "price": 3700,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MCHACCGEAR1444",
+        "Model": "MCHACCBREA1227",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2314,14 +2314,14 @@
     },
     {
       "id": "prod-136",
-      "name": "Universal Swivel Head Milling Machine Model X6436 table size 1500 x360 mm with all three axis auto table feed with vertical head and other standard accessories mentioned",
-      "category": "Milling Machine",
+      "name": "Milling Machine Parts : B28 Head Feed Gearbox -Triple Gear",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 1465000,
+      "price": 3900,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1312",
+        "Model": "MCHACCMILL1436",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2331,14 +2331,14 @@
     },
     {
       "id": "prod-137",
-      "name": "Universal Swivel Head Milling Machine Model X6436 table size 1500 x360 mm with all three axis auto table feed with vertical head and other standard accessories mentioned",
-      "category": "Milling Machine",
+      "name": "Universal Swivel Head Milling Machine",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 1465000,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1312",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2348,14 +2348,14 @@
     },
     {
       "id": "prod-138",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Mechanical Conduit Vertical Pipe Bending machine -5/8\" - 1\"",
+      "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 11800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "HNDPOWTOOLMECH1022",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2365,14 +2365,14 @@
     },
     {
       "id": "prod-139",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "Mechanical Conduit Vertical Pipe Bending machine -5/8\" - 1/1/4\"",
+      "category": "Pipe Machinery",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 17800,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "HNDPOWTOOLMECH1023",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2382,14 +2382,14 @@
     },
     {
       "id": "prod-140",
-      "name": "Vertical RAM Turret Milling Machine Model M4 table size 1370x254 mm with ISO40 spindle with two axis DRO and standard accessories listed",
-      "category": "Milling Machine",
+      "name": "RAM Turret Milling Machine spare Part: Table Stopper",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 395000,
+      "price": 1000,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "MILMCHPENT1295",
+        "Model": "MCHACCRAMT1530",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
@@ -2416,14 +2416,14 @@
     },
     {
       "id": "prod-142",
-      "name": "Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD",
-      "category": "Rock Breaker & Chisel",
+      "name": "Yib1400 Jcb Rock Breakers",
+      "category": "Industrial Equipment",
       "brand": "Premium Industrial",
-      "price": 7200,
+      "price": 0,
       "gst": "18%",
       "moq": "1 Unit",
       "specs": {
-        "Model": "RCKBRKCHLOILS1029",
+        "Model": "N/A",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
