@@ -3,8 +3,8 @@ services:
     name: auzaarbazaar
     runtime: node
     plan: free
-    buildCommand: npm install && ./node_modules/.bin/next build
-    startCommand: ./node_modules/.bin/next start
+    buildCommand: npm install && npm run build
+    startCommand: npm start
     envVars:
       - key: NODE_VERSION
         value: "20"
@@ -18,3 +18,7 @@ services:
         sync: false
       - key: NEXTAUTH_URL
         value: https://auzaarbazaar.onrender.com
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false

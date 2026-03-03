@@ -24,15 +24,28 @@
       "brand": "Premium Industrial",
       "price": 68000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "MCHACCPENT1617",
+        "Model": "PIS-7.1/2\"",
+        "Ratio of Worm & Worm Gear": "1:40",
+        "Spindle Taper": "MT 4",
+        "Height of Centres": "190 mm",
+        "Spindle Bore": "55-75 mm",
+        "Length of Base": "290 mm",
+        "Width of Base": "230 mm",
+        "Width of Tenon Guides": "12 mm",
+        "Overall height in vertical position": "360 mm",
+        "Weight of dividing head with standard ac": "125 kgs",
+        "Gross Weight": "140 kgs",
+        "Std Accessories": "Dividing Head Set | Dividing Plates | Tail stock",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/5-semi-universal-dividing-head-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "features": "BRAND GMW Universal Dividing Heads can be used for indirect and differential indexing and all divisions arranged from 2 to 400 including the prime numbers | This dividing head set includes headstock, tailstock, center & driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Head stock can be swivelled through 110 degree ie. 10 degree below the horizontal line and will pass the vertica"
     },
     {
       "id": "prod-2",
@@ -41,15 +54,22 @@
       "brand": "Premium Industrial",
       "price": 65000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "MCHACCPENT1104",
+        "Model": "PBS1",
+        "Taper of center": "MT-3",
+        "Suitable chucks": "160 mm",
+        "Weight (Kg)-Approx.": "30",
+        "Center Height": "128 mm",
+        "Std Accessories": "Dividing Head Set model BS1 with 6\" Chuck, Tailstock, Dividing Plates, and other std accessories | Dividing Plates | Tail-stock | 6 Inch 3 Jaw Chuck | Operation Manual",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/5-semi-universal-dividing-head-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Semi Universal Dividing Head/Indexing head Set model BS1 with 6\" Chuck, Tailstock Dividing Plates and other std accessories",
+      "features": "This dividing head set includes headstock, 6\" 3-jaw lathe chuck, tailstock, center&driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Headstock adjustable from 10 downward to 90 degree upward from the horizontal position | By using dividing scale ring, vernier, locating pin, index plate and change gear, workpieces placed can be divided into equal partitions according to your deman"
     },
     {
       "id": "prod-3",
@@ -58,7 +78,7 @@
       "brand": "Premium Industrial",
       "price": 3250,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCSPRI1231",
         "Status": "Available",
@@ -66,7 +86,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/50-mm-drilling-cum-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Spring for ZX50C Drilling and Milling Machine"
     },
     {
       "id": "prod-4",
@@ -75,15 +96,25 @@
       "brand": "Premium Industrial",
       "price": 48000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "DRLTAPMACPILL1024",
+        "Drilling Capacity (M.S)": "19",
+        "Tapping In M.S": "15",
+        "Spindle Hole Taper": "MT-3",
+        "Spindle Travel": "120",
+        "Spindle Speed (RPM X Step)8": "80 to 2600 x 8",
+        "Table Size Milling table": "300 x 200",
+        "Motor Power (H.P)": "1 Hp",
+        "RPM": "1440",
+        "Std Accessories": "Motor Pulley | Electrical Motor-1 Hp 3 Phase | R/F Switch | V-Belt | Millling table",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/50-mm-drilling-cum-milling-machine-500x500.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Pillar Drill Machine 19 mm max drilling capacity with suitable milling table"
     },
     {
       "id": "prod-5",
@@ -194,7 +225,7 @@
       "brand": "Premium Industrial",
       "price": 15000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "LATHEQUIC1160",
         "Status": "Available",
@@ -202,7 +233,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/all-geared-extra-heavy-duty-lathe-machine-130-mm-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Quick change Tool Post for All geared Heavy duty lathe machine model ST 410x1000"
     },
     {
       "id": "prod-12",
@@ -211,7 +243,7 @@
       "brand": "Premium Industrial",
       "price": 29500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "LATHEHEAV1056",
         "Status": "Available",
@@ -219,7 +251,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/all-geared-heavy-duty-lathe-machine-40-mm-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Heavy Duty Norton Gear Box for Lathe Machine"
     },
     {
       "id": "prod-13",
@@ -228,15 +261,36 @@
       "brand": "Premium Industrial",
       "price": 235000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "LATHEPENT1199",
+        "Length of bed": "1370 mm (4'6\")",
+        "Center height": "215 mm",
+        "Admit Between Centers": "635 mm",
+        "Swing Over bed": "400 mm",
+        "Swing Over Gap": "600 mm",
+        "Swing Over Cross slide": "250 mm",
+        "No of spindle speed": "8 Nos",
+        "Range of speed": "54-1000 rpm",
+        "Spindle Bore": "52 mm",
+        "Spindle Taper": "MT4",
+        "TPI Thread": "4-48 TPI",
+        "Metric Thread": "0.5-7 mm",
+        "Lead Screw TPI": "32/4 TPI",
+        "Tail Stock dia": "50 mm",
+        "Quill travel": "139 mm",
+        "Tail stock taper": "MT4",
+        "Bed Width": "280 mm",
+        "Weight Appx": "725 Kgs",
+        "Std Accessories": "Chuck Plate | Change Gear Set of ( inch and mm) | Dead Center | Center Adapter | Motor Pully | Tool Post Key | Chip Tray",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/all-geared-heavy-duty-lathe-machine-52-mm-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "verified Brand All geared medium Duty Lathe Machine model 1370/4'-6\" with center height 215mm Spindle Bore 52 mm along with all standard accessories",
+      "features": "Flame Hardened bed ways | Latest Design Head Stock and spindle is made of alloy steel & precision grinding. | All rotating parts are balanced | High Tensile Casting and Rigid contruction of bedways"
     },
     {
       "id": "prod-14",
@@ -245,7 +299,7 @@
       "brand": "Premium Industrial",
       "price": 6600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCSPIN1089",
         "Status": "Available",
@@ -253,7 +307,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/argo-vertical-turret-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Spindle Pulley for Turret Milling Machine"
     },
     {
       "id": "prod-15",
@@ -262,7 +317,7 @@
       "brand": "Premium Industrial",
       "price": 8800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "DRLTAPMACFLEX1080",
         "Status": "Available",
@@ -270,7 +325,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/arm-servo-tapping-machine-1000x1000.jpeg",
-      "featured": true
+      "featured": true,
+      "description": "Flexi arm tapping machine spindle adaptor"
     },
     {
       "id": "prod-16",
@@ -279,7 +335,7 @@
       "brand": "Premium Industrial",
       "price": 3800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "DRLTAPMACFLEX1079",
         "Status": "Available",
@@ -287,7 +343,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/arm-servo-tapping-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Flexi arm tapping machine Plastic motor cover"
     },
     {
       "id": "prod-17",
@@ -296,15 +353,18 @@
       "brand": "Premium Industrial",
       "price": 18600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCPCBC1658",
+        "Voltage": "220 V",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/arm-servo-tapping-machine-500x500.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "PCB Controller card for Flexi Arm Tapping Machine M6-M36",
+      "features": "Package Include : PCB card for Flexi Arm Tapping Machine"
     },
     {
       "id": "prod-18",
@@ -313,15 +373,18 @@
       "brand": "Premium Industrial",
       "price": 2200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCMILL1712",
+        "Size": ": 132/ 135mm",
+        "Std Accessories": "Angle Plate Scale Ruler",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/armstrong-dro-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Milling Machine Micrometer Scale"
     },
     {
       "id": "prod-19",
@@ -330,7 +393,7 @@
       "brand": "Premium Industrial",
       "price": 5500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCGEAR1444",
         "Status": "Available",
@@ -338,7 +401,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/armstrong-dro-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Gear for Universal Milling Machine"
     },
     {
       "id": "prod-20",
@@ -347,15 +411,27 @@
       "brand": "Premium Industrial",
       "price": 125000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCHEAD1445",
+        "Spindle Speed": "45-5440 RPM",
+        "Steps of Speeds": "16 Steps",
+        "Spindle nose taper": "ISO30",
+        "Quill Travel": "127 mm",
+        "Auto Quill Feeds (per revolution)": "0.45/0.086/0.142 mm/rev",
+        "Head Swivel (FxB)": "90 Degree",
+        "Head Swivel (LxR)": "45 Degree",
+        "Auto quill feed": "3 Nos",
+        "Quill Dia": "86mm",
+        "Motor Power": "3 HP",
+        "Voltage": "415 V / 3 Phase / 50Hz",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/armstrong-vertical-turret-milling-machine-4-no-320-x1470-mm-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Head for Ram Turret Milling Machine"
     },
     {
       "id": "prod-21",
@@ -381,15 +457,28 @@
       "brand": "Premium Industrial",
       "price": 117600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "SHTMETPENT1104",
+        "Pentagon Automatic Pipe Bending machine": "model PWG-26",
+        "Bending diameter range": "4-26mm (thickness:2mm)",
+        "Bending Speed": "20°/sec",
+        "Max Bending Angle": "180°",
+        "Min Bending Angle": "5°",
+        "Motor power": "1.5kw",
+        "Power supply": "380V,50HZ,3P",
+        "Foot switch voltage": "DC 5V",
+        "Overall dimension": "800*650*900 mm",
+        "Total weight": "180kg",
+        "Std Accessories": "Electrical motor | Foot switch | Stand base | Operation Manual",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/automatic-shaping-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Automatic Pipe Bending machine model PWG-26",
+      "features": "automatic pipe bending machine is applicable for bending stainless steel and other kinds of thin-wall metal pipes into arc shapes. It is suitable for round, square and rectangular pipes and features smooth round bending"
     },
     {
       "id": "prod-23",
@@ -398,15 +487,28 @@
       "brand": "Premium Industrial",
       "price": 150000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "SHTMETPENT1105",
+        "Pentagon Automatic Pipe Bending machine": "model PWG-38",
+        "Bending diameter range": "4-38mm (thickness:2mm)",
+        "Bending Speed": "12°/sec",
+        "Max Bending Angle": "180°",
+        "Min Bending Angle": "5°",
+        "Motor power": "3kw",
+        "Power supply": "380V,50HZ,3P",
+        "Foot switch voltage": "DC 5V",
+        "Overall dimension": "900*800*1000 mm",
+        "Total weight": "260kg",
+        "Std Accessories": "Electrical motor | Foot switch | Stand base | Operation Manual",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/automatic-turning-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Automatic Pipe Bending machine model PWG-38",
+      "features": "automatic pipe bending machine is applicable for bending stainless steel and other kinds of thin-wall metal pipes into arc shapes. It is suitable for round, square and rectangular pipes and features smooth round bending"
     },
     {
       "id": "prod-24",
@@ -415,15 +517,23 @@
       "brand": "Premium Industrial",
       "price": 108000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "WOODMACHWOOD1050",
+        "Model": "PVBS 18",
+        "Table Capacity": "18\" x 18\"",
+        "Throat Capacity": "18\" Approx.",
+        "Tilt (Degree)": "To Right 45",
+        "Blade Speed": "118, 155, 203 m/min",
+        "Power Required": "2 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Wood working vertical band saw machine model PVBS 18",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-25",
@@ -432,15 +542,23 @@
       "brand": "Premium Industrial",
       "price": 145000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "WOODMACHWOOD1051",
+        "Model": "PVBS 24",
+        "Table Capacity": "24\" x 24\"",
+        "Throat Capacity": "24\" Approx.",
+        "Tilt (Degree)": "To Right 45",
+        "Blade Speed": "115, 225, 343 m/min",
+        "Power Required": "5 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-gh-4240-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Wood working vertical band saw machine model PVBS 24",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-26",
@@ -449,15 +567,21 @@
       "brand": "Premium Industrial",
       "price": 65000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "WOODMACHWOOD1096",
+        "Model": "PVBS 12",
+        "Table Capacity": "16\" x 18\"",
+        "Tilt (Degree)": "To Right 45",
+        "Length of Blade": "7'10\"",
+        "Power Required": "2 HP",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-gh-4250-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Wood working vertical band saw machine model PVBS 12",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-27",
@@ -478,54 +602,78 @@
     },
     {
       "id": "prod-28",
-      "name": "Band Saw Machine Gh4220",
-      "category": "Industrial Equipment",
+      "name": "Wood working vertical band saw machine model PVBS 18",
+      "category": "Wood Machinery",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 108000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "PVBS 18",
+        "Table Capacity": "18\" x 18\"",
+        "Throat Capacity": "18\" Approx.",
+        "Tilt (Degree)": "To Right 45",
+        "Blade Speed": "118, 155, 203 m/min",
+        "Power Required": "2 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-gh4220-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Wood working vertical band saw machine model PVBS 18",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-29",
-      "name": "Band Saw Machine Gh4228",
-      "category": "Industrial Equipment",
+      "name": "Wood working vertical band saw machine model PVBS 18",
+      "category": "Wood Machinery",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 108000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "PVBS 18",
+        "Table Capacity": "18\" x 18\"",
+        "Throat Capacity": "18\" Approx.",
+        "Tilt (Degree)": "To Right 45",
+        "Blade Speed": "118, 155, 203 m/min",
+        "Power Required": "2 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-gh4228-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Wood working vertical band saw machine model PVBS 18",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-30",
-      "name": "Band Saw Machine Gh4235",
-      "category": "Industrial Equipment",
+      "name": "Wood working vertical band saw machine model PVBS 18",
+      "category": "Wood Machinery",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 108000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "PVBS 18",
+        "Table Capacity": "18\" x 18\"",
+        "Throat Capacity": "18\" Approx.",
+        "Tilt (Degree)": "To Right 45",
+        "Blade Speed": "118, 155, 203 m/min",
+        "Power Required": "2 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/band-saw-machine-gh4235-1000x1000.jpeg",
-      "featured": true
+      "featured": true,
+      "description": "Wood working vertical band saw machine model PVBS 18",
+      "features": "bandsaw (also written band saw) is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irre"
     },
     {
       "id": "prod-31",
@@ -585,7 +733,7 @@
       "brand": "Premium Industrial",
       "price": 2000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Machine",
       "specs": {
         "Model": "LATHEPACK1060",
         "Status": "Available",
@@ -593,7 +741,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/cnc-lathe-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Packing Charges (Ganni Packing) for Lathe Machine"
     },
     {
       "id": "prod-35",
@@ -602,15 +751,43 @@
       "brand": "Premium Industrial",
       "price": 3785000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "PIPEMACHPENT1001",
+        "Model": "DW89CNCX2A-1S CNC",
+        "Max bending capacity Round": "?89 x 8mm",
+        "Max bending capacity in Square": "60X 60mm",
+        "Max bending capacity Rectangle": "80 x 40mm",
+        "Max Bending radius": "250mm",
+        "Min Bending radius": "Depend on the pipe diameter",
+        "Max feeding length": "3000",
+        "Max bending degree": "190 Degree",
+        "Control Panel": "PLC +touch screen",
+        "Bending unit": "16 Peices",
+        "Working speed feeding speed": "800 mm/Sec",
+        "Working speed bending speed": "30 Degrees/Sec",
+        "Working speed Rotary speed": "160 Degrees/Sec",
+        "Accuracy  Feeding": "+/- 0.1 mm",
+        "Accuracy  rotary": "+/- 0.1 Degree",
+        "Accuracy  Bending": "+/- 0.1 Degree",
+        "Oil motor power": "11 kw",
+        "Feeding servo motor power": "2 kw",
+        "Rotary servo motor power": "1.5 Kw",
+        "Max pressure": "14 MPa",
+        "Hydraulic control system": "Magnetic exchange valve",
+        "Oil tank": "250 L",
+        "Machine weight": "5500 Kgs",
+        "Max storage units": "1000 Groups Can enlarge according to requirement",
+        "Machine Dimentions": "4900×1200×1450 mm",
+        "Machine Height": "1300 mm",
+        "Std Accessories": "Sets of tooling | Tool Box | Operation Manual | Test Certificate",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/cnc-lathe-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "DW89CNCX2A-1S CNC Pipe Bending Machine",
+      "features": "DW89CNC X 2A-1S fully automatic CNC tube bending machine, with PLC control system, 2 servo for rotary and feeding. | Touch screen panel display English . have different bending degree prefabricate, dialogue operation, can choose manual, semi-automatic and fully automatic operation manual, portable pedal switch with start and emergency stop function. | manual step by step teach code for interferenc"
     },
     {
       "id": "prod-36",
@@ -636,15 +813,18 @@
       "brand": "Premium Industrial",
       "price": 5350,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCCOLL1381",
+        "Type of collets": "ER40",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/collet-set-adapter-and-spanner-set-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Collet set 10 Pcs ER32 type with R8 collet adapter and spanner",
+      "features": "Our standard packing is plastic box and carton. The outer packing is standard carton. We can pack the packing according to the customer's different requirements. The delivery time is 3 days if we have goods in stocks"
     },
     {
       "id": "prod-38",
@@ -687,15 +867,17 @@
       "brand": "Premium Industrial",
       "price": 1200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "2 Mtr",
       "specs": {
         "Model": "DROLISCLEXTE1010",
+        "Std Accessories": "Extension Cable for DRO",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/delos-digital-readout-system-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Extension Cable DRO (Digital Readout System)"
     },
     {
       "id": "prod-41",
@@ -755,15 +937,18 @@
       "brand": "Premium Industrial",
       "price": 3850,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCPCBF1305",
+        "Voltage": "220 V",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/drill-bit-sharpening-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "PCB for Core Drill Machine",
+      "features": "Package Include : PCB for Core Drill Machine"
     },
     {
       "id": "prod-45",
@@ -789,15 +974,25 @@
       "brand": "Premium Industrial",
       "price": 36000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCMILL1189",
+        "Table Size (Inch)": "18 x 8",
+        "Table Size (mm)": "450 x 200",
+        "Travelling (Inch)": "10 x 8",
+        "Travelling (mm)": "250 x 200",
+        "No. of T- Slot": "3",
+        "Size of T- Slot (Inch)": "1/2",
+        "Size of T- Slot (mm)": "12.5",
+        "Total Height (Inch)": "6.750",
+        "Total Height (mm)": "170",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/drilling-cum-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Milling Table for Drilling MachineMilling Table for Drilling Machine Size 18 x 8 Inch"
     },
     {
       "id": "prod-47",
@@ -806,7 +1001,7 @@
       "brand": "Premium Industrial",
       "price": 7800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCHALO1006",
         "Status": "Available",
@@ -814,7 +1009,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Machine Lamp 7W 110V-220V Adjustable Aluminum Alloy LED Work Light IP68 for Lathe, CNC Milling Machine, Drilling Machine - Medium Arm"
     },
     {
       "id": "prod-48",
@@ -823,7 +1019,7 @@
       "brand": "Premium Industrial",
       "price": 950,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCSPID1097",
         "Status": "Available",
@@ -831,7 +1027,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Spider Handle for Bridgeport milling machine"
     },
     {
       "id": "prod-49",
@@ -840,15 +1037,23 @@
       "brand": "Premium Industrial",
       "price": 59000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "PIPEMACHPENT1002",
+        "Model": "Z1T-R2-50",
+        "Size": "1/2\"-2\"",
+        "Dies Chasers": "1/2\"-3/4\", 1\"-2\"BSPT",
+        "Speed": "28 rpm",
+        "Voltage/Motor Power": "220V/240V, 1-phase/750W",
+        "N.W.": "65 Kgs",
+        "Packing Size": "70 x 45 x 52cm",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-pipe-threading-machine-2-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Electric Pipe Threading Machine model Z1T-R2-50 size 1/2\"-2\" with all standard accessories",
+      "features": "Application in Metal Processing Machinery Parts, Metal Cutting Machine | Electric Motor for Pipe Threading Machine Motor voltage and plug can be choosed according to customer's requirement | Pass the CE/ISO certifications | Longer working life: durable motor and gear box | Heavy-duty design with good working performance | Plywood package suitable for long distance transportation | Powder coating i"
     },
     {
       "id": "prod-50",
@@ -857,15 +1062,23 @@
       "brand": "Premium Industrial",
       "price": 79000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "PIPEMACHPENT1003",
+        "Model": "Z1T-B3-80",
+        "Size": "1/2\"-3\"",
+        "Dies Chasers": "1/2\"-3/4\", 1\"-2\", 2-1/2\"-3\" BSPT",
+        "Speed": "11/24 rpm",
+        "Voltage": "220V/240V, 1-phase",
+        "N.W.": "110/130 Kgs",
+        "Packing Size": "89 x 51 x 54 cm",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-pipe-threading-machine-2-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Electric Pipe Threading Machine model Z1T-B3-80 size 1/2\"-3\" with all standard accessories",
+      "features": "Application in Metal Processing Machinery Parts, Metal Cutting Machine | Electric Motor for Pipe Threading Machine Motor voltage and plug can be choosed according to customer's requirement | Pass the CE/ISO certifications | Longer working life: durable motor and gear box | Heavy-duty design with good working performance | Plywood package suitable for long distance transportation | Powder coating i"
     },
     {
       "id": "prod-51",
@@ -874,15 +1087,23 @@
       "brand": "Premium Industrial",
       "price": 91000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "PIPEMACHPENT1004",
+        "Model": "Z1T-R4-100",
+        "Size": "1/2\"-4\"",
+        "Dies Chasers": "1/2\"-3/4\", 1\"-2\", 2-1/2\"-4\" BSPT",
+        "Speed": "24/9 rpm",
+        "Voltage/Motor Power": "220V/240V, 1-phase/1100W",
+        "N.W.": "120/140 Kgs",
+        "Packing Size": "95 x 62 x 62 cm",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-pipe-threading-machine-4-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Electric Pipe Threading Machine model Z1T-R4-100 size 1/2\"-4\" with all standard accessories",
+      "features": "Application in Metal Processing Machinery Parts, Metal Cutting Machine | Electric Motor for Pipe Threading Machine Motor voltage and plug can be choosed according to customer's requirement | Pass the CE/ISO certifications | Longer working life: durable motor and gear box | Heavy-duty design with good working performance | Plywood package suitable for long distance transportation | Powder coating i"
     },
     {
       "id": "prod-52",
@@ -891,15 +1112,23 @@
       "brand": "Premium Industrial",
       "price": 198000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "PIPEMACHPENT1012",
+        "Model": "Z1T-B6-150",
+        "Size": "2.1/2'' - 6\"",
+        "Dies Chasers": "2-1/2\"-4\", 5''-6'' BSPT ,or NPT",
+        "Speed": "10/22 rpm",
+        "Voltage": "220V/240V, 1-phase",
+        "N.W.": "170/180 Kgs",
+        "Packing Size": "110 x 75 x 72 cm",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/electric-pipe-threading-machine-4-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Electric Pipe Threading Machine model Z1T-B6-150 size 2.1/2'-6\" with all standard accessories",
+      "features": "Application in Metal Processing Machinery Parts, Metal Cutting Machine | Electric Motor for Pipe Threading Machine Motor voltage and plug can be choosed according to customer's requirement | Pass the CE/ISO certifications | Longer working life: durable motor and gear box | Heavy-duty design with good working performance | Plywood package suitable for long distance transportation | Powder coating i"
     },
     {
       "id": "prod-53",
@@ -942,7 +1171,7 @@
       "brand": "Premium Industrial",
       "price": 950,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCENDM1369",
         "Status": "Available",
@@ -950,7 +1179,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/end-mill-grinder-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "End Mill Cutters - Size 10 mm"
     },
     {
       "id": "prod-56",
@@ -959,7 +1189,7 @@
       "brand": "Premium Industrial",
       "price": 1400,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCENDM1370",
         "Status": "Available",
@@ -967,7 +1197,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/end-mill-resharpening-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "End Mill Cutters - Size 12 mm"
     },
     {
       "id": "prod-57",
@@ -1027,15 +1258,29 @@
       "brand": "Premium Industrial",
       "price": 275000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "LATHEEXTR1073",
+        "Length": "12 Feet",
+        "Spindle Bore": "4\" 1/8",
+        "Height of Center": "12''",
+        "Max A.B.Centre": "2490 mm(98”)",
+        "Max Swing over bed (mm)": "455 mm",
+        "Max Swing without Gap": "760 mm",
+        "Max Swing Over Cross Slide": "280 mm",
+        "No of Spindle Speed": "8",
+        "Lead Screw Dia. And Pitch": "38 mm 4 TPI",
+        "Tapper of center in Head and T.S.": "MT 4",
+        "Motor Power ( 1440 RPM)": "3 HP",
+        "Std Accessories": "Face Plate | Chuck Plate | Change Gear Set of ( Inch and mm) | Dead Center | Center Adapter | Motor Pulley | Tool Post Key",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/extra-heavy-duty-lathe-machine-130-mm-1000x1000.jpg",
-      "featured": true
+      "featured": true,
+      "description": "Extra Heavy Duty Lathe Machine 12 feet,Spindle Bore 104 mm ,12 Inch Center Height Complete",
+      "features": "Extra Heavy Duty Lathe Machine"
     },
     {
       "id": "prod-61",
@@ -1078,7 +1323,7 @@
       "brand": "Premium Industrial",
       "price": 16800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "LATHEMEDI1055",
         "Status": "Available",
@@ -1086,7 +1331,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/gear-head-heavy-duty-lathe-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Medium Duty Norton Gear Box for Lathe Machine"
     },
     {
       "id": "prod-64",
@@ -1158,20 +1404,21 @@
     },
     {
       "id": "prod-68",
-      "name": "Heavy Duty Lathe Machines",
-      "category": "Industrial Equipment",
+      "name": "Heavy Duty Norton Gear Box for Lathe Machine",
+      "category": "Lathe Machine",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 29500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "LATHEHEAV1056",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/heavy-duty-lathe-machines-500x500.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Heavy Duty Norton Gear Box for Lathe Machine"
     },
     {
       "id": "prod-69",
@@ -1180,7 +1427,7 @@
       "brand": "Premium Industrial",
       "price": 805,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 SET",
       "specs": {
         "Model": "MCHACCUNIQ1507",
         "Status": "Available",
@@ -1188,7 +1435,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/heavy-duty-lathes-500x500.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Unique Heavy Duty G Clamp Taparia Type U408HD 6\""
     },
     {
       "id": "prod-70",
@@ -1197,15 +1445,21 @@
       "brand": "Premium Industrial",
       "price": 28000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCRAMT1088",
+        "Motor": "3 HP / 2.2 Kw",
+        "Frequency": "50 Hz",
+        "Voltage": "415 v",
+        "Current (Amp)": "4.7/4.4",
+        "RPM": "2840/1420",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hercules-vertical-turret-milling-machinery-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Ram Turret Milling Motor (Spindle Motor), 3 Phase Induction Motor ,3 H P"
     },
     {
       "id": "prod-71",
@@ -1231,15 +1485,39 @@
       "brand": "Premium Industrial",
       "price": 2105000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "LATHEPENT1087",
+        "Model": "C6280Cx2000",
+        "Max. swing over bed (mm) Dia.": "800",
+        "Max. swing over cross slide (mm)  Dia.": "570",
+        "Max. swing in gap (mm)  Dia.": "1035",
+        "Admit between centers": "2000 mm",
+        "Bed width": "400 mm",
+        "Spindle hole Dia.": "105 mm",
+        "Spindle nose": "D1-8",
+        "Taper of Spindle Hole/Bore": "Dia.113mm(1:20)/MT5",
+        "Spindle speeds (Number)": "16",
+        "Range of Spindle Speed": "25-1600 RPM",
+        "Inch threads range (Kinds)": "7/16-80 TPI OR 40mm x 12mm",
+        "Module threads range (Kinds)": "0.25-60MP(46Kinds)",
+        "Max.Cross slide travel": "420 mm",
+        "Compound rest travel": "230 mm",
+        "Cross-section size of toolshank": "25*25 mm",
+        "Taper of tailstock sleeve / Quill Taper": "MT5",
+        "Dia. of tailstock sleeve": "90 mm",
+        "Travel of tailstock sleeve": "235 mm",
+        "Main motor power": "7.5 KW (10 HP)",
+        "Packing size (L*W*H) (mm)": "3740*1140*1910 mm",
+        "Net Weight/Gross Weight": "3505 / 4005 Kgs",
+        "Std Accessories": "3 jaw chuck | 4 jaw chuck | Face plate | Steady rest | Follow rest | Center | Splash Guard | Center sleeves | Oil gun | Foot brake | Halogen Lamp | Foundation bolt | Toolbox",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/high-speed-lathe-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "All Geared High speed high precision lathe machine model C6280Cx2000",
+      "features": "Machine head stock and bed, tailstock, Supporting plate, etc. the combination of surface between manual scraping, machine to undergo a rigorous inspection, effectively ensure the machine tool accuracy and stability | Machine adopts high strength cast iron, copper and chromium special materials are added, the bed width 400mm, bed rail quenching depth up to 4mm, effectively improves the agreeability"
     },
     {
       "id": "prod-73",
@@ -1248,15 +1526,25 @@
       "brand": "Premium Industrial",
       "price": 14505,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCAPEX1497",
+        "Size": "200mm (8\")",
+        "Table T-Slot Size (in mm)": "13 mm",
+        "Centre Bush Bore (morse taper)": "3 mm",
+        "Worm & Gear Ratio": "1 : 72",
+        "Wheel Calibration ( in minutes )": "2",
+        "Overall Vertical Height in mm": "300",
+        "Base to centre": "160",
+        "Approx. weight in Kgs": "27 Kg.",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/horizontal-rotary-table-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "APEX Make Horizontal Rotary Milling Table 200mm dia",
+      "features": "High accuracy | Sturdy yet good looking practical design | Clear & functional of all operating elements. | Easy reading of all diameters | These are widely used for circular cutting, angle cutting, boring and spot facing with a milling machine. | It Works as an index center in the vertical position, as well as conventional Rotary Table, graduated 360 degree. | Rotary Milling Table available in Siz"
     },
     {
       "id": "prod-74",
@@ -1265,15 +1553,26 @@
       "brand": "Premium Industrial",
       "price": 17190,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCAPEX1010",
+        "Size": "200mm (8\")",
+        "Table T-Slot Size (in mm)": "13 mm",
+        "Centre Bush Bore (morse taper)": "3 mm",
+        "Worm & Gear Ratio": "1 : 72",
+        "Wheel Calibration ( in minutes )": "2",
+        "Overall Vertical Height in mm": "300",
+        "Overall Horizontal Height (in mm)": "105",
+        "Base to centre": "160",
+        "Approx. weight in Kgs": "27 Kg.",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/horizontal-rotary-table-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "APEX Universal /HV Rotary Milling Table Horizontal & Vertical 200mm",
+      "features": "High accuracy | Sturdy yet good looking practical design | Clear & functional of all operating elements. | Easy reading of all diameters | These are widely used for circular cutting, angle cutting, boring and spot facing with a milling machine. | It Works as an index center in the vertical position, as well as conventional Rotary Table, graduated 360 degree. | Rotary Milling Table available in Siz"
     },
     {
       "id": "prod-75",
@@ -1282,15 +1581,28 @@
       "brand": "Premium Industrial",
       "price": 584000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "SHTMETHYDR1178",
+        "Bending Size": "2540 x 2 mm (MS)",
+        "Capacity": "40 Ton",
+        "Table Width": "150 mm",
+        "Clear Distance": "2000 mm",
+        "Ram Stroke": "125 mm",
+        "Open Height": "250 mm",
+        "Depth": "200 mm",
+        "Motor": "5 HP Siemens make",
+        "Driven Type": "Hydraulic",
+        "Material": "EN-31 Punch , EN8 V Block",
+        "Std Accessories": "Standard Main Drive Motor. | Standard Panel Board Accessories. | Electrical control panel with INCH - SINGLE - AUTO mode operations. | Movable work station with pair of foot switch. | Fine stroke adju",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-press-brake-1000x1000.jpg",
-      "featured": true
+      "featured": true,
+      "description": "Hydraulic Press Brake Machine Rear Cylinder Type 40T -2540 x 2",
+      "features": "Hydraulic Press Brakes are designed using the latest technology. | Cylinders are connected on the rear side of the Press Brake. | Ram traverse is parallel from bed to prevent side frame deflections affecting the stroke precision. | All welded edges are correctly machined. | The Electrical Control Panel is at a right position for easy maneuvering by the machinist. | Standard V-Block and Punch are f"
     },
     {
       "id": "prod-76",
@@ -1299,15 +1611,17 @@
       "brand": "Premium Industrial",
       "price": 5000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLCOUP1013",
+        "Size": "27X575 MM",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "THROUGH BOLT/Tie Bolt - Hydraulic Rock Breaker"
     },
     {
       "id": "prod-77",
@@ -1316,15 +1630,17 @@
       "brand": "Premium Industrial",
       "price": 1500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLSIDE1014",
+        "Size": "27X230 MM",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Side Bolt SB40 Hydraulic Rock Breaker"
     },
     {
       "id": "prod-78",
@@ -1333,7 +1649,7 @@
       "brand": "Premium Industrial",
       "price": 1800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLFILI1032",
         "Status": "Available",
@@ -1341,7 +1657,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-chisels-75mm-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Filing Adaptor for Hydraulic Rock Breaker"
     },
     {
       "id": "prod-79",
@@ -1350,7 +1667,7 @@
       "brand": "Premium Industrial",
       "price": 1000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLFOOT1049",
         "Status": "Available",
@@ -1358,7 +1675,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-chisels-75mm-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Foot Pedal for Hydraulic Rock Breaker"
     },
     {
       "id": "prod-80",
@@ -1367,7 +1685,7 @@
       "brand": "Premium Industrial",
       "price": 5500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLTHRO1053",
         "Status": "Available",
@@ -1375,7 +1693,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-manufacturer-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "THROUGH BOLT/Tie Bolt - SB43 Hydraulic Rock Breaker"
     },
     {
       "id": "prod-81",
@@ -1384,7 +1703,7 @@
       "brand": "Premium Industrial",
       "price": 5800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "RCKBRKCHLHYDR1055",
         "Status": "Available",
@@ -1392,7 +1711,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-rock-breaker-manufacturer-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Hydraulic Rock Breaker Nitrogen Housing Charging Valve"
     },
     {
       "id": "prod-82",
@@ -1401,7 +1721,7 @@
       "brand": "Premium Industrial",
       "price": 3000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Machine",
       "specs": {
         "Model": "GRINDMACLABO1011",
         "Status": "Available",
@@ -1409,7 +1729,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-surface-grinder-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Labour Charges for Surface Grinder Machine"
     },
     {
       "id": "prod-83",
@@ -1418,7 +1739,7 @@
       "brand": "Premium Industrial",
       "price": 1200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "GRINDMACTIMI1209",
         "Status": "Available",
@@ -1426,7 +1747,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-surface-grinder-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Timing chain for Surface Grinder Machine"
     },
     {
       "id": "prod-84",
@@ -1435,7 +1757,7 @@
       "brand": "Premium Industrial",
       "price": 4800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCLEAD1484",
         "Status": "Available",
@@ -1443,7 +1765,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/hydraulic-vise-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Lead Screw for Hydraulic Vise Cylinder locking"
     },
     {
       "id": "prod-85",
@@ -1469,15 +1792,18 @@
       "brand": "Premium Industrial",
       "price": 1500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
-        "Model": "MCHACCTIME1064",
+        "Model": "225L",
+        "Number of teeth": "60",
+        "Width": "25mm",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/ik-taiwan-vertical-turret-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Timer Belt for Ram Turret Milling Machine / Transmission Belt 225L-25mm"
     },
     {
       "id": "prod-87",
@@ -1486,7 +1812,7 @@
       "brand": "Premium Industrial",
       "price": 6400,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCMOTO1093",
         "Status": "Available",
@@ -1494,7 +1820,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/itaka-vertical-turret-m1tr-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Motor Pulley for Ram Turret Milling Machine"
     },
     {
       "id": "prod-88",
@@ -1537,7 +1864,7 @@
       "brand": "Premium Industrial",
       "price": 1800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCBUSH1388",
         "Status": "Available",
@@ -1545,7 +1872,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/lathe-machine-1000x1000.jpg",
-      "featured": true
+      "featured": true,
+      "description": "Bush for Feed Shaft in Lathe Machine"
     },
     {
       "id": "prod-91",
@@ -1554,15 +1882,21 @@
       "brand": "Premium Industrial",
       "price": 14160,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
-        "Model": "MCHACCHEAV1550",
+        "Model": "MC 2007",
+        "Size": "300 L x 200 W",
+        "Pole Gap": "8 mm",
+        "Pole Pitch": "18mm",
+        "Type": "Close Pole",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/magnetic-chuck-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Heavy Duty Magnetic Chuck (Close Pole ) 300 L x 200 W",
+      "features": "Permanent Magnetic Chuck Close Pole (Heavy Duty) | Holding device for surface grinding machine, Tool & cutter grinder, Spark erosion machines & also for light milling | The working face & bottom face are perfectly parallel. | Assembled with powerful Magnets. | Poles individually magnetized for full loading power. | Magnetic pull is 40-70% more than IS specification | Bottom plate has suitable exte"
     },
     {
       "id": "prod-92",
@@ -1588,15 +1922,17 @@
       "brand": "Premium Industrial",
       "price": 3500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "RCKBRKCHLSEAL1024",
+        "Std Accessories": "Include Pack of 19 Pcs Seal",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Oil Seal Kit for Hydraulic Rock Breaker SB40"
     },
     {
       "id": "prod-94",
@@ -1605,15 +1941,17 @@
       "brand": "Premium Industrial",
       "price": 4000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "RCKBRKCHLOILS1051",
+        "Std Accessories": "Include Pack of 19 Pcs Seal",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/manufacturer-of-hydraulic-rock-breaker-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Oil Seal Kit for Hydraulic Rock Breaker SB43"
     },
     {
       "id": "prod-95",
@@ -1639,32 +1977,38 @@
       "brand": "Premium Industrial",
       "price": 1100,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 No",
       "specs": {
         "Model": "MCHACCPENT1028",
+        "Std Accessories": "mechanical type edge finder edge sensor 10 mm shank dia",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/mechanical-edge-finder-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Mechanical type Edge finder (Gold) / Edge sensor 10 mm shank dia",
+      "features": "Hardned Shank and contact point Mechanical Spring type Accuracy 5 micron Shank Dia. 10mm Contact Ball Dia.10mm"
     },
     {
       "id": "prod-97",
-      "name": "Mechanical Edge Finder",
-      "category": "Industrial Equipment",
+      "name": "Mechanical type Edge finder (Gold) / Edge sensor 10 mm shank dia",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 1100,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 No",
       "specs": {
-        "Model": "N/A",
+        "Model": "MCHACCPENT1028",
+        "Std Accessories": "mechanical type edge finder edge sensor 10 mm shank dia",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/mechanical-edge-finder-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Mechanical type Edge finder (Gold) / Edge sensor 10 mm shank dia",
+      "features": "Hardned Shank and contact point Mechanical Spring type Accuracy 5 micron Shank Dia. 10mm Contact Ball Dia.10mm"
     },
     {
       "id": "prod-98",
@@ -1707,15 +2051,25 @@
       "brand": "Premium Industrial",
       "price": 5600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCMICR1397",
+        "Material": "Steel",
+        "Color": "Silver+Black",
+        "Boring Head": "75mm",
+        "Fit for": "18mm hole boring cutter",
+        "Maximum Offset": "25mm",
+        "Min. Graduation": "0.01",
+        "Dia. Of Boring": "12-225 mm",
+        "Std Accessories": "Allen Keys",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/micro-boring-head-and-shanks-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "BORING HEAD 3 INCH 75MM FOR 18MM HOLE BORING CUTTER BORING BAR",
+      "features": "Boring head is suitable for boring end face, cylindrical, stepped hole, etc. | It can be used with boring bar (Not included). | It can be fine tuned. | High precision and solid, easy and durable to use."
     },
     {
       "id": "prod-101",
@@ -1724,15 +2078,25 @@
       "brand": "Premium Industrial",
       "price": 39500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCMILL1190",
+        "Table Size (Inch)": "20 x 12",
+        "Table Size (mm)": "500 x 300",
+        "Travelling (Inch)": "12 x 8",
+        "Travelling (mm)": "300 x 200",
+        "No. of T- Slot": "3",
+        "Size of T- Slot (Inch)": "1/2",
+        "Size of T- Slot (mm)": "12.5",
+        "Total Height (Inch)": "7",
+        "Total Height (mm)": "175",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/milling-drilling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Milling Table for Drilling Machine Table Size 20 x 12 Inch"
     },
     {
       "id": "prod-102",
@@ -1741,15 +2105,17 @@
       "brand": "Premium Industrial",
       "price": 700,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCVBEL1255",
+        "Std Accessories": "Package Included: V Belt",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "V Belt Motor Pulley in Milling Machine"
     },
     {
       "id": "prod-103",
@@ -1787,20 +2153,22 @@
     },
     {
       "id": "prod-105",
-      "name": "Newall Digital Readout System Dro ",
-      "category": "Industrial Equipment",
+      "name": "Extension Cable for Digital Readout (DRO)",
+      "category": "DRO & Linear Scale",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 1200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "2 Mtr",
       "specs": {
-        "Model": "N/A",
+        "Model": "DROLISCLEXTE1010",
+        "Std Accessories": "Extension Cable for DRO",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/newall-digital-readout-system-dro--500x500.jpg",
-      "featured": true
+      "featured": true,
+      "description": "Extension Cable DRO (Digital Readout System)"
     },
     {
       "id": "prod-106",
@@ -1843,7 +2211,7 @@
       "brand": "Premium Industrial",
       "price": 4650,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCBRAK1228",
         "Status": "Available",
@@ -1851,7 +2219,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/power-press-auto-feeder-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Brake Magnet for Power Feeder"
     },
     {
       "id": "prod-109",
@@ -1860,15 +2229,18 @@
       "brand": "Premium Industrial",
       "price": 2500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCELEV1095",
+        "Teeth": ": 9",
+        "Tap for swivel handle": ": 3/8-16",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/precicut-m1tr-vertical-turret-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Elevating Knee Crank Mill Handle Turret Milling Machine"
     },
     {
       "id": "prod-110",
@@ -1894,7 +2266,7 @@
       "brand": "Premium Industrial",
       "price": 15500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "RADRLMCHSHAF1013",
         "Status": "Available",
@@ -1902,7 +2274,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/radial-drill-machines-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Spline Shaft for Radial Drill Machine"
     },
     {
       "id": "prod-112",
@@ -1911,7 +2284,7 @@
       "brand": "Premium Industrial",
       "price": 3500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCSPRI1389",
         "Status": "Available",
@@ -1919,7 +2292,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/radial-drilling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Spring for Radial Drilling Machine Z3040"
     },
     {
       "id": "prod-113",
@@ -1928,7 +2302,7 @@
       "brand": "Premium Industrial",
       "price": 2250,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCRTOM1313",
         "Status": "Available",
@@ -1936,7 +2310,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/reduction-sleeve-iso30-to-mt1-mt2-and-mt3-and-iso40-to-mt1-mt2-and-mt3-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "R8 To MT2 Reduction Sleeve for Milling Machine"
     },
     {
       "id": "prod-114",
@@ -1945,7 +2320,7 @@
       "brand": "Premium Industrial",
       "price": 2450,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCRTOM1317",
         "Status": "Available",
@@ -1953,7 +2328,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/reduction-sleeve-iso30-to-mt1-mt2-and-mt3-and-iso40-to-mt1-mt2-and-mt3-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "R8 To MT3 Reduction Sleeve for Milling Machine"
     },
     {
       "id": "prod-115",
@@ -1979,7 +2355,7 @@
       "brand": "Premium Industrial",
       "price": 25000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "RCKBRKCHLDEMH1009",
         "Status": "Available",
@@ -1987,7 +2363,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/rock-breaker-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "H-Wedge Chisel M135x1300 for Rock Breaker"
     },
     {
       "id": "prod-117",
@@ -1996,7 +2373,7 @@
       "brand": "Premium Industrial",
       "price": 3500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "RCKBRKCHLBUSH1043",
         "Status": "Available",
@@ -2004,7 +2381,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/rock-breaker-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Bush Pad for Rock Breaker SB40"
     },
     {
       "id": "prod-118",
@@ -2081,7 +2459,7 @@
       "brand": "Premium Industrial",
       "price": 2500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 NOS",
       "specs": {
         "Model": "GRINDMACGRIN1227",
         "Status": "Available",
@@ -2089,7 +2467,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/surface-grinding-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Grinding wheel for Surface Grinding"
     },
     {
       "id": "prod-123",
@@ -2098,7 +2477,7 @@
       "brand": "Premium Industrial",
       "price": 5200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Pcs",
       "specs": {
         "Model": "MCHACCHALO1585",
         "Status": "Available",
@@ -2106,7 +2485,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/surface-grinding-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Machine Lamp 35W 24V-220V Adjustable Type Light IP68 for Lathe, CNC Milling Machine, Drilling Machine - Medium Arm"
     },
     {
       "id": "prod-124",
@@ -2115,15 +2495,21 @@
       "brand": "Premium Industrial",
       "price": 25668,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "WOODMACHBLAD1065",
+        "Model": "PABG-13",
+        "Max. Cutting of Blade": "13\"",
+        "Dia. & Width of Grinding Wheel": "6\" x 1/2\"",
+        "Grinding Wheel Speed": "2800 RPM",
+        "Power Required": "1 HP",
+        "Running Motor RPM": "1440",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/surface-grinding-machine-1000x1000.webp",
-      "featured": false
+      "featured": false,
+      "description": "Blade grinding machine model PABG-13"
     },
     {
       "id": "prod-125",
@@ -2132,15 +2518,39 @@
       "brand": "Premium Industrial",
       "price": 515000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 No",
       "specs": {
-        "Model": "GRINDMACPENT1187",
+        "Model": "Servo-HSG 1224",
+        "Table working Area": "600x300 mm",
+        "Longitudinal Table Travel": "620 MM",
+        "Cross Feed Table Travel": "300 MM",
+        "Distance Spindle centre to Table": "350 MM",
+        "Magnetic chuck recommended": "Permanent magnet Chuck 200x500",
+        "T Slot": "10 MM",
+        "Longitudinal table speed": "5-15 MM/MIN",
+        "Cross feed on hand wheel": "0.05 1GRA/MM",
+        "Auto cross feed per stroke": "Through Servo drive",
+        "Table guideways": "V & FLATWAYS",
+        "Wheel dimension(dia x width x bore)": "(200x13x31.75) MM",
+        "Spindle speed": "2800 RPM",
+        "Vertical feed on hand wheel": "0.01 MM/GRA",
+        "Micro Down feed": "0.002 MM/GRA",
+        "Spindle motor": "0.75 KW",
+        "Vertical motor for rapid Z axis feed": "OPTIONAL",
+        "Servo drive motor with PLC for both X an": "1.5 KW",
+        "Coolant motor": "40 W",
+        "Machine height": "1600 MM",
+        "Floor space": "2600X1800 MM",
+        "Net weight Approx": "1200-1250 KGS",
+        "Std Accessories": "Coolant Tank &lamp; Equipment | Permanent Magnetic Chuck 10”x20” | Wheel Dresser Base | Flange &amp; Wheel Extractor | Grinding Wheel | Balancing Stand with Shaft | Power Pack with Motor | Hydraulic C",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/surface-grinding-machine-with-servo-motor-12x24-300-x-600-mm-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "/SGMT Make PLC based servo drive and ball screw based automatic surface grinding Machine 12”x24” (600 x 300 mm) table size with all mentioned standard accessories",
+      "features": "Longitudinal and traverse motion is mean by servo drives and ball screw fitted in guideways | High accuracy and repeatability due to ball screw motion for both longitudinal and traverse motion | Very much productive and fully automatic motion | Vertical rapid feed can be adapted by fitting Z axis DC motor | According to the needs of users with a permanent or electromagnetic chuck | The machine has"
     },
     {
       "id": "prod-126",
@@ -2149,15 +2559,41 @@
       "brand": "Premium Industrial",
       "price": 635000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 No",
       "specs": {
-        "Model": "MCHTOOLAUTO1031",
+        "Model": "HSG 1224-S",
+        "Table working Area": "600x300 MM",
+        "Longitudinal Table Travel": "660 MM",
+        "Cross Feed Table Travel": "300 MM",
+        "Distance Spindle centre to Table": "400 MM",
+        "Magnetic chuck recommended": "Permanent magnet Chuck 200x500 MM",
+        "T Slot": "14 MM",
+        "Longitudinal table speed": "5-15 MM/MIN",
+        "Cross feed on hand wheel": "5 1REV/MM",
+        "Auto cross feed per stroke": "OPTIONAL",
+        "Table guideways": "V & FLATWAYS",
+        "Wheel dimension(dia x width x bore)": "200x13x31.75 MM",
+        "Spindle speed": "2800 RPM",
+        "Vertical feed on hand wheel": "0.01 MM/GRA",
+        "Micro Down feed": "0.002 MM/REV",
+        "Spindle motor": "0.75 KW",
+        "Vertical motor": "OPTIONAL",
+        "Hydraulic motor": "1.5 KW",
+        "Cross feed motor": "OPTIONAL",
+        "Coolant motor": "OPTIONAL",
+        "Lubricant motor": "OPTIONAL",
+        "Machine height": "1600 MM",
+        "Floor space": "240X1700 MM",
+        "Net weight approx": "1400-1500 KGS",
+        "Std Accessories": "Coolant Pump, Coolant Tank &amp; Equipment | Permanent Magnetic Chuck 10”x20” | Wheel Dresser Base | Flange &amp; Wheel Extractor | Grinding Wheel | Balancing Stand with Shaft | Power Pack with Motor ",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/surface-grinding-machine-with-servo-motor-12x24-300-x-600-mm-1000x1000.png",
-      "featured": false
+      "featured": false,
+      "description": "/SGMT Make Hydraulic Surface Grinder Machine 12”x24” (600 x 300 mm) table size with all mentioned standard accessories",
+      "features": "The machine has reasonable structure, good rigidity, beautiful appearance, convenient operation | Former after skidway through careful scraping flower, not only slide smoothly, and wear-resisting, maintain good accuracy, flexible and convenient operation | The spindle adopts super precision ball bearing P4, after strict selection after the pre pressure measurement, assembled in the greenhouse, and"
     },
     {
       "id": "prod-127",
@@ -2166,15 +2602,22 @@
       "brand": "Premium Industrial",
       "price": 6600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCCONT1198",
+        "Capacity": "250VA",
+        "Rated frequency": "50 Hz / 60 Hz",
+        "Max. Input Current": "0.6 A",
+        "Input": ": 0-1 220V",
+        "Output": ": 11-12 24V 60VA",
+        "Model No.": "NDK(BK)-250",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/taiwan-vertical-turret-m1tr-milling-machine-itaka-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Control Transformer for Turret Milling Machine Panel Board"
     },
     {
       "id": "prod-128",
@@ -2183,15 +2626,29 @@
       "brand": "Premium Industrial",
       "price": 67500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "GRINDMACPENT1241",
+        "Max. Grinding Dia.": "18 mm",
+        "Spindle Speed": "5200 RPM",
+        "Grinding wheel Dia.": "100×50×20",
+        "Degree Relief angle?": "0 to 45 degree",
+        "Negative Taper Angle": "0 to 25 degree",
+        "Taper Angle": "0 to 180 degree",
+        "Power": "220V, 50HZ, Single phase",
+        "Dimension": "55×46×49cm",
+        "Standard Collet": "1/8’’, 4, 6",
+        "Motor": "1/3HP 220V 50/60HZ",
+        "Weight": "65 Kg",
+        "Std Accessories": "Collets: Dia. 4, 6, 8 | High Speed Cutter Grinding Wheel Dia.100 x 50 x 20",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-cutter-grinder-mr-u2-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Universal Cutter Grinder model AR-U2 with all standard accessories mentioned",
+      "features": "For grinding HSS and Carbide engraving cutter as well as single lip or multiple lip cutters of various shapes such as radius cutter or negative taper angle of cutters | AR-U2 is allowed for grinding End Mills, Twist drill, lathe tools, only replace the attachment to the index head without any complex setup | Color : Yellow / Green"
     },
     {
       "id": "prod-129",
@@ -2200,66 +2657,118 @@
       "brand": "Premium Industrial",
       "price": 31000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "MCHACCPENT1180",
+        "Model": "PI-4\"",
+        "Ratio of Worm & Worm Gear": "1:40",
+        "Spindle Taper": "MT 3",
+        "Height of Centres": "100 mm",
+        "Spindle Bore": "19 mm",
+        "Length of Base": "190 mm",
+        "Width of Base": "140 mm",
+        "Width of Tenon Guides": "12 mm",
+        "Overall height in vertical position": "215 mm",
+        "Weight of dividing head with standard ac": "32 kgs",
+        "Gross Weight": "55 kgs",
+        "Std Accessories": "Dividing Head Set | Dividing Plates | Tail stock",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-dividing-head-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "BRAND GMW Universal Dividing Head model PI-4\" With Indexing Equipment only",
+      "features": "BRAND GMW Universal Dividing Heads can be used for indirect and differential indexing and all divisions arranged from 2 to 400 including the prime numbers | This dividing head set includes headstock, tailstock, center & driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Head stock can be swivelled through 110 degree ie. 10 degree below the horizontal line and will pass the vertica"
     },
     {
       "id": "prod-130",
-      "name": "BRAND GMW Universal Dividing Head model PI-6\" With Indexing Equipment only",
+      "name": "BRAND GMW Universal Dividing Head model PI-4\" With Indexing Equipment only",
       "category": "Machine Accessories",
       "brand": "Premium Industrial",
       "price": 43200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "MCHACCPENT1182",
+        "Model": "PI-4\"",
+        "Ratio of Worm & Worm Gear": "1:40",
+        "Spindle Taper": "MT 3",
+        "Height of Centres": "100 mm",
+        "Spindle Bore": "19 mm",
+        "Length of Base": "190 mm",
+        "Width of Base": "140 mm",
+        "Width of Tenon Guides": "12 mm",
+        "Overall height in vertical position": "215 mm",
+        "Weight of dividing head with standard ac": "32 kgs",
+        "Gross Weight": "55 kgs",
+        "Std Accessories": "Dividing Head Set | Dividing Plates | Tail stock",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-dividing-head-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "BRAND GMW Universal Dividing Head model PI-4\" With Indexing Equipment only",
+      "features": "BRAND GMW Universal Dividing Heads can be used for indirect and differential indexing and all divisions arranged from 2 to 400 including the prime numbers | This dividing head set includes headstock, tailstock, center & driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Head stock can be swivelled through 110 degree ie. 10 degree below the horizontal line and will pass the vertica"
     },
     {
       "id": "prod-131",
-      "name": "Universal Dividing Head",
-      "category": "Industrial Equipment",
+      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 68000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "PIS-7.1/2\"",
+        "Ratio of Worm & Worm Gear": "1:40",
+        "Spindle Taper": "MT 4",
+        "Height of Centres": "190 mm",
+        "Spindle Bore": "55-75 mm",
+        "Length of Base": "290 mm",
+        "Width of Base": "230 mm",
+        "Width of Tenon Guides": "12 mm",
+        "Overall height in vertical position": "360 mm",
+        "Weight of dividing head with standard ac": "125 kgs",
+        "Gross Weight": "140 kgs",
+        "Std Accessories": "Dividing Head Set | Dividing Plates | Tail stock",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-dividing-head-1000x1000.png",
-      "featured": false
+      "featured": false,
+      "description": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "features": "BRAND GMW Universal Dividing Heads can be used for indirect and differential indexing and all divisions arranged from 2 to 400 including the prime numbers | This dividing head set includes headstock, tailstock, center & driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Head stock can be swivelled through 110 degree ie. 10 degree below the horizontal line and will pass the vertica"
     },
     {
       "id": "prod-132",
-      "name": "Universal Dividing Head",
-      "category": "Industrial Equipment",
+      "name": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 68000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "PIS-7.1/2\"",
+        "Ratio of Worm & Worm Gear": "1:40",
+        "Spindle Taper": "MT 4",
+        "Height of Centres": "190 mm",
+        "Spindle Bore": "55-75 mm",
+        "Length of Base": "290 mm",
+        "Width of Base": "230 mm",
+        "Width of Tenon Guides": "12 mm",
+        "Overall height in vertical position": "360 mm",
+        "Weight of dividing head with standard ac": "125 kgs",
+        "Gross Weight": "140 kgs",
+        "Std Accessories": "Dividing Head Set | Dividing Plates | Tail stock",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-dividing-head-1000x1000.webp",
-      "featured": false
+      "featured": false,
+      "description": "BRAND GMW Universal Dividing Head model PIS-7.1/2\" With Indexing Plate",
+      "features": "BRAND GMW Universal Dividing Heads can be used for indirect and differential indexing and all divisions arranged from 2 to 400 including the prime numbers | This dividing head set includes headstock, tailstock, center & driving dog, threaded back plate & 3 dividing plates. 1:40 ratio. | Head stock can be swivelled through 110 degree ie. 10 degree below the horizontal line and will pass the vertica"
     },
     {
       "id": "prod-133",
@@ -2268,7 +2777,7 @@
       "brand": "Premium Industrial",
       "price": 17600,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCSPAR1430",
         "Status": "Available",
@@ -2276,24 +2785,26 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-knee-type-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Spare for milling machine X/Y/Z Axis lead screw for universal knee type milling machine model X6036 suitable for table size 1370x360 mm"
     },
     {
       "id": "prod-134",
-      "name": "Universal Knee Type Milling Machine",
-      "category": "Industrial Equipment",
+      "name": "Gear for Universal Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 5500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "MCHACCGEAR1444",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-knee-type-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Gear for Universal Milling Machine"
     },
     {
       "id": "prod-135",
@@ -2302,15 +2813,22 @@
       "brand": "Premium Industrial",
       "price": 3700,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "MCHACCBREA1227",
+        "Material": "Aluminum Alloy",
+        "Inner diameter": "97 mm",
+        "Outer diameter": "137 mm",
+        "Thickness": "16mm",
+        "Package": "1pc",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-milling-machine-1000x1000.jpg",
-      "featured": true
+      "featured": true,
+      "description": "Break Shoe for Variable Speed Milling Machine (Suitable for 2#? 3# ?4# turret milling machines)",
+      "features": "Material ?Aluminum Alloy | Package ?1pc | Suitable for 2#? 3# ?4# turret milling machines"
     },
     {
       "id": "prod-136",
@@ -2319,7 +2837,7 @@
       "brand": "Premium Industrial",
       "price": 3900,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCMILL1436",
         "Status": "Available",
@@ -2327,24 +2845,26 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-swivel-head-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Milling Machine Parts: B28 Head Feed Gearbox -Triple Gear"
     },
     {
       "id": "prod-137",
-      "name": "Universal Swivel Head Milling Machine",
-      "category": "Industrial Equipment",
+      "name": "Gear for Universal Milling Machine",
+      "category": "Machine Accessories",
       "brand": "Premium Industrial",
-      "price": 0,
+      "price": 5500,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "N/A",
+        "Model": "MCHACCGEAR1444",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/universal-swivel-head-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Gear for Universal Milling Machine"
     },
     {
       "id": "prod-138",
@@ -2353,32 +2873,44 @@
       "brand": "Premium Industrial",
       "price": 11800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "HNDPOWTOOLMECH1022",
+        "Capacity": "5/8\" - 1\"",
+        "Type": "Mechanical Conduit Vertical",
+        "Formers": "5/8\", 3/4\", and 1\"",
+        "Std Accessories": "Mechanical Conduit Vertical Pipe Bending machine | Formers",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/vertical-milling-machine-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Mechanical Conduit Vertical Pipe Bending machine 5/8\" - 1\"",
+      "features": "This machine is used for 14 to 24 Gauge Aluminium, Copper & Steel Pipes | Any Three formers upto 1\" is available with machine | We can arrange to supply formers in sizes of your requirement up to 1.1/4 at extra cost"
     },
     {
       "id": "prod-139",
-      "name": "Mechanical Conduit Vertical Pipe Bending machine -5/8\" - 1/1/4\"",
+      "name": "Mechanical Conduit Vertical Pipe Bending machine -5/8\" - 1\"",
       "category": "Pipe Machinery",
       "brand": "Premium Industrial",
       "price": 17800,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "HNDPOWTOOLMECH1023",
+        "Model": "HNDPOWTOOLMECH1022",
+        "Capacity": "5/8\" - 1\"",
+        "Type": "Mechanical Conduit Vertical",
+        "Formers": "5/8\", 3/4\", and 1\"",
+        "Std Accessories": "Mechanical Conduit Vertical Pipe Bending machine | Formers",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/vertical-milling-machine-supplier-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Mechanical Conduit Vertical Pipe Bending machine 5/8\" - 1\"",
+      "features": "This machine is used for 14 to 24 Gauge Aluminium, Copper & Steel Pipes | Any Three formers upto 1\" is available with machine | We can arrange to supply formers in sizes of your requirement up to 1.1/4 at extra cost"
     },
     {
       "id": "prod-140",
@@ -2387,7 +2919,7 @@
       "brand": "Premium Industrial",
       "price": 1000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Nos",
       "specs": {
         "Model": "MCHACCRAMT1530",
         "Status": "Available",
@@ -2395,7 +2927,8 @@
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/vertical-turret-milling-machine-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "RAM Turret Milling Machine spare Part: Table Stopper"
     },
     {
       "id": "prod-141",
@@ -2404,15 +2937,36 @@
       "brand": "Premium Industrial",
       "price": 2150000,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
-        "Model": "GRINDMACWHEE1218",
+        "Model": "M7132",
+        "Width Of Work Table": "320 mm",
+        "Length Of Work Table": "1250 mm",
+        "Max. Longitudinal movement of worktable": "1350 mm",
+        "Max. Distance from the spindle centerlin": "570 mm",
+        "Max. Cross movement of grinding head": "350 mm",
+        "Max. Vertical movement of grinding head": "400 mm",
+        "Vertical movement of the grinding head b": "1.00 mm",
+        "Rapid lifting motor Power": "0.37 Kw",
+        "Rapid lifting motor Speed": "1440 rpm",
+        "Abrasive wheel dim (L x D x W)": "350x127x40 mm",
+        "Speed of Grinding Wheel": "1440 rpm",
+        "Total Power of Motor": "9/12 Kw",
+        "power of Motor Spindle": "5.5 Kw",
+        "Power of Oil pump motor": "3/5.5 Kw",
+        "Processing Accuracy": "0.015/1000 mm",
+        "Surface Roughness": "Ra:0.63 um",
+        "Package(L x W x H)": "2800x1750x2350 mm",
+        "Net Weight": "3500 Kg",
+        "Std Accessories": "Coolant Device | Magnetic Chuck | Grinding Wheel | Wheel Chuck | Wheel balancing stand | Balancing shaft and nut | Balancing block and Bolt | Diamond Dressor | Machine lamp | Foundation bolts | Operat",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/wheel-head-moving-surface-grinders-1000x1000.jpg",
-      "featured": false
+      "featured": false,
+      "description": "Wheel head moving type surface grinder model M7132 with table size 1250X320 mm",
+      "features": "The lift system use high-precision ballscrew to confirm accuracy | The wheelhead can be moved transversely on the saddle by hydraulic System or by hand. Easy to operate | The saddle togther with the wheelhead have quick lift device and move up and down for vertical feed on the column. It can be moved by hand or by hydraulic system | The machine uses mainly the wheel periphery for surface grinding,"
     },
     {
       "id": "prod-142",
@@ -2438,15 +2992,17 @@
       "brand": "Premium Industrial",
       "price": 7200,
       "gst": "18%",
-      "moq": "1 Unit",
+      "moq": "1 Set",
       "specs": {
         "Model": "RCKBRKCHLOILS1029",
+        "Std Accessories": "Seal kit set suitable for Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD",
         "Status": "Available",
         "Delivery": "24-48 Hours",
         "Support": "Complete Post-Sale Support"
       },
       "image": "/assets/products/yib750-jcb-rock-breaker-1000x1000.jpeg",
-      "featured": false
+      "featured": false,
+      "description": "Oil Seal Kit for Hydraulic Rock Breaker JCB 2180 HD"
     }
   ]
 }

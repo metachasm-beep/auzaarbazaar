@@ -56,28 +56,28 @@ export default function Navbar() {
                             </div>
                         </div>
 
-                        <Link href="#rfq" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-1.5">
+                        <Link href="/rfq" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-1.5">
                             <Zap size={14} className="text-safety-orange" />
                             RFQ
                         </Link>
-                        <Link href="#hubs" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-1.5">
+                        <Link href="/hubs" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-1.5">
                             <MapPin size={14} />
                             Industrial Hubs
                         </Link>
                         <Link href="/pricing" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors">
                             Pricing
                         </Link>
-                        <Link href="#partner" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors">
+                        <Link href="/seller" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors">
                             For Sellers
                         </Link>
                     </div>
 
                     {/* Right Side -> CTA buttons */}
                     <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
-                        <Link href="#login" className="text-sm font-bold text-steel-blue hover:text-electric-blue transition-colors">
+                        <Link href="/login" className="text-sm font-bold text-steel-blue hover:text-electric-blue transition-colors">
                             Login
                         </Link>
-                        <Link href="#list" className="inline-flex justify-center items-center gap-2 rounded-industrial bg-safety-orange px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-safety-orange/20 hover:bg-safety-orange-hover transition-all">
+                        <Link href="/seller/listings/new" className="inline-flex justify-center items-center gap-2 rounded-industrial bg-safety-orange px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-safety-orange/20 hover:bg-safety-orange-hover transition-all">
                             <Tag size={16} />
                             List Equipment
                         </Link>
@@ -99,15 +99,15 @@ export default function Navbar() {
             {isOpen && (
                 <div className="lg:hidden absolute top-20 left-0 w-full border-b border-industrial-grey-light/20 bg-white shadow-lg px-4 pb-6 pt-4 flex flex-col gap-4">
                     <Link href="#inventory" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">Browse Equipment</Link>
-                    <Link href="#rfq" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">RFQ</Link>
-                    <Link href="#hubs" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">Industrial Hubs</Link>
+                    <Link href="/rfq" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">RFQ</Link>
+                    <Link href="/hubs" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">Industrial Hubs</Link>
                     <Link href="/pricing" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">Pricing</Link>
-                    <Link href="#partner" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">For Sellers</Link>
+                    <Link href="/seller" onClick={() => setIsOpen(false)} className="text-base font-bold text-steel-blue">For Sellers</Link>
 
                     <div className="h-px w-full bg-industrial-grey-light/20 my-2"></div>
 
-                    <Link href="#login" onClick={() => setIsOpen(false)} className="text-base font-bold text-industrial-grey">Login</Link>
-                    <Link href="#list" onClick={() => setIsOpen(false)} className="inline-flex w-full justify-center items-center gap-2 rounded-industrial bg-safety-orange px-5 py-3 text-base font-bold text-white shadow-md shadow-safety-orange/20">
+                    <Link href="/login" onClick={() => setIsOpen(false)} className="text-base font-bold text-industrial-grey">Login</Link>
+                    <Link href="/seller/listings/new" onClick={() => setIsOpen(false)} className="inline-flex w-full justify-center items-center gap-2 rounded-industrial bg-safety-orange px-5 py-3 text-base font-bold text-white shadow-md shadow-safety-orange/20">
                         <Tag size={18} />
                         List Equipment
                     </Link>
