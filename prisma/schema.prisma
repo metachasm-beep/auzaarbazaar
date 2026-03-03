@@ -4,7 +4,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 enum OrgType {
@@ -126,12 +125,13 @@ enum EventType {
 
 model User {
   id        String   @id @db.Uuid
-  email     String?  @db.Citext
+  email     String?
   phone     String?
   fullName  String?
   isActive  Boolean  @default(true)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+
   memberships OrgMembership[]
   messages    Message[]
   events      Event[]
@@ -158,12 +158,13 @@ model Org {
 
   members        OrgMembership[]
   listings       Listing[]
-  buyerInquiries Inquiry[] @relation("BuyerInquiries")
+  buyerInquiries Inquiry[]       @relation("BuyerInquiries")
   rfqs           Rfq[]
   rfqTargets     RfqTarget[]
   quotes         Quote[]
   threadsBuyer   MessageThread[] @relation("BuyerThreads")
   threadsSeller  MessageThread[] @relation("SellerThreads")
+  sentMessages   Message[]       @relation("SentMessages")
   verifications  OrgVerification[]
   documents      OrgDocument[]
   savedListings  SavedListing[]
@@ -223,7 +224,7 @@ model CategoryAttribute {
   isFilterable Boolean           @default(false)
   isRequired   Boolean           @default(false)
 
-  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  category     Category         @relation(fields: [categoryId], references: [id], onDelete: Cascade)
   listingSpecs ListingSpec[]
   rfqReqs      RfqRequirement[]
 
@@ -232,35 +233,35 @@ model CategoryAttribute {
 }
 
 model Listing {
-  id                 String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  sellerOrgId        String            @db.Uuid
-  categoryId         String            @db.Uuid
-  title              String
-  description        String?
-  condition          ListingCondition
-  priceAmount        Decimal?          @db.Numeric(14,2)
-  priceCurrency      String            @default("INR")
-  priceType          ListingPriceType  @default(on_request)
-  quantity           Int               @default(1)
-  locationCity       String?
-  locationState      String?
-  locationPincode    String?
-  leadTimeDays       Int?
-  warrantyMonths     Int?
+  id                  String           @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  sellerOrgId         String           @db.Uuid
+  categoryId          String           @db.Uuid
+  title               String
+  description         String?
+  condition           ListingCondition
+  priceAmount         Decimal?
+  priceCurrency       String           @default("INR")
+  priceType           ListingPriceType @default(on_request)
+  quantity            Int              @default(1)
+  locationCity        String?
+  locationState       String?
+  locationPincode     String?
+  leadTimeDays        Int?
+  warrantyMonths      Int?
   gstInvoiceAvailable Boolean          @default(false)
-  status             ListingStatus     @default(draft)
-  publishedAt        DateTime?
-  createdAt          DateTime          @default(now())
-  updatedAt          DateTime          @updatedAt
+  status              ListingStatus    @default(draft)
+  publishedAt         DateTime?
+  createdAt           DateTime         @default(now())
+  updatedAt           DateTime         @updatedAt
 
-  sellerOrg Org      @relation(fields: [sellerOrgId], references: [id], onDelete: Cascade)
-  category  Category @relation(fields: [categoryId], references: [id], onDelete: Restrict)
-  specs     ListingSpec[]
-  media     ListingMedia[]
-  inquiries Inquiry[]
-  savedBy   SavedListing[]
+  sellerOrg    Org              @relation(fields: [sellerOrgId], references: [id], onDelete: Cascade)
+  category     Category         @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  specs        ListingSpec[]
+  media        ListingMedia[]
+  inquiries    Inquiry[]
+  savedBy      SavedListing[]
   compareItems ComparisonSetItem[]
-  events    Event[]
+  events       Event[]
 
   @@index([sellerOrgId, status])
   @@index([categoryId, status])
@@ -268,12 +269,12 @@ model Listing {
 }
 
 model ListingSpec {
-  listingId   String @db.Uuid
-  attributeId String @db.Uuid
-  valueText String?
-  valueNum  Decimal? @db.Numeric(18,4)
-  valueBool Boolean?
-  valueJson Json?
+  listingId   String  @db.Uuid
+  attributeId String  @db.Uuid
+  valueText   String?
+  valueNum    Decimal?
+  valueBool   Boolean?
+  valueJson   Json?
 
   listing   Listing           @relation(fields: [listingId], references: [id], onDelete: Cascade)
   attribute CategoryAttribute @relation(fields: [attributeId], references: [id], onDelete: Cascade)
@@ -296,20 +297,20 @@ model ListingMedia {
 }
 
 model Inquiry {
-  id               String       @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  buyerOrgId       String       @db.Uuid
-  listingId        String       @db.Uuid
-  subject          String?
-  message          String
-  quantity         Int?
-  targetBudgetAmount Decimal?   @db.Numeric(14,2)
-  status           InquiryStatus @default(sent)
-  createdAt        DateTime     @default(now())
-  updatedAt        DateTime     @updatedAt
+  id                 String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  buyerOrgId         String        @db.Uuid
+  listingId          String        @db.Uuid
+  subject            String?
+  message            String
+  quantity           Int?
+  targetBudgetAmount Decimal?
+  status             InquiryStatus @default(sent)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
 
   buyerOrg Org     @relation("BuyerInquiries", fields: [buyerOrgId], references: [id], onDelete: Cascade)
   listing  Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
-  thread   MessageThread?
+  thread   MessageThread[]
 
   @@index([buyerOrgId, createdAt])
   @@index([listingId, createdAt])
@@ -321,8 +322,8 @@ model Rfq {
   categoryId      String    @db.Uuid
   title           String
   description     String?
-  budgetMin       Decimal?  @db.Numeric(14,2)
-  budgetMax       Decimal?  @db.Numeric(14,2)
+  budgetMin       Decimal?
+  budgetMax       Decimal?
   currency        String    @default("INR")
   deliveryCity    String?
   deliveryState   String?
@@ -332,8 +333,8 @@ model Rfq {
   createdAt       DateTime  @default(now())
   updatedAt       DateTime  @updatedAt
 
-  buyerOrg  Org      @relation(fields: [buyerOrgId], references: [id], onDelete: Cascade)
-  category  Category @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  buyerOrg     Org              @relation(fields: [buyerOrgId], references: [id], onDelete: Cascade)
+  category     Category         @relation(fields: [categoryId], references: [id], onDelete: Restrict)
   requirements RfqRequirement[]
   targets      RfqTarget[]
   quotes       Quote[]
@@ -345,12 +346,12 @@ model Rfq {
 }
 
 model RfqRequirement {
-  rfqId       String @db.Uuid
-  attributeId String @db.Uuid
-  valueText String?
-  valueNum  Decimal? @db.Numeric(18,4)
-  valueBool Boolean?
-  valueJson Json?
+  rfqId       String  @db.Uuid
+  attributeId String  @db.Uuid
+  valueText   String?
+  valueNum    Decimal?
+  valueBool   Boolean?
+  valueJson   Json?
 
   rfq       Rfq              @relation(fields: [rfqId], references: [id], onDelete: Cascade)
   attribute CategoryAttribute @relation(fields: [attributeId], references: [id], onDelete: Cascade)
@@ -360,17 +361,16 @@ model RfqRequirement {
 }
 
 model RfqTarget {
-  id         String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  rfqId      String         @db.Uuid
-  sellerOrgId String        @db.Uuid
-  targetType RfqTargetType  @default(broadcast)
-  status     RfqTargetStatus @default(invited)
-  invitedAt  DateTime       @default(now())
-  viewedAt   DateTime?
+  id          String          @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  rfqId       String          @db.Uuid
+  sellerOrgId String          @db.Uuid
+  targetType  RfqTargetType   @default(broadcast)
+  status      RfqTargetStatus @default(invited)
+  invitedAt   DateTime        @default(now())
+  viewedAt    DateTime?
 
   rfq       Rfq @relation(fields: [rfqId], references: [id], onDelete: Cascade)
   sellerOrg Org @relation(fields: [sellerOrgId], references: [id], onDelete: Cascade)
-  quote     Quote?
 
   @@unique([rfqId, sellerOrgId])
   @@index([sellerOrgId, invitedAt])
@@ -378,33 +378,32 @@ model RfqTarget {
 }
 
 model Quote {
-  id            String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  rfqId         String      @db.Uuid
-  sellerOrgId   String      @db.Uuid
-  amount        Decimal     @db.Numeric(14,2)
-  currency      String      @default("INR")
-  leadTimeDays  Int?
+  id             String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  rfqId          String      @db.Uuid
+  sellerOrgId    String      @db.Uuid
+  amount         Decimal
+  currency       String      @default("INR")
+  leadTimeDays   Int?
   warrantyMonths Int?
-  notes         String?
-  status        QuoteStatus @default(submitted)
-  createdAt     DateTime    @default(now())
-  updatedAt     DateTime    @updatedAt
+  notes          String?
+  status         QuoteStatus @default(submitted)
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
 
-  rfq       Rfq @relation(fields: [rfqId], references: [id], onDelete: Cascade)
-  sellerOrg Org @relation(fields: [sellerOrgId], references: [id], onDelete: Cascade)
+  rfq       Rfq           @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  sellerOrg Org           @relation(fields: [sellerOrgId], references: [id], onDelete: Cascade)
   lineItems QuoteLineItem[]
-  thread    MessageThread?
 
   @@unique([rfqId, sellerOrgId])
   @@index([rfqId, amount])
 }
 
 model QuoteLineItem {
-  id       String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  quoteId  String  @db.Uuid
-  label    String
-  amount   Decimal @db.Numeric(14,2)
-  sortOrder Int    @default(0)
+  id        String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  quoteId   String  @db.Uuid
+  label     String
+  amount    Decimal
+  sortOrder Int     @default(0)
 
   quote Quote @relation(fields: [quoteId], references: [id], onDelete: Cascade)
 
@@ -412,17 +411,17 @@ model QuoteLineItem {
 }
 
 model MessageThread {
-  id          String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  threadType  ThreadType
-  inquiryId   String?    @db.Uuid
-  rfqId       String?    @db.Uuid
-  buyerOrgId  String     @db.Uuid
-  sellerOrgId String     @db.Uuid
-  lastMessageAt DateTime @default(now())
-  createdAt     DateTime @default(now())
+  id            String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  threadType    ThreadType
+  inquiryId     String?    @db.Uuid
+  rfqId         String?    @db.Uuid
+  buyerOrgId    String     @db.Uuid
+  sellerOrgId   String     @db.Uuid
+  lastMessageAt DateTime   @default(now())
+  createdAt     DateTime   @default(now())
 
-  buyerOrg  Org @relation("BuyerThreads", fields: [buyerOrgId], references: [id], onDelete: Cascade)
-  sellerOrg Org @relation("SellerThreads", fields: [sellerOrgId], references: [id], onDelete: Cascade)
+  buyerOrg  Org      @relation("BuyerThreads", fields: [buyerOrgId], references: [id], onDelete: Cascade)
+  sellerOrg Org      @relation("SellerThreads", fields: [sellerOrgId], references: [id], onDelete: Cascade)
   inquiry   Inquiry? @relation(fields: [inquiryId], references: [id], onDelete: Cascade)
   rfq       Rfq?     @relation(fields: [rfqId], references: [id], onDelete: Cascade)
   messages  Message[]
@@ -433,17 +432,17 @@ model MessageThread {
 }
 
 model Message {
-  id         String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  threadId   String      @db.Uuid
-  senderUserId String    @db.Uuid
-  senderOrgId  String    @db.Uuid
-  messageType MessageType @default(text)
-  body       String?
-  createdAt  DateTime    @default(now())
+  id           String      @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  threadId     String      @db.Uuid
+  senderUserId String      @db.Uuid
+  senderOrgId  String      @db.Uuid
+  messageType  MessageType @default(text)
+  body         String?
+  createdAt    DateTime    @default(now())
 
-  thread MessageThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
-  sender User         @relation(fields: [senderUserId], references: [id], onDelete: Cascade)
-  senderOrg Org       @relation(fields: [senderOrgId], references: [id], onDelete: Cascade)
+  thread      MessageThread      @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  sender      User               @relation(fields: [senderUserId], references: [id], onDelete: Cascade)
+  senderOrg   Org                @relation("SentMessages", fields: [senderOrgId], references: [id], onDelete: Cascade)
   attachments MessageAttachment[]
 
   @@index([threadId, createdAt])
@@ -451,13 +450,13 @@ model Message {
 }
 
 model MessageAttachment {
-  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  messageId String   @db.Uuid
-  url       String
-  fileName  String?
-  mimeType  String?
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  messageId     String   @db.Uuid
+  url           String
+  fileName      String?
+  mimeType      String?
   fileSizeBytes Int?
-  createdAt DateTime @default(now())
+  createdAt     DateTime @default(now())
 
   message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
 
@@ -488,20 +487,20 @@ model SavedListing {
 }
 
 model ComparisonSet {
-  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  buyerOrgId String  @db.Uuid
-  name      String
-  createdAt DateTime @default(now())
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  buyerOrgId String   @db.Uuid
+  name       String
+  createdAt  DateTime @default(now())
 
-  buyerOrg Org @relation(fields: [buyerOrgId], references: [id], onDelete: Cascade)
+  buyerOrg Org                 @relation(fields: [buyerOrgId], references: [id], onDelete: Cascade)
   items    ComparisonSetItem[]
 
   @@index([buyerOrgId, createdAt])
 }
 
 model ComparisonSetItem {
-  comparisonSetId String @db.Uuid
-  listingId       String @db.Uuid
+  comparisonSetId String   @db.Uuid
+  listingId       String   @db.Uuid
   createdAt       DateTime @default(now())
 
   set     ComparisonSet @relation(fields: [comparisonSetId], references: [id], onDelete: Cascade)
@@ -511,15 +510,15 @@ model ComparisonSetItem {
 }
 
 model OrgVerification {
-  id        String            @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  orgId     String            @db.Uuid
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  orgId            String             @db.Uuid
   verificationType VerificationType
-  status    VerificationStatus @default(pending)
-  referenceId String?
-  verifiedAt DateTime?
-  expiresAt DateTime?
-  notes     String?
-  createdAt DateTime          @default(now())
+  status           VerificationStatus @default(pending)
+  referenceId      String?
+  verifiedAt       DateTime?
+  expiresAt        DateTime?
+  notes            String?
+  createdAt        DateTime           @default(now())
 
   org Org @relation(fields: [orgId], references: [id], onDelete: Cascade)
 
@@ -540,21 +539,19 @@ model OrgDocument {
 }
 
 model Event {
-  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  id        String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   eventType EventType
-  orgId     String?  @db.Uuid
-  userId    String?  @db.Uuid
-  listingId String?  @db.Uuid
-  rfqId     String?  @db.Uuid
-  threadId  String?  @db.Uuid
+  orgId     String?   @db.Uuid
+  userId    String?   @db.Uuid
+  listingId String?   @db.Uuid
+  rfqId     String?   @db.Uuid
   meta      Json?
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
 
   org     Org?     @relation(fields: [orgId], references: [id], onDelete: SetNull)
   user    User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
   listing Listing? @relation(fields: [listingId], references: [id], onDelete: SetNull)
   rfq     Rfq?     @relation(fields: [rfqId], references: [id], onDelete: SetNull)
-  thread  MessageThread? @relation(fields: [threadId], references: [id], onDelete: SetNull)
 
   @@index([eventType, createdAt])
   @@index([orgId, createdAt])
