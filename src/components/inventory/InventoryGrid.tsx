@@ -6,18 +6,12 @@ import ProductCard from './ProductCard';
 import { cn } from '@/lib/utils';
 import { LayoutGrid, Filter } from 'lucide-react';
 
-const categories = [
-    "All",
-    "Metalworking Machinery",
-    "Fabrication & Forming",
-    "Precision & Measurement",
-    "Tooling & Accessories",
-    "Electricals & Spares",
-    "Industrial Equipment"
-];
-
 export default function InventoryGrid() {
     const [activeCategory, setActiveCategory] = useState("All");
+
+    // Extract all unique categories from inventory
+    const dynamicCategories = Array.from(new Set(inventory.map(p => p.category))) as string[];
+    const allCategories = ["All", ...dynamicCategories.sort()];
 
     const filteredProducts = activeCategory === "All"
         ? inventory
@@ -45,7 +39,7 @@ export default function InventoryGrid() {
                             <Filter size={14} />
                             Filter
                         </div>
-                        {categories.map((cat) => (
+                        {allCategories.map((cat: string) => (
                             <button
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
