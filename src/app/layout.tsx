@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { NextAuthProvider } from "@/components/auth/NextAuthProvider";
 
 export const metadata: Metadata = {
   title: "auzaarbazaar | Industrial Machine Tools & ERP Solutions",
@@ -13,8 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>
-        {children}
+      <body className="antialiased min-h-screen">
+        <NextAuthProvider>
+          {children}
+        </NextAuthProvider>
       </body>
     </html>
   );

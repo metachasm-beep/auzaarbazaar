@@ -1,5 +1,7 @@
 import React from 'react';
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
 import {
     Package,
     Inbox,
@@ -27,10 +29,21 @@ const topPerformers = [
     { id: 3, name: 'Vertical Milling Center', views: 189, inquiries: 4, status: 'Active', image: '/assets/products/milling.jpg' },
 ];
 
-export default function SellerDashboardPage() {
+export default async function SellerDashboardPage() {
+    const session = await getServerSession();
+    if (!session) redirect("/login");
+
+    const orgs = (session.user as any).orgs || [];
+    const isSeller = orgs.some((o: any) => o.type === 'seller');
+
+    if (!isSeller) {
+        if (orgs.length > 0) redirect("/buyer/dashboard");
+        redirect("/onboarding");
+    }
+
     return (
         <div className="flex w-full flex-col min-h-screen bg-light-graphite">
-            <DashboardHeader title="Seller Overview" />
+            <DashboardHeader title={`Seller Overview: ${session.user?.name || ''}`} />
 
             <div className="p-6 md:p-8 space-y-8 w-full max-w-[1600px] mx-auto">
                 {/* KPI Cards Row */}

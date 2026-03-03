@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Search, Tag, ShieldCheck, Factory, Briefcase, Zap } from 'lucide-react';
 
 export default function Hero() {
@@ -25,10 +26,10 @@ export default function Hero() {
                                 <Search size={20} />
                                 Browse Machinery
                             </a>
-                            <a href="#partner" className="inline-flex justify-center items-center gap-2 rounded-industrial border-2 border-industrial-grey-light/20 bg-transparent px-8 py-4 text-base font-bold text-steel-blue hover:bg-light-graphite transition-all">
+                            <Link href="/seller" className="inline-flex justify-center items-center gap-2 rounded-industrial border-2 border-industrial-grey-light/20 bg-transparent px-8 py-4 text-base font-bold text-steel-blue hover:bg-light-graphite transition-all">
                                 <Tag size={20} />
                                 List Your Equipment
-                            </a>
+                            </Link>
                         </div>
 
                         {/* Trust Bar Row */}

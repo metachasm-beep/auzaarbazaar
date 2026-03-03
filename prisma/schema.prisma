@@ -3,7 +3,9 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 enum OrgType {
@@ -124,8 +126,8 @@ enum EventType {
 }
 
 model User {
-  id        String   @id @db.Uuid
-  email     String?
+  id        String   @id @default(uuid()) @db.Uuid
+  email     String?  @unique
   phone     String?
   fullName  String?
   isActive  Boolean  @default(true)
@@ -137,7 +139,6 @@ model User {
   events      Event[]
   receipts    ThreadReadReceipt[]
 
-  @@index([email])
 }
 
 model Org {

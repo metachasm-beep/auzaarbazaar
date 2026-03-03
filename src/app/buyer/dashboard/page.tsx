@@ -1,5 +1,7 @@
 import React from 'react';
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
+import { getServerSession } from "next-auth/next";
+import { redirect } from "next/navigation";
 import {
     Send,
     Zap,
@@ -37,10 +39,21 @@ const suggestedMachines = [
     { id: 4, name: 'Automated Packaging Line', brand: 'PackSmart', price: 'On Request', condition: 'New' },
 ];
 
-export default function BuyerDashboardPage() {
+export default async function BuyerDashboardPage() {
+    const session = await getServerSession();
+    if (!session) redirect("/login");
+
+    const orgs = (session.user as any).orgs || [];
+    const isBuyer = orgs.some((o: any) => o.type === 'buyer');
+
+    if (!isBuyer) {
+        if (orgs.length > 0) redirect("/seller/dashboard");
+        redirect("/onboarding");
+    }
+
     return (
         <div className="flex w-full flex-col min-h-screen bg-light-graphite">
-            <DashboardHeader title="Procurement Overview" />
+            <DashboardHeader title={`Procurement Hub: ${session.user?.name || ''}`} />
 
             <div className="p-6 md:p-8 space-y-8 w-full max-w-[1600px] mx-auto">
                 {/* KPI Cards Row */}
