@@ -55,13 +55,19 @@ const statusMap = {
     closed: { label: 'Closed', icon: Clock, class: 'bg-slate-100 text-slate-500 border-slate-200' },
 };
 
+import { authOptions } from "@/lib/auth";
+
 export default async function SellerInquiriesPage() {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     if (!session) redirect('/login');
 
     const orgs = (session.user as any)?.orgs || [];
     const isSeller = orgs.some((o: any) => o.type === 'seller');
-    if (!isSeller) redirect('/onboarding');
+    const isSuperAdmin = (session.user as any)?.isSuperAdmin;
+
+    if (!isSeller && !isSuperAdmin) {
+        redirect('/onboarding');
+    }
 
     const newCount = inquiries.filter(i => i.status === 'new').length;
     const respondedCount = inquiries.filter(i => i.status === 'responded').length;

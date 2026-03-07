@@ -1,6 +1,7 @@
 import React from 'react';
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
 import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import {
     Send,
@@ -40,7 +41,7 @@ const suggestedMachines = [
 ];
 
 export default async function BuyerDashboardPage() {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     if (!session) redirect("/login");
 
     const orgs = (session.user as any).orgs || [];

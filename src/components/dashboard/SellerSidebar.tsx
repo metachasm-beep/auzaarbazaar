@@ -113,8 +113,12 @@ export function SellerSidebar({ children }: { children: ReactNode }) {
                     </ul>
 
                     {isSuperAdmin && (
-                        <div className="mt-6 px-3">
+                        <div className="mt-6 px-3 space-y-2">
                             <p className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-industrial-grey-light">Admin Controls</p>
+                            <Link href="/admin/dashboard" className="flex items-center gap-3 rounded-industrial bg-white/10 px-3 py-2.5 text-sm font-bold text-white hover:bg-white/20 transition-all border border-white/20">
+                                <ShieldCheck size={18} />
+                                Back to Admin Panel
+                            </Link>
                             <Link href="/buyer/dashboard" className="flex items-center gap-3 rounded-industrial bg-safety-orange/10 px-3 py-2.5 text-sm font-bold text-safety-orange hover:bg-safety-orange/20 transition-all border border-safety-orange/20">
                                 <ArrowLeftRight size={18} />
                                 Switch to Buyer View

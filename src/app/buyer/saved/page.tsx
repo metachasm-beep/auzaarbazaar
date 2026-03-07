@@ -1,7 +1,8 @@
 import React from 'react';
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
-import { getServerSession } from 'next-auth/next';
-import { redirect } from 'next/navigation';
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth";
+import { redirect } from "next/navigation";
 import Link from 'next/link';
 import { Bookmark, Search, ExternalLink, SlidersHorizontal, Trash2 } from 'lucide-react';
 import ProductCard from '@/components/inventory/ProductCard';
@@ -11,12 +12,16 @@ import { inventory } from '@/data/inventory.json';
 const savedItems = inventory.slice(0, 4);
 
 export default async function BuyerSavedPage() {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     if (!session) redirect('/login');
 
     const orgs = (session.user as any)?.orgs || [];
     const isBuyer = orgs.some((o: any) => o.type === 'buyer');
-    if (!isBuyer) redirect('/onboarding');
+    const isSuperAdmin = (session.user as any)?.isSuperAdmin;
+
+    if (!isBuyer && !isSuperAdmin) {
+        redirect('/onboarding');
+    }
 
     return (
         <div className="flex w-full flex-col min-h-screen bg-light-graphite">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { getServerSession } from "next-auth/next";
+import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { 
     Users, 
@@ -22,7 +23,7 @@ import { prisma } from "@/lib/prisma";
 import inventoryData from "@/data/inventory.json";
 
 export default async function AdminDashboardPage() {
-    const session = await getServerSession();
+    const session = await getServerSession(authOptions);
     
     // Strict super-admin check
     const isSuperAdmin = session?.user?.email === "metachasm@gmail.com";
