@@ -23,10 +23,6 @@ export default async function OnboardingPage() {
     let dbError = null;
 
     try {
-        if (!(prisma as any).user) {
-            throw new Error("Database initialization in progress...");
-        }
-
         user = await (prisma.user as any).findUnique({
             where: { email: userEmail },
             include: {
@@ -43,14 +39,16 @@ export default async function OnboardingPage() {
         dbError = e.message || "Database connection failure";
     }
 
+    // Redirect registered users to their respective dashboards
     if (user?.memberships && user.memberships.length > 0) {
-        const orgType = user.memberships[0].org.orgType;
-        if (orgType === "seller") {
+        const primaryMembership = user.memberships[0];
+        const orgType = primaryMembership.org.orgType;
+        
+        console.log("Onboarding: Redirecting registered user to:", orgType);
+        
+        if (orgType === "seller" || orgType === "both") {
             redirect("/seller/dashboard");
-        } else if (orgType === "both") {
-            // For 'both', we default to seller view but they have the toggle in sidebar
-            redirect("/seller/dashboard");
-        } else {
+        } else if (orgType === "buyer") {
             redirect("/buyer/dashboard");
         }
     }
@@ -116,7 +114,7 @@ export default async function OnboardingPage() {
                         {/* Option 1: Buyer */}
                         <form action={async () => {
                             "use server";
-                            const session = await getServerSession();
+                            const session = await getServerSession(authOptions);
                             if (!session?.user?.email) return;
                             const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
                             if (!userRecord) return;
@@ -145,7 +143,7 @@ export default async function OnboardingPage() {
                         {/* Option 2: Seller */}
                         <form action={async () => {
                             "use server";
-                            const session = await getServerSession();
+                            const session = await getServerSession(authOptions);
                             if (!session?.user?.email) return;
                             const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
                             if (!userRecord) return;
@@ -174,7 +172,7 @@ export default async function OnboardingPage() {
                         {/* Option 3: Both (NEW) */}
                         <form action={async () => {
                             "use server";
-                            const session = await getServerSession();
+                            const session = await getServerSession(authOptions);
                             if (!session?.user?.email) return;
                             const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
                             if (!userRecord) return;

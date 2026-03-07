@@ -12,6 +12,7 @@ export const authOptions: NextAuthOptions = {
     secret: process.env.NEXTAUTH_SECRET,
     session: {
         strategy: "jwt",
+        maxAge: 30 * 24 * 60 * 60, // 30 days
     },
     pages: {
         signIn: "/login",
@@ -20,35 +21,32 @@ export const authOptions: NextAuthOptions = {
     debug: true,
     callbacks: {
         async signIn({ user, account, profile }: any) {
-            console.log("NextAuth: Attempting signIn for", user?.email);
-            if (!user?.email) {
-                console.error("NextAuth: No email provided by Google");
-                return false;
-            }
+            console.log("NextAuth: signIn callback for", user?.email);
+            if (!user?.email) return false;
 
             try {
-                // Upsert user in database
+                // Upsert user in database to ensure they exist before JWT callback runs
                 await (prisma.user as any).upsert({
                     where: { email: user.email },
-                    update: {
-                        fullName: user.name,
-                    },
+                    update: { fullName: user.name },
                     create: {
                         email: user.email,
                         fullName: user.name,
                     },
                 });
-                console.log("NextAuth: DB Migration/Sync success for", user.email);
                 return true;
             } catch (error) {
-                console.error("NextAuth: Database sync error during sign-in:", error);
+                console.error("NextAuth: signIn DB error:", error);
                 return true; 
             }
         },
-        async jwt({ token, user, account }: any) {
-            if (user) {
-                token.id = user.id;
+        async jwt({ token, user, trigger }: any) {
+            // First time sign in
+            if (user && user.email) {
+                token.email = user.email;
             }
+
+            // Always try to refresh data from DB to keep session sync
             if (token.email) {
                 token.isSuperAdmin = token.email === "metachasm@gmail.com";
                 try {
@@ -56,9 +54,7 @@ export const authOptions: NextAuthOptions = {
                         where: { email: token.email },
                         include: {
                             memberships: {
-                                include: {
-                                    org: true
-                                }
+                                include: { org: true }
                             }
                         }
                     });
@@ -73,7 +69,7 @@ export const authOptions: NextAuthOptions = {
                         }));
                     }
                 } catch (e) {
-                    console.error("NextAuth: JWT Lookup Error:", e);
+                    console.error("NextAuth: JWT DB Fetch Error:", e);
                 }
             }
             return token;
@@ -87,21 +83,33 @@ export const authOptions: NextAuthOptions = {
             return session;
         },
         async redirect({ url, baseUrl }) {
-            // If the URL is already absolute and starts with baseUrl, use it
-            if (url.startsWith(baseUrl)) {
-                if (url.includes("/login")) return `${baseUrl}/onboarding`;
-                return url;
+            // Priority 1: If it's a relative URL, prepend baseUrl
+            if (url.startsWith("/")) {
+                if (url === "/") return `${baseUrl}/onboarding`;
+                return `${baseUrl}${url}`;
             }
             
-            // Default to onboarding
-            if (url === baseUrl || url.includes("/login") || url === "/") {
+            // Priority 2: Logic for login redirects
+            if (url.includes("/login") || url === baseUrl) {
                 return `${baseUrl}/onboarding`;
             }
             
-            // Relative paths
-            if (url.startsWith("/")) return `${baseUrl}${url}`;
+            // Priority 3: Default behavior
+            if (url.startsWith(baseUrl)) return url;
             
-            return baseUrl;
+            return `${baseUrl}/onboarding`;
+        },
+    },
+    // Adding cookies configuration to be more explicit for production
+    cookies: {
+        sessionToken: {
+            name: process.env.NODE_ENV === 'production' ? `__Secure-next-auth.session-token` : `next-auth.session-token`,
+            options: {
+                httpOnly: true,
+                sameSite: 'lax',
+                path: '/',
+                secure: process.env.NODE_ENV === 'production',
+            },
         },
     },
 };
