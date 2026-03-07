@@ -18,7 +18,6 @@ export const authOptions: NextAuthOptions = {
         error: "/login",
     },
     debug: true,
-    trustHost: true,
     callbacks: {
         async signIn({ user, account, profile }: any) {
             console.log("NextAuth: Attempting signIn for", user?.email);
