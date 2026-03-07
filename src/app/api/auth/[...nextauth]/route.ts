@@ -2,7 +2,7 @@ import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import { prisma } from "@/lib/prisma";
 
-const handler = NextAuth({
+export const authOptions = {
     providers: [
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID ?? "",
@@ -10,13 +10,22 @@ const handler = NextAuth({
         }),
     ],
     secret: process.env.NEXTAUTH_SECRET,
+    session: {
+        strategy: "jwt" as const,
+    },
     pages: {
         signIn: "/login",
         error: "/login",
     },
+    debug: true,
+    trustHost: true,
     callbacks: {
-        async signIn({ user, account, profile }) {
-            if (!user.email) return false;
+        async signIn({ user, account, profile }: any) {
+            console.log("NextAuth: Attempting signIn for", user?.email);
+            if (!user?.email) {
+                console.error("NextAuth: No email provided by Google");
+                return false;
+            }
 
             try {
                 // Upsert user in database
@@ -30,58 +39,79 @@ const handler = NextAuth({
                         fullName: user.name,
                     },
                 });
+                console.log("NextAuth: DB Migration/Sync success for", user.email);
                 return true;
             } catch (error) {
-                console.error("Error during sign in:", error);
-                return true; // Still allow sign in even if DB sync fails
+                console.error("NextAuth: Database sync error during sign-in:", error);
+                // Allow sign in even if DB sync fails, so user isn't blocked 
+                // but we should investigate why the DB fails
+                return true; 
             }
         },
-        async jwt({ token, user, account, profile }) {
+        async jwt({ token, user, account }: any) {
             if (user) {
                 token.id = user.id;
             }
             if (token.email) {
                 token.isSuperAdmin = token.email === "metachasm@gmail.com";
-                const dbUser = await (prisma.user as any).findUnique({
-                    where: { email: token.email },
-                    include: {
-                        memberships: {
-                            include: {
-                                org: true
+                try {
+                    const dbUser = await (prisma.user as any).findUnique({
+                        where: { email: token.email },
+                        include: {
+                            memberships: {
+                                include: {
+                                    org: true
+                                }
                             }
                         }
-                    }
-                });
+                    });
 
-                if (dbUser) {
-                    token.id = dbUser.id;
-                    token.orgs = dbUser.memberships.map((m: any) => ({
-                        id: m.org.id,
-                        name: m.org.name,
-                        role: m.role,
-                        type: m.org.orgType
-                    }));
+                    if (dbUser) {
+                        token.id = dbUser.id;
+                        token.orgs = dbUser.memberships.map((m: any) => ({
+                            id: m.org.id,
+                            name: m.org.name,
+                            role: m.role,
+                            type: m.org.orgType
+                        }));
+                    }
+                } catch (e) {
+                    console.error("NextAuth: JWT Lookup Error:", e);
                 }
             }
             return token;
         },
-        async session({ session, token }) {
+        async session({ session, token }: any) {
             if (token && session.user) {
-                (session.user as any).id = token.id;
-                (session.user as any).orgs = token.orgs || [];
-                (session.user as any).isSuperAdmin = token.isSuperAdmin;
+                session.user.id = token.id;
+                session.user.orgs = token.orgs || [];
+                session.user.isSuperAdmin = token.isSuperAdmin;
             }
             return session;
         },
-        async redirect({ url, baseUrl }) {
-            // After successful sign in, go to onboarding to check status
-            if (url === baseUrl || url.includes("/login")) {
+        async redirect({ url, baseUrl }: { url: string; baseUrl: string }) {
+            console.log("NextAuth: Redirect step. Target:", url, "Base:", baseUrl);
+            
+            // If the URL is already absolute and starts with baseUrl, use it
+            if (url.startsWith(baseUrl)) {
+                // Avoid infinite redirect if target is login
+                if (url.includes("/login")) return `${baseUrl}/onboarding`;
+                return url;
+            }
+            
+            // Default to onboarding
+            if (url === baseUrl || url.includes("/login") || url === "/") {
                 return `${baseUrl}/onboarding`;
             }
+            
+            // Relative paths
             if (url.startsWith("/")) return `${baseUrl}${url}`;
-            return url;
+            
+            return baseUrl;
         },
     },
-});
+};
+
+const handler = NextAuth(authOptions);
 
 export { handler as GET, handler as POST };

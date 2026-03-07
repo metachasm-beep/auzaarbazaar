@@ -6,7 +6,10 @@ export default async function OnboardingPage() {
     const session = await getServerSession();
 
     if (!session?.user?.email) {
+        console.log("Onboarding: No session found, redirecting to login...");
         redirect("/login");
+    } else {
+        console.log("Onboarding: Session found for", session.user.email);
     }
 
     // Check if user already has an org
