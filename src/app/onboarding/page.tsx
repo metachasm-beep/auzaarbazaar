@@ -13,18 +13,30 @@ export default async function OnboardingPage() {
     }
 
     // Check if user already has an org
-    // Using cast to any to bypass Prisma type generation delays if email isn't correctly indexed in the client types yet
     const userEmail = session.user.email as string;
-    const user = await (prisma.user as any).findUnique({
-        where: { email: userEmail },
-        include: {
-            memberships: {
-                include: {
-                    org: true,
+    let user = null;
+    let dbError = null;
+
+    try {
+        if (!(prisma as any).user) {
+            throw new Error("Prisma client not fully initialized (user model missing). Try running prisma generate.");
+        }
+
+        user = await (prisma.user as any).findUnique({
+            where: { email: userEmail },
+            include: {
+                memberships: {
+                    include: {
+                        org: true,
+                    },
                 },
             },
-        },
-    });
+        });
+        console.log("Onboarding: DB lookup success for", userEmail);
+    } catch (e: any) {
+        console.error("Onboarding: DB Error:", e);
+        dbError = e.message || "Database connection failure";
+    }
 
     if (user?.memberships && user.memberships.length > 0) {
         const orgType = user.memberships[0].org.orgType;
@@ -33,6 +45,26 @@ export default async function OnboardingPage() {
         } else {
             redirect("/buyer/dashboard");
         }
+    }
+
+    if (dbError) {
+        return (
+            <main className="min-h-screen bg-slate-50 flex items-center justify-center p-6">
+                <div className="w-full max-w-md bg-white rounded-3xl shadow-xl p-10 text-center border-t-8 border-rose-500">
+                    <div className="w-16 h-16 bg-rose-50 text-rose-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h1 className="text-2xl font-bold text-slate-800 mb-2">System Interruption</h1>
+                    <p className="text-slate-500 mb-6">We're having trouble reaching our database. This is usually due to missing environment variables or a sync issue.</p>
+                    <div className="bg-slate-50 rounded-xl p-4 text-left mb-8 overflow-x-auto text-xs font-mono text-rose-600">
+                        Error: {dbError}
+                    </div>
+                    <a href="/" className="inline-block w-full bg-slate-100 py-3 rounded-xl font-bold text-slate-700 hover:bg-slate-200 transition-colors">
+                        Try Going Back Home
+                    </a>
+                </div>
+            </main>
+        );
     }
 
     return (
