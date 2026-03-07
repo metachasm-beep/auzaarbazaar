@@ -35,8 +35,9 @@ export default async function SellerDashboardPage() {
 
     const orgs = (session.user as any).orgs || [];
     const isSeller = orgs.some((o: any) => o.type === 'seller');
+    const isSuperAdmin = (session.user as any).isSuperAdmin;
 
-    if (!isSeller) {
+    if (!isSeller && !isSuperAdmin) {
         if (orgs.length > 0) redirect("/buyer/dashboard");
         redirect("/onboarding");
     }

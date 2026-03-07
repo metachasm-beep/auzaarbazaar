@@ -3,6 +3,7 @@
 import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useSession } from 'next-auth/react';
 import { cn } from '@/lib/utils';
 import {
     LayoutDashboard,
@@ -40,7 +41,10 @@ const buyerNavigation: SidebarItem[] = [
 
 export function BuyerSidebar({ children }: { children: ReactNode }) {
     const pathname = usePathname();
+    const { data: session } = useSession();
     const [isMobileOpen, setIsMobileOpen] = React.useState(false);
+
+    const isSuperAdmin = (session?.user as any)?.isSuperAdmin;
 
     return (
         <div className="flex min-h-screen bg-light-graphite font-sans">
@@ -106,6 +110,16 @@ export function BuyerSidebar({ children }: { children: ReactNode }) {
                             );
                         })}
                     </ul>
+
+                    {isSuperAdmin && (
+                        <div className="mt-6 px-3">
+                            <p className="px-3 mb-2 text-[10px] font-bold uppercase tracking-widest text-industrial-grey-light">Admin Controls</p>
+                            <Link href="/seller/dashboard" className="flex items-center gap-3 rounded-industrial bg-electric-blue/10 px-3 py-2.5 text-sm font-bold text-electric-blue hover:bg-electric-blue/20 transition-all border border-electric-blue/20">
+                                <ArrowLeftRight size={18} />
+                                Switch to Seller View
+                            </Link>
+                        </div>
+                    )}
                 </nav>
 
                 {/* Bottom User Area */}

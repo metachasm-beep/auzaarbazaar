@@ -41,6 +41,7 @@ const handler = NextAuth({
                 token.id = user.id;
             }
             if (token.email) {
+                token.isSuperAdmin = token.email === "metachasm@gmail.com";
                 const dbUser = await (prisma.user as any).findUnique({
                     where: { email: token.email },
                     include: {
@@ -67,7 +68,8 @@ const handler = NextAuth({
         async session({ session, token }) {
             if (token && session.user) {
                 (session.user as any).id = token.id;
-                (session.user as any).orgs = token.orgs;
+                (session.user as any).orgs = token.orgs || [];
+                (session.user as any).isSuperAdmin = token.isSuperAdmin;
             }
             return session;
         },
