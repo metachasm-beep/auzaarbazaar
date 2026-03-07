@@ -92,6 +92,10 @@ export const authOptions = {
         async redirect({ url, baseUrl }: { url: string; baseUrl: string }) {
             console.log("NextAuth: Redirect step. Target:", url, "Base:", baseUrl);
             
+            // SPECIAL CASE: Check for super admin redirect before anything else
+            // Note: We can't check session here easily without extra calls,
+            // but the /onboarding page will handle the server-side redirect for us reliably.
+            
             // If the URL is already absolute and starts with baseUrl, use it
             if (url.startsWith(baseUrl)) {
                 // Avoid infinite redirect if target is login
