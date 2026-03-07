@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { ExternalLink, Info, X } from 'lucide-react';
 
 interface ProductCardProps {
@@ -22,7 +23,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
     return (
         <>
-            <div className="group relative flex flex-col rounded-industrial border border-slate-200 bg-white transition-all hover:shadow-lg overflow-hidden">
+            <div className="group relative flex flex-col rounded-industrial border border-slate-200 bg-white transition-all hover:shadow-lg overflow-hidden cursor-pointer" onClick={() => setIsModalOpen(true)}>
                 {/* Image Container */}
                 <div className="relative aspect-square w-full overflow-hidden bg-slate-50">
                     <div className="absolute inset-0 flex items-center justify-center p-8 transition-all duration-500">
@@ -81,12 +82,13 @@ export default function ProductCard({ product }: ProductCardProps) {
                             </div>
                         ))}
                     </div>
-                    <button
-                        onClick={(e) => { e.stopPropagation(); setIsModalOpen(true); }}
-                        className="mt-4 w-full rounded-industrial bg-industrial-blue py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-industrial-blue-dark transition-colors pointer-events-auto z-20"
+                    <Link
+                        href={`/inventory/${product.id}`}
+                        onClick={(e) => e.stopPropagation()}
+                        className="mt-4 w-full rounded-industrial bg-electric-blue py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-electric-blue-hover transition-colors pointer-events-auto z-20 text-center block"
                     >
                         View Full Detail Sheet
-                    </button>
+                    </Link>
                 </div>
             </div>
 
@@ -145,9 +147,13 @@ export default function ProductCard({ product }: ProductCardProps) {
                                     <div className="text-xs text-slate-500 mt-1">+ {product.gst} GST applied</div>
                                 </div>
 
-                                <a href="#partner" onClick={() => setIsModalOpen(false)} className="rounded-industrial bg-industrial-blue px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-white shadow-xl hover:bg-industrial-blue-dark transition-all">
-                                    Inquire Now
-                                </a>
+                                <Link
+                                    href={`/rfq?machine=${encodeURIComponent(product.name)}&machineId=${product.id}`}
+                                    onClick={() => setIsModalOpen(false)}
+                                    className="rounded-industrial bg-safety-orange px-6 py-3.5 text-sm font-bold uppercase tracking-widest text-white shadow-xl hover:bg-safety-orange-hover transition-all"
+                                >
+                                    Send RFQ
+                                </Link>
                             </div>
                         </div>
                     </div>

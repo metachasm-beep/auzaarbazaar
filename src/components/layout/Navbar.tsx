@@ -39,7 +39,7 @@ export default function Navbar() {
 
                     {/* Center -> Primary Links */}
                     <div className="hidden lg:flex items-center justify-center space-x-8 flex-1">
-                        <Link href="#inventory" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-2">
+                        <Link href="/inventory" className="text-sm font-semibold text-industrial-grey hover:text-electric-blue transition-colors flex items-center gap-2">
                             Browse Equipment
                         </Link>
 
