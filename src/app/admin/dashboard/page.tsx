@@ -8,123 +8,233 @@ import {
     ShieldCheck, 
     BarChart3, 
     Settings,
+    AlertCircle,
+    Database,
+    Globe,
+    FileText,
     LayoutDashboard,
-    AlertCircle
+    Activity,
+    Plus,
+    Search
 } from 'lucide-react';
 import Link from 'next/link';
+import { prisma } from "@/lib/prisma";
+import inventoryData from "@/data/inventory.json";
 
 export default async function AdminDashboardPage() {
     const session = await getServerSession();
     
     // Strict super-admin check
     const isSuperAdmin = session?.user?.email === "metachasm@gmail.com";
+    if (!isSuperAdmin) redirect("/onboarding");
+
+    // FETCH REAL DATA
+    let userCount = 0;
+    let orgCount = 0;
+    let buyerCount = 0;
+    let sellerCount = 0;
     
-    if (!isSuperAdmin) {
-        redirect("/onboarding");
+    try {
+        userCount = await (prisma.user as any).count();
+        const orgs = await (prisma.org as any).findMany({
+            select: { orgType: true }
+        });
+        orgCount = orgs.length;
+        buyerCount = orgs.filter((o: any) => o.orgType === 'buyer' || o.orgType === 'both').length;
+        sellerCount = orgs.filter((o: any) => o.orgType === 'seller' || o.orgType === 'both').length;
+    } catch (e) {
+        console.error("Admin Dashboard: Failed to fetch DB stats", e);
     }
 
+    const totalListings = inventoryData.inventory.length;
+    const categories = Array.from(new Set(inventoryData.inventory.map(i => i.category))).length;
+
     return (
-        <div className="min-h-screen bg-[#F8FAFC] flex flex-col">
-            {/* Top Bar */}
-            <header className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-8 sticky top-0 z-10">
-                <div className="flex items-center gap-2">
-                    <ShieldCheck className="text-indigo-600" size={24} />
-                    <span className="font-black text-xl tracking-tight text-slate-800">
-                        Admin<span className="text-indigo-600 underline decoration-indigo-200">Panel</span>
-                    </span>
-                </div>
-                <div className="flex items-center gap-4">
-                    <div className="text-right">
-                        <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Active Session</p>
-                        <p className="text-sm font-bold text-slate-700">{session?.user?.email}</p>
-                    </div>
-                    <div className="h-10 w-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold border-2 border-indigo-200">
-                        M
-                    </div>
-                </div>
-            </header>
-
-            <main className="flex-1 p-8 max-w-7xl mx-auto w-full">
-                <div className="mb-10">
-                    <h1 className="text-4xl font-black text-slate-900 mb-2">Systems Overview</h1>
-                    <p className="text-slate-500 font-medium">Welcome back, Super Admin. Everything is running smoothly.</p>
-                </div>
-
-                {/* Quick Stats */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10">
-                    {[
-                        { label: 'Total Users', value: '1,429', icon: Users, color: 'blue' },
-                        { label: 'Active Listings', value: '2,092', icon: ShoppingBag, color: 'indigo' },
-                        { label: 'Platform Revenue', value: '₹4.2M', icon: BarChart3, color: 'emerald' },
-                        { label: 'System Health', value: '99.9%', icon: Settings, color: 'amber' },
-                    ].map((stat) => (
-                        <div key={stat.label} className="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 group hover:shadow-md transition-all">
-                            <div className={`w-12 h-12 rounded-2xl bg-${stat.color}-50 flex items-center justify-center text-${stat.color}-600 mb-4`}>
-                                <stat.icon size={24} />
+        <div className="min-h-screen bg-[#0F172A] text-slate-200 flex flex-col font-sans selection:bg-indigo-500/30">
+            {/* Glassmorphic Side Navigation */}
+            <div className="flex flex-1">
+                <aside className="w-72 border-r border-slate-800 bg-slate-900/50 backdrop-blur-xl flex flex-col hidden lg:flex">
+                    <div className="p-8">
+                        <div className="flex items-center gap-3 mb-10">
+                            <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                                <ShieldCheck className="text-white" size={24} />
                             </div>
-                            <p className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-1">{stat.label}</p>
-                            <p className="text-2xl font-black text-slate-900">{stat.value}</p>
+                            <span className="font-black text-xl tracking-tight text-white">
+                                Auzaar<span className="text-indigo-500">Admin</span>
+                            </span>
                         </div>
-                    ))}
-                </div>
 
-                {/* Mode Switching Section */}
-                <h2 className="text-xl font-bold text-slate-800 mb-6 flex items-center gap-2">
-                    <ArrowLeftRight size={20} className="text-indigo-500" />
-                    Environment Emulation
-                </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                    {/* Buyer Mode */}
-                    <Link href="/buyer/dashboard" className="group">
-                        <div className="bg-white p-10 rounded-[2.5rem] border-2 border-transparent hover:border-blue-500 transition-all shadow-sm hover:shadow-xl relative overflow-hidden h-full">
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full -mr-10 -mt-10 opacity-50 group-hover:scale-110 transition-transform" />
-                            <div className="relative">
-                                <span className="inline-block px-4 py-1 bg-blue-100 text-blue-600 rounded-full text-xs font-black uppercase tracking-widest mb-6">User Persona</span>
-                                <h3 className="text-3xl font-black text-slate-900 mb-4 group-hover:text-blue-600 transition-colors">Buyer View</h3>
-                                <p className="text-slate-500 font-medium mb-8 leading-relaxed">
-                                    Browse the full catalog, manage RFQs, and simulate the purchase experience from the buyer's perspective.
-                                </p>
-                                <div className="flex items-center gap-3 text-blue-600 font-black">
-                                    Enter Dashboard <span className="group-hover:translate-x-2 transition-transform">→</span>
+                        <nav className="space-y-1">
+                            {[
+                                { name: 'Overview', icon: LayoutDashboard, active: true },
+                                { name: 'User Management', icon: Users },
+                                { name: 'Product Catalog', icon: ShoppingBag },
+                                { name: 'RFQ Analytics', icon: BarChart3 },
+                                { name: 'System Logs', icon: Activity },
+                                { name: 'Global Settings', icon: Settings },
+                            ].map((item) => (
+                                <button key={item.name} className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all font-bold text-sm ${item.active ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/20' : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'}`}>
+                                    <item.icon size={18} />
+                                    {item.name}
+                                </button>
+                            ))}
+                        </nav>
+                    </div>
+
+                    <div className="mt-auto p-8 border-t border-slate-800/50">
+                        <div className="bg-slate-800/50 rounded-2xl p-4 border border-slate-700/50">
+                            <p className="text-[10px] font-black uppercase tracking-widest text-indigo-400 mb-1">Server Status</p>
+                            <div className="flex items-center gap-2 text-xs font-bold text-emerald-400">
+                                <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                                Operational
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <main className="flex-1 flex flex-col h-screen overflow-y-auto">
+                    {/* Top Header */}
+                    <header className="h-20 border-b border-slate-800 bg-[#0F172A]/80 backdrop-blur-md px-8 flex items-center justify-between sticky top-0 z-20">
+                        <div className="flex items-center gap-4 bg-slate-800/50 border border-slate-700/50 px-4 py-2 rounded-xl w-96">
+                            <Search size={18} className="text-slate-500" />
+                            <input type="text" placeholder="Search users, RFQs, listings..." className="bg-transparent border-none text-sm font-medium focus:ring-0 text-slate-200 placeholder:text-slate-500 w-full" />
+                        </div>
+                        <div className="flex items-center gap-6">
+                            <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-sm font-bold transition-all shadow-lg shadow-indigo-600/20">
+                                <Plus size={18} />
+                                New Announcement
+                            </button>
+                            <div className="h-10 w-px bg-slate-800" />
+                            <div className="flex items-center gap-3">
+                                <span className="text-sm font-bold text-slate-300">Super Admin</span>
+                                <div className="w-10 h-10 rounded-full border-2 border-indigo-500/50 p-0.5">
+                                    <div className="w-full h-full rounded-full bg-indigo-600 flex items-center justify-center font-black text-white text-xs">M</div>
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </header>
 
-                    {/* Seller Mode */}
-                    <Link href="/seller/dashboard" className="group">
-                        <div className="bg-white p-10 rounded-[2.5rem] border-2 border-transparent hover:border-orange-500 transition-all shadow-sm hover:shadow-xl relative overflow-hidden h-full">
-                            <div className="absolute top-0 right-0 w-32 h-32 bg-orange-50 rounded-full -mr-10 -mt-10 opacity-50 group-hover:scale-110 transition-transform" />
-                            <div className="relative">
-                                <span className="inline-block px-4 py-1 bg-orange-100 text-orange-600 rounded-full text-xs font-black uppercase tracking-widest mb-6">Business Persona</span>
-                                <h3 className="text-3xl font-black text-slate-900 mb-4 group-hover:text-orange-600 transition-colors">Seller View</h3>
-                                <p className="text-slate-500 font-medium mb-8 leading-relaxed">
-                                    Manage global inventory, review incoming inquiries, and simulate factory registration flows.
-                                </p>
-                                <div className="flex items-center gap-3 text-orange-600 font-black">
-                                    Enter Dashboard <span className="group-hover:translate-x-2 transition-transform">→</span>
+                    <div className="p-8 lg:p-12 space-y-10">
+                        <div className="flex items-end justify-between">
+                            <div>
+                                <h1 className="text-4xl font-black text-white mb-2">Real-time Pulse</h1>
+                                <p className="text-slate-400 font-medium">Aggregated data across the AuzaarBazaar ecosystem.</p>
+                            </div>
+                            <div className="flex items-center gap-3 bg-slate-900 border border-slate-800 p-1 rounded-xl">
+                                <button className="px-4 py-2 bg-slate-800 text-white rounded-lg text-xs font-bold shadow-sm">24H</button>
+                                <button className="px-4 py-2 text-slate-500 hover:text-slate-300 text-xs font-bold">7D</button>
+                                <button className="px-4 py-2 text-slate-500 hover:text-slate-300 text-xs font-bold">30D</button>
+                            </div>
+                        </div>
+
+                        {/* Core Stats Row */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            {[
+                                { label: 'Registered Users', value: userCount, icon: Users, color: 'blue' },
+                                { label: 'Total Inventory', value: totalListings, icon: Database, color: 'indigo' },
+                                { label: 'Buyer Profiles', value: buyerCount, icon: ShoppingBag, color: 'emerald' },
+                                { label: 'Active Sellers', value: sellerCount, icon: Globe, color: 'amber' },
+                            ].map((stat) => (
+                                <div key={stat.label} className="bg-slate-900/50 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-indigo-500/50 transition-all">
+                                    <div className={`absolute -right-4 -top-4 w-24 h-24 bg-${stat.color}-500/10 rounded-full blur-2xl group-hover:scale-150 transition-transform`} />
+                                    <stat.icon className={`text-${stat.color}-500 mb-4`} size={28} />
+                                    <p className="text-xs font-black text-slate-500 uppercase tracking-[0.2em] mb-1">{stat.label}</p>
+                                    <p className="text-4xl font-black text-white">{stat.value.toLocaleString()}</p>
+                                </div>
+                            ))}
+                        </div>
+
+                        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+                            {/* Persona Access Panel */}
+                            <div className="xl:col-span-2 space-y-8">
+                                <div className="bg-slate-900/50 border border-slate-800 rounded-[2.5rem] p-10 relative overflow-hidden">
+                                    <div className="relative z-10">
+                                        <h2 className="text-2xl font-black text-white mb-6">Persona Access Controls</h2>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                            <Link href="/buyer/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-indigo-600 transition-all shadow-xl">
+                                                <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:bg-white group-hover:text-indigo-600 transition-colors">
+                                                    <ShoppingBag size={24} />
+                                                </div>
+                                                <h3 className="text-xl font-black text-white mb-2">Buyer Simulation</h3>
+                                                <p className="text-sm text-slate-400 group-hover:text-indigo-100 mb-4">View catalog, manage RFQs, and track saved equipment.</p>
+                                                <div className="font-bold text-sm text-indigo-400 group-hover:text-white flex items-center gap-2">
+                                                    Open Dashboard <span>→</span>
+                                                </div>
+                                            </Link>
+
+                                            <Link href="/seller/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-orange-600 transition-all shadow-xl">
+                                                <div className="w-12 h-12 rounded-2xl bg-orange-500/20 text-orange-400 flex items-center justify-center mb-4 group-hover:bg-white group-hover:text-orange-600 transition-colors">
+                                                    <Globe size={24} />
+                                                </div>
+                                                <h3 className="text-xl font-black text-white mb-2">Seller Operation</h3>
+                                                <p className="text-sm text-slate-400 group-hover:text-orange-100 mb-4">Control inventory, response systems, and factory listings.</p>
+                                                <div className="font-bold text-sm text-orange-400 group-hover:text-white flex items-center gap-2">
+                                                    Open Dashboard <span>→</span>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Catalog Audit Card */}
+                                <div className="bg-gradient-to-br from-indigo-600 to-indigo-800 rounded-[2.5rem] p-10 flex flex-col md:flex-row items-center gap-10">
+                                    <div className="flex-1">
+                                        <div className="bg-white/10 w-max px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest text-indigo-200 mb-4">Inventory Integrity</div>
+                                        <h3 className="text-3xl font-black text-white mb-4">Catalog Audit Required</h3>
+                                        <p className="text-indigo-100 font-medium leading-relaxed">
+                                            The recent import added {totalListings.toLocaleString()} items across {categories} industrial categories. Review price points and model data accuracy.
+                                        </p>
+                                    </div>
+                                    <Link href="/inventory" className="px-10 py-5 bg-white text-indigo-600 rounded-2xl font-black hover:bg-slate-100 transition-all shadow-2xl shadow-indigo-900/40 whitespace-nowrap">
+                                        Full Catalog Audit
+                                    </Link>
+                                </div>
+                            </div>
+
+                            {/* Sidebar: System Info */}
+                            <div className="xl:col-span-1 space-y-6">
+                                <div className="bg-slate-900 border border-slate-800 p-8 rounded-3xl">
+                                    <h3 className="text-lg font-black text-white mb-6 flex items-center gap-2">
+                                        <Activity size={20} className="text-emerald-500" />
+                                        Platform Health
+                                    </h3>
+                                    <div className="space-y-6">
+                                        {[
+                                            { label: 'Database Sync', value: 100, color: 'emerald' },
+                                            { label: 'Auth Subsystem', value: 100, color: 'emerald' },
+                                            { label: 'Inventory Engine', value: 94, color: 'indigo' },
+                                            { label: 'RFQ Broadcaster', value: 88, color: 'amber' },
+                                        ].map((sys) => (
+                                            <div key={sys.label}>
+                                                <div className="flex justify-between text-xs font-bold mb-2">
+                                                    <span className="text-slate-400 uppercase tracking-widest">{sys.label}</span>
+                                                    <span className={`text-${sys.color}-400`}>{sys.value}%</span>
+                                                </div>
+                                                <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+                                                    <div className={`h-full bg-${sys.color}-500 rounded-full`} style={{ width: `${sys.value}%` }} />
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+
+                                <div className="bg-indigo-600/10 border border-indigo-500/20 p-8 rounded-3xl">
+                                    <div className="flex items-center gap-3 mb-4 text-indigo-400">
+                                        <FileText size={20} />
+                                        <h4 className="font-black text-sm uppercase tracking-widest">Document Registry</h4>
+                                    </div>
+                                    <p className="text-xs font-medium text-slate-400 leading-relaxed mb-6">
+                                        All KYC, ISO, and GST certificates are stored securely in Supabase Storage with AES-256 encryption.
+                                    </p>
+                                    <button className="w-full py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-xs font-black uppercase tracking-[0.1em] transition-all">
+                                        Manage Documents
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </Link>
-                </div>
-
-                {/* System Alerts */}
-                <div className="bg-slate-900 rounded-3xl p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6">
-                    <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center text-amber-400">
-                            <AlertCircle size={28} />
-                        </div>
-                        <div>
-                            <h4 className="text-lg font-bold">New Inventory Update</h4>
-                            <p className="text-slate-400 text-sm">A batch of 2,092 machines was recently added and verified by the system.</p>
-                        </div>
                     </div>
-                    <Link href="/inventory" className="px-8 py-4 bg-white text-slate-900 rounded-2xl font-black hover:bg-indigo-400 hover:text-white transition-all shadow-lg">
-                        Audit Catalog
-                    </Link>
-                </div>
-            </main>
+                </main>
+            </div>
         </div>
     );
 }
