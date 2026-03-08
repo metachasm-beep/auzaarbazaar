@@ -2,18 +2,17 @@ import { redirect } from "next/navigation";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
+import Link from 'next/link';
 
 export default async function OnboardingPage() {
     const session = await getServerSession(authOptions);
 
     if (!session?.user?.email) {
-        console.log("Onboarding: No session found, redirecting to login...");
         redirect("/login");
     }
 
     // DIRECT REDIRECT FOR SUPER ADMIN
     if (session.user.email === "metachasm@gmail.com") {
-        console.log("Onboarding: Super Admin detected, redirecting to /admin/dashboard");
         redirect("/admin/dashboard");
     }
 
@@ -33,7 +32,6 @@ export default async function OnboardingPage() {
                 },
             },
         });
-        console.log("Onboarding: DB lookup success for", userEmail);
     } catch (e: any) {
         console.error("Onboarding: DB Error:", e);
         dbError = e.message || "Database connection failure";
@@ -44,8 +42,6 @@ export default async function OnboardingPage() {
         const primaryMembership = user.memberships[0];
         const orgType = primaryMembership.org.orgType;
         
-        console.log("Onboarding: Redirecting registered user to:", orgType);
-        
         if (orgType === "seller" || orgType === "both") {
             redirect("/seller/dashboard");
         } else if (orgType === "buyer") {
@@ -55,13 +51,13 @@ export default async function OnboardingPage() {
 
     if (dbError) {
         return (
-            <main className="min-h-screen bg-slate-50 flex items-center justify-center p-6">
+            <main className="min-h-screen bg-slate-50 flex items-center justify-center p-6 text-slate-800">
                 <div className="w-full max-w-md bg-white rounded-3xl shadow-xl p-10 text-center border-t-8 border-rose-500">
                     <div className="w-16 h-16 bg-rose-50 text-rose-500 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
                     </div>
-                    <h1 className="text-2xl font-bold text-slate-800 mb-2">Service Momentarily Offline</h1>
-                    <p className="text-slate-500 mb-6">We're updating our systems. Please wait 10 seconds and refresh.</p>
+                    <h1 className="text-2xl font-bold mb-2">Service Momentarily Offline</h1>
+                    <p className="text-slate-500 mb-6 font-medium">We're updating our systems. Please wait 10 seconds and refresh.</p>
                     <div className="bg-slate-50 rounded-xl p-4 text-left mb-8 overflow-x-auto text-xs font-mono text-rose-600">
                         Diagnostics: {dbError}
                     </div>
@@ -74,7 +70,7 @@ export default async function OnboardingPage() {
     }
 
     return (
-        <main className="min-h-screen bg-[#F8FAFC] flex items-center justify-center p-6 overflow-hidden relative">
+        <main className="min-h-screen bg-[#F8FAFC] flex items-center justify-center p-6 overflow-hidden relative text-slate-800">
             {/* Background Accents */}
             <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-50 rounded-full -mr-64 -mt-64 blur-3xl opacity-50" />
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-indigo-50 rounded-full -ml-64 -mb-64 blur-3xl opacity-50" />
@@ -112,91 +108,52 @@ export default async function OnboardingPage() {
 
                     <div className="space-y-4">
                         {/* Option 1: Buyer */}
-                        <form action={async () => {
-                            "use server";
-                            const session = await getServerSession(authOptions);
-                            if (!session?.user?.email) return;
-                            const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
-                            if (!userRecord) return;
-                            await prisma.org.create({
-                                data: {
-                                    name: `${session.user.name || 'My'} Procurement`,
-                                    orgType: "buyer",
-                                    members: { create: { userId: userRecord.id, role: "admin" } }
-                                }
-                            });
-                            redirect("/buyer/dashboard");
-                        }}>
-                            <button type="submit" className="w-full group">
-                                <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-slate-50 transition-all flex items-center gap-4 text-left">
-                                    <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
-                                    </div>
-                                    <div>
-                                        <h4 className="font-black text-slate-800">I'm a Buyer</h4>
-                                        <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Procure Machinery</p>
-                                    </div>
+                        <Link href="/onboarding/buyer" className="w-full block group">
+                            <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-slate-50 transition-all flex items-center gap-4 text-left">
+                                <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform shadow-sm">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg>
                                 </div>
-                            </button>
-                        </form>
+                                <div>
+                                    <h4 className="font-black text-slate-800">I'm a Buyer</h4>
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">Procure Machinery & Spares</p>
+                                </div>
+                                <div className="ml-auto text-slate-300 group-hover:text-indigo-500 transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </Link>
 
                         {/* Option 2: Seller */}
-                        <form action={async () => {
-                            "use server";
-                            const session = await getServerSession(authOptions);
-                            if (!session?.user?.email) return;
-                            const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
-                            if (!userRecord) return;
-                            await prisma.org.create({
-                                data: {
-                                    name: `${session.user.name || 'My'} Sales`,
-                                    orgType: "seller",
-                                    members: { create: { userId: userRecord.id, role: "admin" } }
-                                }
-                            });
-                            redirect("/seller/dashboard");
-                        }}>
-                            <button type="submit" className="w-full group">
-                                <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-slate-50 transition-all flex items-center gap-4 text-left">
-                                    <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center text-indigo-600 group-hover:scale-110 transition-transform">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></svg>
-                                    </div>
-                                    <div>
-                                        <h4 className="font-black text-slate-800">I'm a Seller</h4>
-                                        <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">List & Sell Equipment</p>
-                                    </div>
+                        <Link href="/onboarding/seller" className="w-full block group">
+                            <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-slate-50 transition-all flex items-center gap-4 text-left">
+                                <div className="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center text-amber-600 group-hover:scale-110 transition-transform shadow-sm">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></svg>
                                 </div>
-                            </button>
-                        </form>
+                                <div>
+                                    <h4 className="font-black text-slate-800">I'm a Seller</h4>
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">List & Sell Equipment</p>
+                                </div>
+                                <div className="ml-auto text-slate-300 group-hover:text-indigo-500 transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </Link>
 
-                        {/* Option 3: Both (NEW) */}
-                        <form action={async () => {
-                            "use server";
-                            const session = await getServerSession(authOptions);
-                            if (!session?.user?.email) return;
-                            const userRecord = await (prisma.user as any).findUnique({ where: { email: session.user.email } });
-                            if (!userRecord) return;
-                            await prisma.org.create({
-                                data: {
-                                    name: `${session.user.name || 'My'} Industrial Hub`,
-                                    orgType: "both",
-                                    members: { create: { userId: userRecord.id, role: "admin" } }
-                                }
-                            });
-                            redirect("/seller/dashboard");
-                        }}>
-                            <button type="submit" className="w-full group">
-                                <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-500 hover:bg-indigo-600 transition-all flex items-center gap-4 text-left bg-slate-50 group-hover:bg-indigo-600 group-hover:shadow-lg group-hover:shadow-indigo-200">
-                                    <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center text-indigo-600 group-hover:bg-indigo-400 group-hover:text-white transition-all shadow-sm">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                                    </div>
-                                    <div>
-                                        <h4 className="font-black text-slate-800 group-hover:text-white transition-colors">I'm Both</h4>
-                                        <p className="text-xs font-bold text-slate-400 uppercase tracking-wider group-hover:text-indigo-200 transition-colors">Full Ecosystem Access</p>
-                                    </div>
+                        {/* Option 3: Both */}
+                        <Link href="/onboarding/both" className="w-full block group">
+                            <div className="p-5 rounded-2xl border-2 border-slate-100 hover:border-indigo-600 transition-all flex items-center gap-4 text-left bg-slate-50 group-hover:bg-indigo-600 group-hover:shadow-lg group-hover:shadow-indigo-200">
+                                <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center text-indigo-600 group-hover:bg-indigo-400 group-hover:text-white transition-all shadow-sm">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                                 </div>
-                            </button>
-                        </form>
+                                <div>
+                                    <h4 className="font-black text-slate-800 group-hover:text-white transition-colors">I'm Both</h4>
+                                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider group-hover:text-indigo-200 transition-colors">Full Ecosystem Access</p>
+                                </div>
+                                <div className="ml-auto text-slate-300 group-hover:text-white transition-colors">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
 
                     <div className="mt-10 pt-8 border-t border-slate-100">
