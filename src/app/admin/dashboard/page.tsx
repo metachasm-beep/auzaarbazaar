@@ -21,6 +21,7 @@ import {
 import Link from 'next/link';
 import { prisma } from "@/lib/prisma";
 import inventoryData from "@/data/inventory.json";
+import AdminControls from '@/components/admin/AdminControls';
 
 export default async function AdminDashboardPage() {
     const session = await getServerSession(authOptions);
@@ -136,23 +137,31 @@ export default async function AdminDashboardPage() {
                                 { label: 'Buyer Profiles', value: buyerCount, icon: ShoppingBag, color: 'emerald' },
                                 { label: 'Active Sellers', value: sellerCount, icon: Globe, color: 'amber' },
                             ].map((stat) => (
-                                <div key={stat.label} className="bg-slate-900/50 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-indigo-500/50 transition-all">
+                                <div key={stat.label} className="bg-slate-900/50 border border-slate-800 p-6 rounded-3xl relative overflow-hidden group hover:border-indigo-500/50 transition-all text-slate-200">
                                     <div className={`absolute -right-4 -top-4 w-24 h-24 bg-${stat.color}-500/10 rounded-full blur-2xl group-hover:scale-150 transition-transform`} />
-                                    <stat.icon className={`text-${stat.color}-500 mb-4`} size={28} />
+                                    <stat.icon size={28} className={`mb-4 ${
+                                        stat.color === 'blue' ? 'text-blue-500' :
+                                        stat.color === 'indigo' ? 'text-indigo-500' :
+                                        stat.color === 'emerald' ? 'text-emerald-500' :
+                                        'text-amber-500'
+                                    }`} />
                                     <p className="text-xs font-black text-slate-500 uppercase tracking-[0.2em] mb-1">{stat.label}</p>
                                     <p className="text-4xl font-black text-white">{stat.value.toLocaleString()}</p>
                                 </div>
                             ))}
                         </div>
 
-                        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+                        {/* ADMIN CONTROLS SECTION (NEW) */}
+                        <AdminControls />
+
+                        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 text-slate-200">
                             {/* Persona Access Panel */}
                             <div className="xl:col-span-2 space-y-8">
                                 <div className="bg-slate-900/50 border border-slate-800 rounded-[2.5rem] p-10 relative overflow-hidden">
                                     <div className="relative z-10">
                                         <h2 className="text-2xl font-black text-white mb-6">Persona Access Controls</h2>
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                            <Link href="/buyer/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-indigo-600 transition-all shadow-xl">
+                                            <Link href="/buyer/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-indigo-600 transition-all shadow-xl text-slate-200">
                                                 <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:bg-white group-hover:text-indigo-600 transition-colors">
                                                     <ShoppingBag size={24} />
                                                 </div>
@@ -163,7 +172,7 @@ export default async function AdminDashboardPage() {
                                                 </div>
                                             </Link>
 
-                                            <Link href="/seller/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-orange-600 transition-all shadow-xl">
+                                            <Link href="/seller/dashboard" className="group p-6 rounded-3xl border border-slate-800 bg-[#0F172A] hover:bg-orange-600 transition-all shadow-xl text-slate-200">
                                                 <div className="w-12 h-12 rounded-2xl bg-orange-500/20 text-orange-400 flex items-center justify-center mb-4 group-hover:bg-white group-hover:text-orange-600 transition-colors">
                                                     <Globe size={24} />
                                                 </div>
