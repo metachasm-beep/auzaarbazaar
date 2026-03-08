@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Search, Tag, ShieldCheck, Factory, Briefcase, Zap } from 'lucide-react';
+import RFQBroadcast from './RFQBroadcast';
 
 export default function Hero() {
     return (
@@ -53,42 +54,9 @@ export default function Hero() {
                         </div>
                     </div>
 
-                    {/* Right Column / Decorative Image */}
+                    {/* Right Column / Live RFQ Stream */}
                     <div className="mt-16 lg:mt-0 lg:col-span-5 relative hidden lg:block">
-                        <div className="relative rounded-2xl bg-steel-blue p-8 shadow-2xl overflow-hidden aspect-[4/5] flex flex-col justify-end">
-                            {/* Decorative industrial background pattern/gradient */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-steel-blue-dark via-steel-blue to-steel-blue/40 z-10"></div>
-                            <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-electric-blue/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
-
-                            {/* Floating Stats Card Overlay */}
-                            <div className="absolute top-8 left-8 z-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-lg">
-                                <div className="text-white text-3xl font-bold tracking-tight">1,200+</div>
-                                <div className="text-white/70 text-xs font-bold uppercase tracking-widest mt-1">Machines Listed</div>
-                            </div>
-                            <div className="absolute top-36 right-4 z-20 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-lg text-right">
-                                <div className="text-white text-3xl font-bold tracking-tight">300+</div>
-                                <div className="text-white/70 text-xs font-bold uppercase tracking-widest mt-1">Verified Suppliers</div>
-                            </div>
-
-                            <div className="relative z-20 mb-4 mt-auto">
-                                <div className="space-y-4">
-                                    <div className="h-16 w-full rounded-xl bg-white p-3 shadow-md border border-white/20 flex items-center justify-between">
-                                        <div className="flex flex-col">
-                                            <span className="text-[10px] uppercase font-bold text-steel-blue tracking-widest">Live RFQ Feed</span>
-                                            <span className="text-sm font-semibold text-industrial-grey mt-0.5">Hydraulic Press 20 Ton Needed</span>
-                                        </div>
-                                        <span className="bg-electric-blue/10 text-electric-blue text-[10px] font-bold px-2 py-1 flex items-center gap-1 rounded uppercase">New</span>
-                                    </div>
-                                    <div className="h-16 w-[90%] rounded-xl bg-white p-3 shadow-md border border-white/20 flex items-center justify-between opacity-80">
-                                        <div className="flex flex-col">
-                                            <span className="text-[10px] uppercase font-bold text-steel-blue tracking-widest">Verified Supplier</span>
-                                            <span className="text-sm font-semibold text-industrial-grey mt-0.5">Accurate Machine Tools</span>
-                                        </div>
-                                        <ShieldCheck size={16} className="text-safety-orange" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <RFQBroadcast />
                     </div>
                 </div>
             </div>
